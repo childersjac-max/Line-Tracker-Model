@@ -2,7 +2,7 @@ name: 3. Daily Predictions
 
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '45 * * * *'
   workflow_run:
     workflows: ["2. Results + Train"]
     types: [completed]
@@ -48,7 +48,7 @@ jobs:
           git config user.email "bot@jlab.com"
           git pull --rebase origin main
           git add pipeline_output/ || true
-          git commit -m "Slate $(date +'%Y-%m-%d')" || echo "No changes"
+          git commit -m "Slate $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push origin main
 
       - name: Upload slate artifact
