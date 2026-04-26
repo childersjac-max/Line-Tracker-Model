@@ -1,0 +1,68 @@
+name: 2. Results + Train
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  results_and_train:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch game results
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python pipeline.py --mode results --days 3
+
+      - name: Check outcome count
+        id: check_outcomes
+        run: |
+          python -c "
+          import json, sys
+          try:
+              d = json.load(open('outcomes.json'))
+              n = len([k for k in d if k.endswith('_home_ml')])
+              print(f'Outcomes: {n}')
+              sys.exit(0 if n >= 100 else 1)
+          except:
+              sys.exit(1)
+          "
+        continue-on-error: true
+
+      - name: Train on real outcomes
+        if: steps.check_outcomes.outcome == 'success'
+        run: python train.py --sport all --market all --min-samples 50
+        env:
+          PYTHONPATH: .
+
+      - name: Train on synthetic outcomes
+        if: steps.check_outcomes.outcome == 'failure'
+        run: python train.py --sport all --market all --synthetic --min-samples 20
+        env:
+          PYTHONPATH: .
+
+      - name: Commit results and models
+        run: |
+          git config user.name  "jlab-bot"
+          git config user.email "bot@jlab.com"
+          git add outcomes.json saved_models/
+          git commit -m "Train $(date +'%Y-%m-%d')" || echo "No changes"
+          git push
+
+      - name: Upload model artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: models-${{ github.run_number }}
+          path: saved_models/
+          retention-days: 30
