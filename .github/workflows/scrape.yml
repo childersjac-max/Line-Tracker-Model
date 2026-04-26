@@ -2,9 +2,7 @@ name: 1. Scrape + Track
 
 on:
   schedule:
-    - cron: '0 12 * * *'
-    - cron: '0 20 * * *'
-    - cron: '0 1  * * *'
+    - cron: '0,30 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -43,4 +41,3 @@ jobs:
           git add jlab_data/ line_history/ || true
           git commit -m "Lines $(date +'%Y-%m-%d %H:%M UTC')" || echo "No changes"
           git push origin main
-          
