@@ -1,0 +1,66 @@
+{
+  "event_id": "371ff765cd40348073b510b2f45d81e9",
+  "sport_key": "baseball_mlb",
+  "home_team": "Texas Rangers",
+  "away_team": "New York Yankees",
+  "commence_time": "2026-04-28T00:06:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-04-26_19-22-20",
+      "hours_to_game": 28.717326916111112,
+      "h2h": {
+        "New York Yankees": {
+          "fanduel": -186
+        },
+        "Texas Rangers": {
+          "fanduel": 156
+        }
+      },
+      "spreads": {
+        "New York Yankees": {
+          "fanduel": {
+            "line": -1.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": -118
+          }
+        },
+        "Texas Rangers": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
