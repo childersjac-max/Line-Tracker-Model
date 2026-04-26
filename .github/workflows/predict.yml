@@ -13,38 +13,47 @@ on:
         default: '10000'
       min_signals:
         description: 'Min signals (0=any, 1=one, 2=confirmed)'
-        default: '1'
+        default: '0'
 
 jobs:
   predict:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Install dependencies
         run: pip install -r requirements.txt
+
       - name: Generate bet slate
         run: |
           python pipeline.py \
             --mode predict \
             --bankroll ${{ github.event.inputs.bankroll || '10000' }} \
-            --min-signals ${{ github.event.inputs.min_signals || '1' }}
+            --min-signals ${{ github.event.inputs.min_signals || '0' }}
         env:
           PYTHONPATH: .
+
       - name: Commit slate
         run: |
           git config user.name  "jlab-bot"
           git config user.email "bot@jlab.com"
-          git add pipeline_output/
+          git pull --rebase origin main
+          git add pipeline_output/ || true
           git commit -m "Slate $(date +'%Y-%m-%d')" || echo "No changes"
-          git push
+          git push origin main
+
       - name: Upload slate artifact
         uses: actions/upload-artifact@v4
         with:
           name: slate-${{ github.run_number }}
-          path: pipeline_output/bet_slate_latest.csv
+          path: pipeline_output/
           retention-days: 7
