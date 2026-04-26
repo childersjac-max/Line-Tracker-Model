@@ -1,0 +1,45 @@
+name: 4. Backtest (Manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      sport:
+        description: 'Sport key or leave blank for all'
+        default: ''
+      market:
+        description: 'Market (h2h/spreads/totals) or leave blank for all'
+        default: ''
+      bankroll:
+        description: 'Starting bankroll'
+        default: '10000'
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run backtest
+        run: |
+          ARGS="--mode backtest --bankroll ${{ github.event.inputs.bankroll }}"
+          if [ -n "${{ github.event.inputs.sport }}" ]; then
+            ARGS="$ARGS --sport ${{ github.event.inputs.sport }}"
+          fi
+          if [ -n "${{ github.event.inputs.market }}" ]; then
+            ARGS="$ARGS --market ${{ github.event.inputs.market }}"
+          fi
+          python pipeline.py $ARGS
+        env:
+          PYTHONPATH: .
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-${{ github.run_number }}
+          path: pipeline_output/
+          retention-days: 30
