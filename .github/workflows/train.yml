@@ -2,7 +2,7 @@ name: 2. Results + Train
 
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '15 */2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -37,7 +37,7 @@ jobs:
               d = json.load(open('outcomes.json'))
               n = len([k for k in d if k.endswith('_home_ml')])
               print(f'Outcomes: {n}')
-              sys.exit(0 if n >= 100 else 1)
+              sys.exit(0 if n >= 20 else 1)
           except:
               sys.exit(1)
           "
@@ -45,13 +45,13 @@ jobs:
 
       - name: Train on real outcomes
         if: steps.check_outcomes.outcome == 'success'
-        run: python train.py --sport all --market all --min-samples 50
+        run: python train.py --sport all --market all --min-samples 10
         env:
           PYTHONPATH: .
 
       - name: Train on synthetic outcomes
         if: steps.check_outcomes.outcome == 'failure'
-        run: python train.py --sport all --market all --synthetic --min-samples 20
+        run: python train.py --sport all --market all --synthetic --min-samples 10
         env:
           PYTHONPATH: .
 
@@ -61,7 +61,7 @@ jobs:
           git config user.email "bot@jlab.com"
           git pull --rebase origin main
           git add outcomes.json saved_models/ || true
-          git commit -m "Train $(date +'%Y-%m-%d')" || echo "No changes"
+          git commit -m "Train $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push origin main
 
       - name: Upload model artifacts
