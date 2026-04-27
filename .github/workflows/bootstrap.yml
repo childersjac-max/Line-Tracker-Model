@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      PYTHONPATH: .
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,18 +27,12 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python bootstrap_history.py
-        env:
-          PYTHONPATH: .
 
       - name: Train models on bootstrapped data
         run: python train.py --sport all --market all --synthetic --min-samples 10
-        env:
-          PYTHONPATH: .
 
       - name: Generate first slate
         run: python pipeline.py --mode predict --bankroll 10000 --min-signals 0
-        env:
-          PYTHONPATH: .
 
       - name: Commit everything
         run: |
