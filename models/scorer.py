@@ -81,16 +81,62 @@ def score_all(bankroll=10000.0, min_signals=0):
                     "confidence":  confidence_label(edge, bet_pct),
                     "signals":     ", ".join(signals) if signals else "CLV_MODEL",
                     "n_signals":   row.get("n_signals", 0),
-                    "pin_move_full":      row.get("pin_move_full", 0),
-                    "money_vs_tickets":   row.get("money_vs_tickets", 0),
+                    "pin_move_full":    row.get("pin_move_full", 0),
+                    "money_vs_tickets": row.get("money_vs_tickets", 0),
                     "american_odds_display": f"+{int(best_odds)}" if best_odds > 0 else str(int(best_odds)),
                 })
 
     if not all_bets:
         return pd.DataFrame()
 
-    all_bets = apply_portfolio_cap(all_bets, bankroll)
     df = pd.DataFrame(all_bets)
+
+    # ── DEDUPLICATION ─────────────────────────────────────────────────
+    # Keep only the single best bet per (event_id, market, side)
+    # "Best" = highest edge_pct. This removes duplicate book/odds rows
+    # for the same team in the same market.
+    df = (
+        df.sort_values("edge_pct", ascending=False)
+          .drop_duplicates(subset=["event_id", "market", "side"], keep="first")
+    )
+
+    # For totals: keep only one side (Over OR Under) per event per market
+    # — whichever has the higher edge
+    totals_mask = df["market"] == "totals"
+    if totals_mask.any():
+        totals_df   = df[totals_mask].copy()
+        other_df    = df[~totals_mask].copy()
+        totals_dedup = (
+            totals_df
+            .sort_values("edge_pct", ascending=False)
+            .drop_duplicates(subset=["event_id", "market"], keep="first")
+        )
+        df = pd.concat([other_df, totals_dedup], ignore_index=True)
+
+    # For spreads: keep only one side per event per market
+    spreads_mask = df["market"] == "spreads"
+    if spreads_mask.any():
+        spreads_df   = df[spreads_mask].copy()
+        other_df     = df[~spreads_mask].copy()
+        spreads_dedup = (
+            spreads_df
+            .sort_values("edge_pct", ascending=False)
+            .drop_duplicates(subset=["event_id", "market"], keep="first")
+        )
+        df = pd.concat([other_df, spreads_dedup], ignore_index=True)
+
+    # ── PORTFOLIO CAP ─────────────────────────────────────────────────
+    bets_list = df.to_dict("records")
+    bets_list = apply_portfolio_cap(bets_list, bankroll)
+    df = pd.DataFrame(bets_list)
+
+    # ── SORT ──────────────────────────────────────────────────────────
     conf_order = {"HIGH": 0, "MEDIUM": 1, "LOW": 2}
     df["_co"] = df["confidence"].map(conf_order).fillna(3)
-    return df.sort_values(["_co", "edge_pct"], ascending=[True, False]).drop(columns=["_co"]).reset_index(drop=True)
+    df = (
+        df.sort_values(["_co", "edge_pct"], ascending=[True, False])
+          .drop(columns=["_co"])
+          .reset_index(drop=True)
+    )
+
+    return df
