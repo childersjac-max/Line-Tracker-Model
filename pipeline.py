@@ -20,6 +20,26 @@ def mode_scrape():
         logger.error("scraper.py not found.")
         sys.exit(1)
 
+    # Enrich with injuries and splits after scraping
+    try:
+        from data.injuries import refresh_injury_cache, enrich_line_history_with_injuries
+        from data.splits import refresh_splits_cache, enrich_line_history_with_splits
+        from data.line_tracker import load_all_histories
+
+        logger.info("Fetching injuries...")
+        injuries = refresh_injury_cache()
+
+        logger.info("Fetching Action Network splits...")
+        splits = refresh_splits_cache()
+
+        logger.info("Enriching line histories...")
+        histories = load_all_histories()
+        n_inj  = enrich_line_history_with_injuries(histories, injuries)
+        n_spl  = enrich_line_history_with_splits(histories, splits)
+        logger.info(f"Enriched: {n_inj} with injuries, {n_spl} with splits")
+
+    except Exception as e:
+        logger.warning(f"Enrichment warning (non-fatal): {e}")
 
 def mode_track():
     from data.line_tracker import load_latest_combined, update_line_history
