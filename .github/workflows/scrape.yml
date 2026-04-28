@@ -10,11 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      PYTHONPATH: .
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -30,14 +33,13 @@ jobs:
 
       - name: Update line history
         run: python pipeline.py --mode track
-        env:
-          PYTHONPATH: .
 
       - name: Commit data
         run: |
           git config user.name  "jlab-bot"
           git config user.email "bot@jlab.com"
-          git pull --rebase origin main
+          git fetch origin main
+          git reset --soft origin/main
           git add jlab_data/ line_history/ || true
           git commit -m "Lines $(date +'%Y-%m-%d %H:%M UTC')" || echo "No changes"
           git push origin main
