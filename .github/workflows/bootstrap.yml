@@ -1,11 +1,46 @@
+name: 0. Bootstrap Historical Data (Run Once)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      PYTHONPATH: .
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run bootstrap
+        run: python bootstrap_history.py
+
+      - name: Train models on bootstrapped data
+        run: python train.py --sport all --market all --synthetic --min-samples 10
+
+      - name: Generate first slate
+        run: python pipeline.py --mode predict --bankroll 10000 --min-signals 0
+
       - name: Commit everything
         run: |
           git config user.name  "jlab-bot"
           git config user.email "bot@jlab.com"
-          git add -A
-          git stash || true
-          git pull --rebase origin main || true
-          git stash pop || true
-          git add line_history/ saved_models/ pipeline_output/ || true
-          git commit -m "Bootstrap: historical data + first models" || echo "No changes"
+          git fetch origin main
+          git reset --soft origin/main
+          git add line_history/ saved_models/ pipeline_output/ jlab_data/ || true
+          git status
+          git commit -m "Bootstrap: historical data + first models" || echo "Nothing to commit"
           git push origin main
