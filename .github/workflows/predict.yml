@@ -20,11 +20,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      PYTHONPATH: .
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -39,14 +42,13 @@ jobs:
             --mode predict \
             --bankroll ${{ github.event.inputs.bankroll || '10000' }} \
             --min-signals ${{ github.event.inputs.min_signals || '0' }}
-        env:
-          PYTHONPATH: .
 
       - name: Commit slate
         run: |
           git config user.name  "jlab-bot"
           git config user.email "bot@jlab.com"
-          git pull --rebase origin main
+          git fetch origin main
+          git reset --soft origin/main
           git add pipeline_output/ || true
           git commit -m "Slate $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push origin main
