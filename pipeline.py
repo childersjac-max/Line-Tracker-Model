@@ -124,8 +124,8 @@ def mode_patterns():
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--mode",        required=True,
-                   choices=["scrape", "track", "results", "predict", "backtest"])
+   p.add_argument("--mode",        required=True,
+                   choices=["scrape","track","results","predict","backtest","patterns"])
     p.add_argument("--bankroll",    type=float, default=10000.0)
     p.add_argument("--min-signals", type=int,   default=0)
     p.add_argument("--sport",       default=None, choices=list(SPORTS.keys()))
@@ -138,7 +138,7 @@ def main():
     elif args.mode == "results":  mode_results(days_from=args.days)
     elif args.mode == "predict":  mode_predict(args.bankroll, args.min_signals)
     elif args.mode == "backtest": mode_backtest(args.bankroll, args.sport, args.market)
-
+elif args.mode == "patterns":  mode_patterns()
 
 if __name__ == "__main__":
     main()
