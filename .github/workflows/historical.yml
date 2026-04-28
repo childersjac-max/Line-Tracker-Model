@@ -1,0 +1,58 @@
+name: 6. Historical Training Data (Run When Needed)
+
+on:
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: 'Days of history to pull (careful: uses API credits)'
+        default: '30'
+
+jobs:
+  historical:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      PYTHONPATH: .
+      ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Pull historical odds + scores
+        run: python pipeline.py --mode historical --days ${{ github.event.inputs.days_back || '30' }}
+
+      - name: Retrain models on historical data
+        run: python train.py --sport all --market all --min-samples 20
+
+      - name: Generate updated slate
+        run: python pipeline.py --mode predict --bankroll 10000 --min-signals 0
+
+      - name: Commit everything
+        run: |
+          git config user.name  "jlab-bot"
+          git config user.email "bot@jlab.com"
+          git fetch origin main
+          git reset --soft origin/main
+          git add line_history/ outcomes.json saved_models/ pipeline_output/ || true
+          git commit -m "Historical training: ${{ github.event.inputs.days_back || '30' }} days" || echo "No changes"
+          git push origin main
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-training-${{ github.run_number }}
+          path: |
+            outcomes.json
+            pipeline_output/
+          retention-days: 30
