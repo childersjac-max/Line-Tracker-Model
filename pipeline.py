@@ -20,7 +20,6 @@ def mode_scrape():
         logger.error("scraper.py not found.")
         sys.exit(1)
 
-    # Enrich with injuries and splits after scraping
     try:
         from data.injuries import refresh_injury_cache, enrich_line_history_with_injuries
         from data.splits import refresh_splits_cache, enrich_line_history_with_splits
@@ -34,12 +33,13 @@ def mode_scrape():
 
         logger.info("Enriching line histories...")
         histories = load_all_histories()
-        n_inj  = enrich_line_history_with_injuries(histories, injuries)
-        n_spl  = enrich_line_history_with_splits(histories, splits)
+        n_inj = enrich_line_history_with_injuries(histories, injuries)
+        n_spl = enrich_line_history_with_splits(histories, splits)
         logger.info(f"Enriched: {n_inj} with injuries, {n_spl} with splits")
 
     except Exception as e:
         logger.warning(f"Enrichment warning (non-fatal): {e}")
+
 
 def mode_track():
     from data.line_tracker import load_latest_combined, update_line_history
@@ -79,7 +79,6 @@ def mode_predict(bankroll, min_signals):
             writer = csv.DictWriter(f, fieldnames=headers)
             writer.writeheader()
     else:
-        # Make sure all header columns exist
         for col in headers:
             if col not in slate.columns:
                 slate[col] = ""
@@ -100,7 +99,6 @@ def mode_backtest(bankroll, sport_filter, market_filter):
     )
     if df.empty:
         logger.warning("No backtest records.")
-        # Write empty files so dashboard doesn't 404
         Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
         df.to_csv(Path(OUTPUT_DIR) / "backtest_results.csv", index=False)
         with open(Path(OUTPUT_DIR) / "backtest_metrics.json", "w") as f:
@@ -114,18 +112,18 @@ def mode_backtest(bankroll, sport_filter, market_filter):
         f"Bets: {metrics.get('n_bets', 0)} | "
         f"Saved to {OUTPUT_DIR}"
     )
+
+
 def mode_patterns():
-    """Discover ticket/money/line movement patterns and save to pipeline_output."""
     from data.pattern_engine import run_pattern_discovery
     run_pattern_discovery()
-
-    # Commit the patterns file
     logger.info("Pattern discovery complete.")
+
 
 def main():
     p = argparse.ArgumentParser()
-   p.add_argument("--mode",        required=True,
-                   choices=["scrape","track","results","predict","backtest","patterns"])
+    p.add_argument("--mode", required=True,
+                   choices=["scrape", "track", "results", "predict", "backtest", "patterns"])
     p.add_argument("--bankroll",    type=float, default=10000.0)
     p.add_argument("--min-signals", type=int,   default=0)
     p.add_argument("--sport",       default=None, choices=list(SPORTS.keys()))
@@ -133,12 +131,13 @@ def main():
     p.add_argument("--days",        type=int,   default=3)
     args = p.parse_args()
 
-    if   args.mode == "scrape":   mode_scrape()
-    elif args.mode == "track":    mode_track()
-    elif args.mode == "results":  mode_results(days_from=args.days)
-    elif args.mode == "predict":  mode_predict(args.bankroll, args.min_signals)
-    elif args.mode == "backtest": mode_backtest(args.bankroll, args.sport, args.market)
-elif args.mode == "patterns":  mode_patterns()
+    if   args.mode == "scrape":    mode_scrape()
+    elif args.mode == "track":     mode_track()
+    elif args.mode == "results":   mode_results(days_from=args.days)
+    elif args.mode == "predict":   mode_predict(args.bankroll, args.min_signals)
+    elif args.mode == "backtest":  mode_backtest(args.bankroll, args.sport, args.market)
+    elif args.mode == "patterns":  mode_patterns()
+
 
 if __name__ == "__main__":
     main()
