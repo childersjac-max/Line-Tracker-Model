@@ -56,6 +56,12 @@ def mode_results(days_from=3):
     fetch_and_store_outcomes(days_from=days_from)
 
 
+def mode_historical(days_back=30):
+    """Pull historical odds + scores to train on real data."""
+    from data.historical import run_historical_pull
+    run_historical_pull(days_back=days_back)
+
+
 def mode_predict(bankroll, min_signals):
     import csv
     from models.scorer import score_all
@@ -123,20 +129,22 @@ def mode_patterns():
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--mode", required=True,
-                   choices=["scrape", "track", "results", "predict", "backtest", "patterns"])
+                   choices=["scrape", "track", "results", "predict",
+                            "backtest", "patterns", "historical"])
     p.add_argument("--bankroll",    type=float, default=10000.0)
     p.add_argument("--min-signals", type=int,   default=0)
     p.add_argument("--sport",       default=None, choices=list(SPORTS.keys()))
     p.add_argument("--market",      default=None, choices=MARKETS)
-    p.add_argument("--days",        type=int,   default=3)
+    p.add_argument("--days",        type=int,   default=30)
     args = p.parse_args()
 
-    if   args.mode == "scrape":    mode_scrape()
-    elif args.mode == "track":     mode_track()
-    elif args.mode == "results":   mode_results(days_from=args.days)
-    elif args.mode == "predict":   mode_predict(args.bankroll, args.min_signals)
-    elif args.mode == "backtest":  mode_backtest(args.bankroll, args.sport, args.market)
-    elif args.mode == "patterns":  mode_patterns()
+    if   args.mode == "scrape":     mode_scrape()
+    elif args.mode == "track":      mode_track()
+    elif args.mode == "results":    mode_results(days_from=args.days)
+    elif args.mode == "predict":    mode_predict(args.bankroll, args.min_signals)
+    elif args.mode == "backtest":   mode_backtest(args.bankroll, args.sport, args.market)
+    elif args.mode == "patterns":   mode_patterns()
+    elif args.mode == "historical": mode_historical(days_back=args.days)
 
 
 if __name__ == "__main__":
