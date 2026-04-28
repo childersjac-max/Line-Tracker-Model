@@ -10,11 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      PYTHONPATH: .
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -46,20 +49,17 @@ jobs:
       - name: Train on real outcomes
         if: steps.check_outcomes.outcome == 'success'
         run: python train.py --sport all --market all --min-samples 10
-        env:
-          PYTHONPATH: .
 
       - name: Train on synthetic outcomes
         if: steps.check_outcomes.outcome == 'failure'
         run: python train.py --sport all --market all --synthetic --min-samples 10
-        env:
-          PYTHONPATH: .
 
       - name: Commit results and models
         run: |
           git config user.name  "jlab-bot"
           git config user.email "bot@jlab.com"
-          git pull --rebase origin main
+          git fetch origin main
+          git reset --soft origin/main
           git add outcomes.json saved_models/ || true
           git commit -m "Train $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git push origin main
