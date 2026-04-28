@@ -198,6 +198,13 @@ def extract_features(record):
     best_pub_price = max(pub_prices) if pub_prices else None
     best_pub_book  = PUBLIC_BOOKS[pub_prices.index(best_pub_price)] if pub_prices else None
 
+# ── Injury features ──────────────────────────────────────────────
+    snap_injuries = latest.get("injuries", {})
+    has_major_injury  = float(snap_injuries.get("has_major_injury",  0))
+    home_injury_score = float(snap_injuries.get("home_injury_score", 0))
+    away_injury_score = float(snap_injuries.get("away_injury_score", 0))
+    injury_asymmetry  = abs(home_injury_score - away_injury_score)
+    
     return {
         "event_id": record["event_id"], "sport_key": record["sport_key"],
         "home_team": record["home_team"], "away_team": record["away_team"],
@@ -222,6 +229,10 @@ def extract_features(record):
         "sig_sharp": sig_sharp, "sig_rlm": sig_rlm, "sig_fade": sig_fade,
         "n_signals": sig_sharp + sig_rlm + sig_fade,
         "outcome": record.get("outcome"),
+        "has_major_injury":   has_major_injury,
+        "home_injury_score":  home_injury_score,
+        "away_injury_score":  away_injury_score,
+        "injury_asymmetry":   injury_asymmetry,
     }
 
 
@@ -233,6 +244,7 @@ FEATURE_COLS = [
     "hours_tracked", "hours_to_game", "sharp_money_pct", "sharp_tickets_pct",
     "pub_money_pct", "pub_tickets_pct", "money_vs_tickets", "magnitude_pts",
     "sig_sharp", "sig_rlm", "sig_fade", "n_signals", "pin_implied_prob", "is_home",
+    "has_major_injury", "home_injury_score", "away_injury_score", "injury_asymmetry",
 ]
 
 
