@@ -40,6 +40,6 @@ jobs:
           git config user.email "bot@jlab.com"
           git fetch origin main
           git reset --soft origin/main
-          git add jlab_data/ line_history/ || true
-          git commit -m "Lines $(date +'%Y-%m-%d %H:%M UTC')" || echo "No changes"
+          git add jlab_data/ line_history/ injury_cache.json splits_cache.json || true
+          git commit -m "Lines + injuries + splits $(date +'%Y-%m-%d %H:%M UTC')" || echo "No changes"
           git push origin main
