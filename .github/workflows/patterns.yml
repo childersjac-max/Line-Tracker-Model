@@ -1,0 +1,47 @@
+name: 5. Pattern Discovery
+
+on:
+  schedule:
+    - cron: '30 11 * * *'   # 7:30am ET daily — after results are in
+  workflow_dispatch:
+
+jobs:
+  patterns:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      PYTHONPATH: .
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pattern discovery
+        run: python pipeline.py --mode patterns
+
+      - name: Commit patterns
+        run: |
+          git config user.name  "jlab-bot"
+          git config user.email "bot@jlab.com"
+          git fetch origin main
+          git reset --soft origin/main
+          git add pipeline_output/patterns.json || true
+          git commit -m "Patterns $(date +'%Y-%m-%d')" || echo "No changes"
+          git push origin main
+
+      - name: Upload patterns artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: patterns-${{ github.run_number }}
+          path: pipeline_output/patterns.json
+          retention-days: 30
