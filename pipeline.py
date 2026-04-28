@@ -114,7 +114,13 @@ def mode_backtest(bankroll, sport_filter, market_filter):
         f"Bets: {metrics.get('n_bets', 0)} | "
         f"Saved to {OUTPUT_DIR}"
     )
+def mode_patterns():
+    """Discover ticket/money/line movement patterns and save to pipeline_output."""
+    from data.pattern_engine import run_pattern_discovery
+    run_pattern_discovery()
 
+    # Commit the patterns file
+    logger.info("Pattern discovery complete.")
 
 def main():
     p = argparse.ArgumentParser()
