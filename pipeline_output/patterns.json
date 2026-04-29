@@ -1,37 +1,58 @@
 {
-  "icehockey_nhl|spread": {
-    "sport_key": "icehockey_nhl",
-    "market": "spread",
-    "n_records": 38,
-    "n_labeled": 18,
-    "patterns": []
-  },
-  "icehockey_nhl|total": {
-    "sport_key": "icehockey_nhl",
-    "market": "total",
-    "n_records": 38,
-    "n_labeled": 18,
-    "patterns": []
-  },
   "baseball_mlb|moneyline": {
     "sport_key": "baseball_mlb",
     "market": "moneyline",
-    "n_records": 110,
-    "n_labeled": 76,
+    "n_records": 186,
+    "n_labeled": 118,
     "patterns": []
   },
   "baseball_mlb|spread": {
     "sport_key": "baseball_mlb",
     "market": "spread",
-    "n_records": 110,
-    "n_labeled": 76,
+    "n_records": 186,
+    "n_labeled": 108,
     "patterns": []
   },
   "baseball_mlb|total": {
     "sport_key": "baseball_mlb",
     "market": "total",
-    "n_records": 110,
-    "n_labeled": 76,
+    "n_records": 186,
+    "n_labeled": 110,
+    "patterns": []
+  },
+  "basketball_nba|moneyline": {
+    "sport_key": "basketball_nba",
+    "market": "moneyline",
+    "n_records": 130,
+    "n_labeled": 34,
+    "patterns": []
+  },
+  "basketball_nba|spread": {
+    "sport_key": "basketball_nba",
+    "market": "spread",
+    "n_records": 130,
+    "n_labeled": 34,
+    "patterns": []
+  },
+  "basketball_nba|total": {
+    "sport_key": "basketball_nba",
+    "market": "total",
+    "n_records": 130,
+    "n_labeled": 34,
+    "patterns": []
+  },
+  "icehockey_nhl|spread": {
+    "sport_key": "icehockey_nhl",
+    "market": "spread",
+    "n_records": 56,
+    "n_labeled": 30,
+    "patterns": []
+  },
+  "icehockey_nhl|total": {
+    "sport_key": "icehockey_nhl",
+    "market": "total",
+    "n_records": 56,
+    "n_labeled": 30,
     "patterns": []
   },
   "americanfootball_ncaaf|moneyline": {
@@ -60,27 +81,6 @@
     "market": "moneyline",
     "n_records": 8,
     "n_labeled": 0,
-    "patterns": []
-  },
-  "basketball_nba|moneyline": {
-    "sport_key": "basketball_nba",
-    "market": "moneyline",
-    "n_records": 36,
-    "n_labeled": 22,
-    "patterns": []
-  },
-  "basketball_nba|spread": {
-    "sport_key": "basketball_nba",
-    "market": "spread",
-    "n_records": 36,
-    "n_labeled": 22,
-    "patterns": []
-  },
-  "basketball_nba|total": {
-    "sport_key": "basketball_nba",
-    "market": "total",
-    "n_records": 36,
-    "n_labeled": 22,
     "patterns": []
   }
 }
