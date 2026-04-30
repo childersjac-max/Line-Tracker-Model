@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from datetime import datetime, timezone, timedelta
 from configs.config import PUBLIC_BOOKS, SHARP_BOOKS
-from utils.odds_math import american_to_implied_prob, line_move_in_prob
+from utils.odds_math import american_to_implied_prob, line_move_in_prob, no_vig_prob_for_side
 
 
 def _parse_ts(ts_str):
@@ -192,7 +192,32 @@ def extract_features(record):
             hours_tracked = (t1 - t0).total_seconds() / 3600.0
 
     pin_latest_price = _get_price(latest, market, side, "pinnacle")
+    # NOTE: pin_implied_prob is the WITH-VIG Pinnacle prob, kept for backward compatibility only.
+    # Use pin_no_vig_prob (below) as the fair-probability benchmark.
     pin_implied_prob = american_to_implied_prob(pin_latest_price) if pin_latest_price else 0.5
+
+    # ── No-vig (devigged) probabilities — Tier 1 fix #1 ─────────────────────
+    # The fair price comparison must strip Pinnacle's ~2-3% vig, otherwise every
+    # edge is systematically understated.
+    pin_no_vig_prob_open  = no_vig_prob_for_side(opener, market, side, "pinnacle")
+    pin_no_vig_prob_close = no_vig_prob_for_side(latest, market, side, "pinnacle")
+    pin_no_vig_prob       = (pin_no_vig_prob_close
+                              if pin_no_vig_prob_close is not None
+                              else (pin_no_vig_prob_open
+                                    if pin_no_vig_prob_open is not None
+                                    else pin_implied_prob))
+
+    # ── CLV (closing line value) features — Tier 1 fix #6 ───────────────────
+    # Positive clv_signed means the no-vig fair line moved TOWARD this side
+    # between open and close. Across many bets, CLV > 0 is the single best
+    # predictor of long-run profitability.
+    if pin_no_vig_prob_open is not None and pin_no_vig_prob_close is not None:
+        clv_signed = float(pin_no_vig_prob_close - pin_no_vig_prob_open)
+    else:
+        clv_signed = 0.0
+    clv_abs = abs(clv_signed)
+    has_clv = int(pin_no_vig_prob_open is not None and pin_no_vig_prob_close is not None)
+
     pub_prices = [_get_price(latest, market, side, b) for b in PUBLIC_BOOKS]
     pub_prices = [p for p in pub_prices if p is not None]
     best_pub_price = max(pub_prices) if pub_prices else None
@@ -207,10 +232,18 @@ def extract_features(record):
     
     return {
         "event_id": record["event_id"], "sport_key": record["sport_key"],
+        "commence_time": record.get("commence_time"),
         "home_team": record["home_team"], "away_team": record["away_team"],
         "market": market, "side": side, "is_home": record.get("is_home"),
         "line": record.get("line"), "best_pub_price": best_pub_price,
-        "best_pub_book": best_pub_book, "pin_implied_prob": pin_implied_prob,
+        "best_pub_book": best_pub_book,
+        "pin_implied_prob": pin_implied_prob,
+        "pin_no_vig_prob":       pin_no_vig_prob,
+        "pin_no_vig_prob_open":  pin_no_vig_prob_open if pin_no_vig_prob_open is not None else pin_no_vig_prob,
+        "pin_no_vig_prob_close": pin_no_vig_prob_close if pin_no_vig_prob_close is not None else pin_no_vig_prob,
+        "clv_signed": clv_signed,
+        "clv_abs":    clv_abs,
+        "has_clv":    has_clv,
         "pin_move_full": pin_move_full or 0.0, "pin_move_6h": pin_move_6h or 0.0,
         "pub_move_avg": pub_move_avg, "pub_move_std": pub_move_std,
         "line_move_full": line_move_full or 0.0, "line_move_6h": line_move_6h or 0.0,
@@ -243,7 +276,12 @@ FEATURE_COLS = [
     "pin_move_speed", "n_reversals", "n_snaps", "n_snaps_6h",
     "hours_tracked", "hours_to_game", "sharp_money_pct", "sharp_tickets_pct",
     "pub_money_pct", "pub_tickets_pct", "money_vs_tickets", "magnitude_pts",
-    "sig_sharp", "sig_rlm", "sig_fade", "n_signals", "pin_implied_prob", "is_home",
+    "sig_sharp", "sig_rlm", "sig_fade", "n_signals",
+    # No-vig fair-prob & CLV (Tier 1 fixes #1 and #6)
+    "pin_no_vig_prob", "pin_no_vig_prob_open", "pin_no_vig_prob_close",
+    "clv_signed", "clv_abs", "has_clv",
+    # Legacy with-vig prob retained (predictive on its own; harmless to keep)
+    "pin_implied_prob", "is_home",
     "has_major_injury", "home_injury_score", "away_injury_score", "injury_asymmetry",
 ]
 
