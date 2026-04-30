@@ -51,7 +51,11 @@ def label_histories(histories=None, outcomes=None):
             spread_outcome = None
             if hs is not None and as_ is not None and line is not None:
                 margin = (hs - as_) if is_home else (as_ - hs)
-                spread_outcome = 1 if margin + line > 0 else 0
+                adjusted = margin + line
+                if adjusted == 0:
+                    spread_outcome = None        # PUSH — exclude from training
+                else:
+                    spread_outcome = 1 if adjusted > 0 else 0
             records.append({
                 "event_id": eid, "sport_key": sport_key,
                 "home_team": home, "away_team": away,
@@ -68,7 +72,13 @@ def label_histories(histories=None, outcomes=None):
             total_pts = outcomes.get(f"{eid}_total")
             total_outcome = None
             if total_pts is not None and line is not None:
-                total_outcome = 1 if (side == "Over" and total_pts > line) or (side == "Under" and total_pts < line) else 0
+                if total_pts == line:
+                    total_outcome = None         # PUSH — exclude from training
+                else:
+                    total_outcome = 1 if (
+                        (side == "Over"  and total_pts > line) or
+                        (side == "Under" and total_pts < line)
+                    ) else 0
             records.append({
                 "event_id": eid, "sport_key": sport_key,
                 "home_team": home, "away_team": away,
