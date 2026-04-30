@@ -79,6 +79,9 @@ def mode_predict(bankroll, min_signals):
         "ev_pct", "bet_pct", "bet_usd",
         "confidence", "signals", "n_signals", "pin_move_full", "money_vs_tickets",
         "clv_signed_train", "trained_on",
+        # Arbitrage angle
+        "is_arb_side", "arb_margin_pct", "arb_book_count",
+        "arb_book", "arb_partner_book", "arb_partner_price", "arb_partner_line",
         "book", "line", "is_home", "event_id", "sport_key",
     ]
 
