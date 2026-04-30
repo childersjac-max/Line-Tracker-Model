@@ -105,6 +105,9 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
                 if row.get("sig_sharp"): signals.append("SHARP_MONEY")
                 if row.get("sig_rlm"):   signals.append("REVERSE_LINE_MOVEMENT")
                 if row.get("sig_fade"):  signals.append("PUBLIC_FADE")
+                if row.get("is_arb_side"):
+                    margin_lbl = float(row.get("arb_margin_pct") or 0.0)
+                    signals.append(f"ARBITRAGE({margin_lbl:.2f}%)")
 
                 all_bets.append({
                     "event_id":    row.get("event_id"),
@@ -133,6 +136,14 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
                     "clv_signed_train": row.get("clv_signed", 0),
                     "trained_on":       trained_on,    # Tier 1 fix #21 — visible in CSV
                     "american_odds_display": f"+{int(best_odds)}" if best_odds > 0 else str(int(best_odds)),
+                    # Arbitrage angle (always present; 0/None when not an arb)
+                    "is_arb_side":       int(row.get("is_arb_side", 0) or 0),
+                    "arb_margin_pct":    round(float(row.get("arb_margin_pct", 0) or 0), 3),
+                    "arb_book_count":    int(row.get("arb_book_count", 0) or 0),
+                    "arb_book":          row.get("arb_book"),
+                    "arb_partner_book":  row.get("arb_partner_book"),
+                    "arb_partner_price": row.get("arb_partner_price"),
+                    "arb_partner_line":  row.get("arb_partner_line"),
                 })
 
     if synthetic_models_used:
