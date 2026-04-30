@@ -5,6 +5,12 @@ import pandas as pd
 from datetime import datetime, timezone, timedelta
 from configs.config import PUBLIC_BOOKS, SHARP_BOOKS
 from utils.odds_math import american_to_implied_prob, line_move_in_prob, no_vig_prob_for_side
+from features.arbitrage import arb_features_for_side, DEFAULT_MIN_ARB_MARGIN_PCT
+
+try:
+    from configs.config import MIN_ARB_MARGIN_PCT as _MIN_ARB_MARGIN_PCT
+except ImportError:
+    _MIN_ARB_MARGIN_PCT = DEFAULT_MIN_ARB_MARGIN_PCT
 
 
 def _parse_ts(ts_str):
@@ -229,7 +235,14 @@ def extract_features(record):
     home_injury_score = float(snap_injuries.get("home_injury_score", 0))
     away_injury_score = float(snap_injuries.get("away_injury_score", 0))
     injury_asymmetry  = abs(home_injury_score - away_injury_score)
-    
+
+    # ── Arbitrage features (new "angle") ─────────────────────────
+    # Detect cross-book 2-way arbs at the latest snapshot. When this side
+    # is one leg of a positive-margin arb, surface the partner book/price
+    # so the slate can show it AND let the model learn that "market
+    # disagrees with itself" is a real signal.
+    arb = arb_features_for_side(latest, market, side, min_margin_pct=_MIN_ARB_MARGIN_PCT)
+
     return {
         "event_id": record["event_id"], "sport_key": record["sport_key"],
         "commence_time": record.get("commence_time"),
@@ -266,6 +279,14 @@ def extract_features(record):
         "home_injury_score":  home_injury_score,
         "away_injury_score":  away_injury_score,
         "injury_asymmetry":   injury_asymmetry,
+        # Arbitrage angle
+        "is_arb_side":        arb["is_arb_side"],
+        "arb_margin_pct":     arb["arb_margin_pct"],
+        "arb_book_count":     arb["arb_book_count"],
+        "arb_book":           arb["arb_book"],
+        "arb_partner_book":   arb["arb_partner_book"],
+        "arb_partner_price":  arb["arb_partner_price"],
+        "arb_partner_line":   arb["arb_partner_line"],
     }
 
 
@@ -283,6 +304,9 @@ FEATURE_COLS = [
     # Legacy with-vig prob retained (predictive on its own; harmless to keep)
     "pin_implied_prob", "is_home",
     "has_major_injury", "home_injury_score", "away_injury_score", "injury_asymmetry",
+    # Arbitrage angle (numeric features only — string fields kept off the
+    # model input vector but still surface in the slate via scorer.py).
+    "is_arb_side", "arb_margin_pct", "arb_book_count",
 ]
 
 
