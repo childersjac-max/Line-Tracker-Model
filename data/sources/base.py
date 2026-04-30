@@ -48,13 +48,61 @@ class OddsSource(ABC):
     # ---------- scores / results ----------
     @abstractmethod
     def fetch_scores(self, sport_key: str, days_from: int = 3) -> list[dict]:
-        """Return completed-game score records (canonical shape)."""
+        """Return completed-game score records (canonical shape).
+
+        Providers should accept the largest `days_from` they can serve;
+        callers may request up to a year for backfill purposes. Providers
+        that cap the lookback (e.g. The Odds API at 3 days) should clamp
+        internally and document the limit."""
         ...
 
     # ---------- optional ----------
     def fetch_injuries(self, sport_key: str) -> list[dict]:
         """Optional. Default = empty list. Implement if the provider supports it."""
         return []
+
+    def fetch_arbitrage_opportunities(
+        self,
+        sport_key: str | None = None,
+        markets: Iterable[str] | None = None,
+    ) -> list[dict]:
+        """Optional. Pre-computed arbitrage feed from the provider, if any.
+
+        Default returns []. The arbitrage angle in features/arbitrage.py
+        will still detect arbs locally from the cross-book odds we
+        already pull, so this is purely an optional hint.
+
+        Providers that implement this should return a list of records with
+        the canonical shape:
+          {
+            "event_id":     str,
+            "sport_key":    str,
+            "commence_time": str,
+            "home_team":    str,
+            "away_team":    str,
+            "market":       "h2h" | "spreads" | "totals",
+            "margin_pct":   float,                 # >0 if arb
+            "legs": [
+              {"side": str, "book": str, "price": int, "line": float|None},
+              {"side": str, "book": str, "price": int, "line": float|None},
+            ],
+          }
+        """
+        return []
+
+    # ---------- max-history hints ----------
+    @property
+    def max_historical_days(self) -> int:
+        """Maximum days back the provider will reliably serve historical
+        odds for. Bootstrap scripts use this to decide how far to crawl.
+        Override in subclasses; default is conservative."""
+        return 30
+
+    @property
+    def max_scores_days(self) -> int:
+        """Maximum days back the scores endpoint will return. The Odds
+        API caps at 3; OddsJam goes much further."""
+        return 3
 
     def __repr__(self) -> str:
         return f"<OddsSource name={self.name!r}>"

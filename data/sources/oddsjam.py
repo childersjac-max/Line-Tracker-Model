@@ -45,7 +45,15 @@ PATHS = {
     "historical_odds":  "/historical-odds",      # historical snapshot at a timestamp
     "scores":           "/scores",               # completed-game scores
     "injuries":         "/injuries",             # injury reports (optional)
+    "arbitrage":        "/arbitrage",            # OddsJam arbitrage feed (optional)
+    "positive_ev":      "/positive-ev",          # OddsJam +EV feed (not used; here for reference)
 }
+
+# How far back OddsJam will reliably serve historical odds.
+# OddsJam's marketing claims multi-year coverage; 365 is a safe default
+# for the bootstrap script. Adjust per your subscription tier.
+MAX_HISTORICAL_DAYS = 365
+MAX_SCORES_DAYS     = 365
 
 # Map our internal Odds-API sport_keys -> OddsJam league identifiers.
 # Confirm these against /sports in your dashboard. Any league name OddsJam
@@ -99,6 +107,15 @@ DEFAULT_TIMEOUT = 20
 # ---------- adapter ----------
 class OddsJamSource(OddsSource):
     name = "oddsjam"
+
+    # Long-history hints (read by bootstrap_oddsjam.py)
+    @property
+    def max_historical_days(self) -> int:
+        return MAX_HISTORICAL_DAYS
+
+    @property
+    def max_scores_days(self) -> int:
+        return MAX_SCORES_DAYS
 
     def __init__(self, api_key: str | None = None):
         self.api_key = api_key or os.environ.get("ODDSJAM_API_KEY", "")
@@ -273,6 +290,70 @@ class OddsJamSource(OddsSource):
             return []
         rows = payload.get("data") if isinstance(payload, dict) else payload
         return self._normalize_scores(rows or [], sport_key)
+
+    # ---------- arbitrage (optional, OddsJam-specific) ----------
+    def fetch_arbitrage_opportunities(
+        self,
+        sport_key: str | None = None,
+        markets: Iterable[str] | None = None,
+    ) -> list[dict]:
+        """Pull OddsJam's pre-computed arbitrage feed.
+
+        Returns canonical arb records (see base.py docstring) or [] if the
+        endpoint isn't available on your plan. Local arb detection in
+        features/arbitrage.py runs independently, so an empty result here
+        does NOT disable the arbitrage angle in the model."""
+        markets = list(markets) if markets else ["h2h", "spreads", "totals"]
+        params: dict = {}
+        if sport_key:
+            league = SPORT_TO_LEAGUE.get(sport_key)
+            if league:
+                params["sport"]  = SPORT_TO_SPORT.get(sport_key, "")
+                params["league"] = league
+        oj_markets = [MARKET_NAME[m] for m in markets if m in MARKET_NAME]
+        if oj_markets:
+            params["market"] = ",".join(oj_markets)
+
+        payload = self._get(PATHS["arbitrage"], params)
+        if not payload:
+            return []
+        rows = payload.get("data") if isinstance(payload, dict) else payload
+        if not rows:
+            return []
+        out = []
+        for row in rows:
+            mkt_raw = row.get("market") or row.get("market_name") or ""
+            mkt     = MARKET_KEY_FROM_ODDSJAM.get(mkt_raw, mkt_raw.lower().replace(" ", "_"))
+            legs_raw = row.get("legs") or row.get("bets") or []
+            legs = []
+            for leg in legs_raw:
+                legs.append({
+                    "side":  leg.get("name") or leg.get("bet_name") or leg.get("side"),
+                    "book":  self._book_key(leg.get("sportsbook") or leg.get("book") or ""),
+                    "price": _to_int_american(leg.get("price") or leg.get("odds")
+                                                or leg.get("american_odds")),
+                    "line":  _to_float(leg.get("point") or leg.get("line")
+                                        or leg.get("handicap")),
+                })
+            margin = row.get("profit_margin") or row.get("margin_pct") or row.get("arbitrage_percentage")
+            try:
+                margin = float(margin) if margin is not None else 0.0
+            except (TypeError, ValueError):
+                margin = 0.0
+            # Some payloads express margin as decimal (0.012) rather than %
+            if 0.0 < margin < 1.0:
+                margin = margin * 100.0
+            out.append({
+                "event_id":      row.get("game_id") or row.get("id") or row.get("event_id"),
+                "sport_key":     sport_key or row.get("sport_key", ""),
+                "commence_time": self._to_iso(row.get("start_date") or row.get("commence_time")),
+                "home_team":     row.get("home_team", ""),
+                "away_team":     row.get("away_team", ""),
+                "market":        mkt,
+                "margin_pct":    margin,
+                "legs":          legs,
+            })
+        return out
 
     # ---------- injuries (optional) ----------
     def fetch_injuries(self, sport_key: str) -> list[dict]:
