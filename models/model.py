@@ -2,14 +2,19 @@
 
 import json
 import logging
+from datetime import datetime, timezone
 from pathlib import Path
 import joblib
 import numpy as np
 import pandas as pd
 from sklearn.calibration import CalibratedClassifierCV
-from sklearn.model_selection import StratifiedKFold, cross_val_score
+from sklearn.model_selection import TimeSeriesSplit
+from sklearn.metrics import roc_auc_score, log_loss, brier_score_loss
 from xgboost import XGBClassifier
-from configs.config import XGB_PARAMS, XGB_OVERRIDES, MODELS_DIR
+from configs.config import (
+    XGB_PARAMS, XGB_OVERRIDES, MODELS_DIR,
+    TIMESERIES_CV_SPLITS, CALIBRATION_TAIL_FRACTION,
+)
 from features.movement import FEATURE_COLS
 
 logger = logging.getLogger(__name__)
@@ -26,56 +31,186 @@ class LineMovementModel:
         self._cal        = None
         self._cv_metrics = {}
         self.is_trained  = False
+        self.trained_on  = None      # "real" or "synthetic" — set by train.py
+        self.trained_at  = None
+        self.feature_cols = list(FEATURE_COLS)
 
-    def train(self, df, n_splits=5):
-        X, y = self._prep(df)
-        logger.info(f"  [{self.sport_key}/{self.market}] Training: {len(y)} samples")
-        skf    = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=42)
-        clf_cv = XGBClassifier(**self.params)
-        auc    = cross_val_score(clf_cv, X, y, cv=skf, scoring="roc_auc", n_jobs=-1)
-        ll     = cross_val_score(clf_cv, X, y, cv=skf, scoring="neg_log_loss", n_jobs=-1)
+    # ────────────────────────────────────────────────────────────────────────
+    # Training
+    # ────────────────────────────────────────────────────────────────────────
+    def train(self, df, n_splits=None, time_col="commence_time", trained_on="real"):
+        """
+        Train with proper TIME-SERIES cross-validation and PREFIT calibration
+        on a held-out chronological tail. (Tier 1 fixes #2 and #3.)
+
+        df must contain `time_col` so rows can be sorted chronologically.
+        """
+        if time_col not in df.columns:
+            raise ValueError(
+                f"train() requires a '{time_col}' column for time-series CV. "
+                f"Make sure label_histories preserves commence_time and that "
+                f"build_feature_dataframe surfaces it."
+            )
+
+        # Sort chronologically — never shuffle line-movement data.
+        df = df.copy()
+        df["_t"] = pd.to_datetime(df[time_col], errors="coerce", utc=True)
+        df = df.sort_values("_t", kind="mergesort").reset_index(drop=True)
+
+        # Address class imbalance via scale_pos_weight (Tier 3 freebie)
+        y_full = df["outcome"].astype(int).values
+        n_pos = int(y_full.sum())
+        n_neg = int(len(y_full) - n_pos)
+        if n_pos > 0 and n_neg > 0:
+            self.params = {**self.params, "scale_pos_weight": n_neg / n_pos}
+
+        # ── Honest out-of-time CV metrics ───────────────────────────────────
+        n_splits = n_splits or TIMESERIES_CV_SPLITS
+        n_splits = max(2, min(n_splits, max(2, len(y_full) // 30)))
+
+        X_full = self._prep(df, require_label=False)[0]
+        tss = TimeSeriesSplit(n_splits=n_splits)
+
+        aucs, lls, briers = [], [], []
+        for fold_idx, (tr, te) in enumerate(tss.split(X_full)):
+            y_tr, y_te = y_full[tr], y_full[te]
+            if len(np.unique(y_tr)) < 2 or len(np.unique(y_te)) < 2:
+                continue
+            clf = XGBClassifier(**self.params)
+            clf.fit(X_full[tr], y_tr)
+            p = clf.predict_proba(X_full[te])[:, 1]
+            try:
+                aucs.append(roc_auc_score(y_te, p))
+            except ValueError:
+                pass
+            lls.append(log_loss(y_te, np.clip(p, 1e-6, 1 - 1e-6)))
+            briers.append(brier_score_loss(y_te, p))
+
         self._cv_metrics = {
-            "auc_mean": float(auc.mean()), "auc_std": float(auc.std()),
-            "logloss_mean": float(-ll.mean()), "n_samples": int(len(y)), "n_wins": int(y.sum()),
+            "auc_mean":      float(np.mean(aucs))   if aucs   else float("nan"),
+            "auc_std":       float(np.std(aucs))    if aucs   else float("nan"),
+            "logloss_mean":  float(np.mean(lls))    if lls    else float("nan"),
+            "brier_mean":    float(np.mean(briers)) if briers else float("nan"),
+            "n_splits_used": len(aucs),
+            "n_samples":     int(len(y_full)),
+            "n_wins":        int(n_pos),
+            "n_losses":      int(n_neg),
+            "cv_strategy":   "TimeSeriesSplit",
         }
-        logger.info(f"      AUC: {self._cv_metrics['auc_mean']:.4f}")
-        self._clf = XGBClassifier(**self.params)
-        self._clf.fit(X, y)
-        method = "isotonic" if len(y) >= 1000 else "sigmoid"
-        self._cal = CalibratedClassifierCV(XGBClassifier(**self.params), method=method, cv=min(n_splits, 5))
-        self._cal.fit(X, y)
+        logger.info(
+            f"  [{self.sport_key}/{self.market}] "
+            f"OOT AUC: {self._cv_metrics['auc_mean']:.4f} "
+            f"(±{self._cv_metrics['auc_std']:.4f}) "
+            f"| Brier: {self._cv_metrics['brier_mean']:.4f} "
+            f"| n={self._cv_metrics['n_samples']}"
+        )
+
+        # ── Production fit + PREFIT calibration on chronological tail ──────
+        cal_frac = CALIBRATION_TAIL_FRACTION
+        n_cal = max(20, int(len(df) * cal_frac))
+
+        if len(df) < 60 or n_cal >= len(df) - 20:
+            # Not enough data to safely hold out — fall back to a quick sigmoid
+            # calibration via 3-fold (still better than nothing, but flag it).
+            logger.warning(
+                f"  [{self.sport_key}/{self.market}] "
+                f"Only {len(df)} samples — using full-fit + sigmoid CV calibration. "
+                f"Probabilities will be less reliable."
+            )
+            X = X_full
+            self._clf = XGBClassifier(**self.params)
+            self._clf.fit(X, y_full)
+            self._cal = CalibratedClassifierCV(
+                XGBClassifier(**self.params), method="sigmoid", cv=3,
+            )
+            self._cal.fit(X, y_full)
+        else:
+            df_fit = df.iloc[:-n_cal].copy()
+            df_cal = df.iloc[-n_cal:].copy()
+            X_fit, y_fit = self._prep(df_fit)
+            X_cal, y_cal = self._prep(df_cal)
+
+            self._clf = XGBClassifier(**self.params)
+            self._clf.fit(X_fit, y_fit)
+
+            # PREFIT calibration — calibrator never sees the data the model
+            # was fit on. Isotonic when we have enough cal samples, else sigmoid.
+            method = "isotonic" if len(y_cal) >= 200 else "sigmoid"
+            self._cal = CalibratedClassifierCV(self._clf, method=method, cv="prefit")
+            self._cal.fit(X_cal, y_cal)
+            self._cv_metrics["calibration_method"]  = method
+            self._cv_metrics["n_calibration"]       = int(len(y_cal))
+            self._cv_metrics["n_fit"]               = int(len(y_fit))
+
+        self.trained_on = trained_on
+        self.trained_at = datetime.now(timezone.utc).isoformat()
         self.is_trained = True
         return self._cv_metrics
 
+    # ────────────────────────────────────────────────────────────────────────
+    # Inference
+    # ────────────────────────────────────────────────────────────────────────
     def predict_proba(self, df):
         self._require_trained()
         X, _ = self._prep(df, require_label=False)
         return self._cal.predict_proba(X)[:, 1]
 
+    # ────────────────────────────────────────────────────────────────────────
+    # Persistence
+    # ────────────────────────────────────────────────────────────────────────
     def save(self):
         self._require_trained()
         Path(MODELS_DIR).mkdir(parents=True, exist_ok=True)
-        joblib.dump({"clf": self._clf, "cal": self._cal}, self._path())
+        joblib.dump(
+            {
+                "clf": self._clf,
+                "cal": self._cal,
+                "feature_cols": self.feature_cols,
+            },
+            self._path(),
+        )
         with open(self._path().with_suffix(".json"), "w") as f:
-            json.dump({"sport_key": self.sport_key, "market": self.market,
-                       "cv_metrics": self._cv_metrics}, f, indent=2)
+            json.dump({
+                "sport_key":    self.sport_key,
+                "market":       self.market,
+                "trained_on":   self.trained_on,
+                "trained_at":   self.trained_at,
+                "feature_cols": self.feature_cols,
+                "cv_metrics":   self._cv_metrics,
+            }, f, indent=2)
 
     def load(self):
         bundle = joblib.load(self._path())
         self._clf = bundle["clf"]
         self._cal = bundle["cal"]
+        self.feature_cols = bundle.get("feature_cols", list(FEATURE_COLS))
+        # Pull metadata sidecar if present so callers can read trained_on
+        sidecar = self._path().with_suffix(".json")
+        if sidecar.exists():
+            try:
+                with open(sidecar) as f:
+                    meta = json.load(f)
+                self.trained_on  = meta.get("trained_on")
+                self.trained_at  = meta.get("trained_at")
+                self._cv_metrics = meta.get("cv_metrics", {})
+            except Exception:
+                pass
         self.is_trained = True
         return self
 
     def _path(self):
         return Path(MODELS_DIR) / f"{self.sport_key}__{self.market}.joblib"
 
+    # ────────────────────────────────────────────────────────────────────────
+    # Internals
+    # ────────────────────────────────────────────────────────────────────────
     def _prep(self, df, require_label=True):
-        for c in FEATURE_COLS:
+        cols = self.feature_cols
+        for c in cols:
             if c not in df.columns:
                 df = df.copy()
                 df[c] = 0.0
-        X = df[FEATURE_COLS].fillna(0).values.astype(np.float32)
+        X = df[cols].fillna(0).values.astype(np.float32)
         y = df["outcome"].values.astype(int) if require_label and "outcome" in df.columns else None
         return X, y
 
