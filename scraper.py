@@ -8,9 +8,21 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "YOUR_KEY_HERE")
+from data.sources import get_source
+
+ODDS_API_KEY     = os.environ.get("ODDS_API_KEY", "YOUR_KEY_HERE")
+ODDSJAM_API_KEY  = os.environ.get("ODDSJAM_API_KEY", "")
+ODDS_DATA_SOURCE = os.environ.get("ODDS_DATA_SOURCE", "the_odds_api").strip().lower()
 OUTPUT_DIR = Path("./jlab_data")
 OUTPUT_DIR.mkdir(exist_ok=True)
+
+# Lazy-instantiate at first use (so an unset key doesn't crash imports)
+_SOURCE = None
+def _src():
+    global _SOURCE
+    if _SOURCE is None:
+        _SOURCE = get_source(ODDS_DATA_SOURCE)
+    return _SOURCE
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -74,37 +86,15 @@ VSIN_PROPS_CONFIG = {
 
 
 def fetch_odds(sport_key, markets=None):
-    if markets is None:
-        markets = ["h2h", "spreads", "totals"]
-    url = f"https://api.the-odds-api.com/v4/sports/{sport_key}/odds"
-    params = {
-        "regions": "us,eu",
-        "markets": ",".join(markets),
-        "oddsFormat": "american",
-        "apiKey": ODDS_API_KEY,
-    }
-    r = requests.get(url, params=params, timeout=15)
-    if r.status_code != 200:
-        print(f"  [odds] {sport_key} -> HTTP {r.status_code}: {r.text[:200]}")
-        return []
-    return r.json()
+    return _src().fetch_current_odds(sport_key, markets=markets)
 
 
 def fetch_player_props_for_event(sport_key, event_id):
     if sport_key not in PROP_MARKETS:
         return {}
-    markets = ",".join(PROP_MARKETS[sport_key])
-    url = f"https://api.the-odds-api.com/v4/sports/{sport_key}/events/{event_id}/odds"
-    params = {
-        "regions": "us",
-        "markets": markets,
-        "oddsFormat": "american",
-        "apiKey": ODDS_API_KEY,
-    }
-    r = requests.get(url, params=params, timeout=15)
-    if r.status_code != 200:
-        return {}
-    return r.json()
+    return _src().fetch_player_props_for_event(
+        sport_key, event_id, markets=PROP_MARKETS[sport_key]
+    )
 
 
 def parse_props_payload(payload):
@@ -363,9 +353,13 @@ def run():
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H-%M-%S")
     print(f"\n=== J LAB Data Pull — {timestamp} ===\n")
 
-    if ODDS_API_KEY in (None, "", "YOUR_KEY_HERE"):
+    if ODDS_DATA_SOURCE == "the_odds_api" and ODDS_API_KEY in (None, "", "YOUR_KEY_HERE"):
         print("Set ODDS_API_KEY env var first.")
         return
+    if ODDS_DATA_SOURCE == "oddsjam" and not ODDSJAM_API_KEY:
+        print("Set ODDSJAM_API_KEY env var first (and ODDS_DATA_SOURCE=oddsjam).")
+        return
+    print(f"  [data source] {_src().name}")
 
     combined = {"timestamp_utc": timestamp, "sports": {}}
 

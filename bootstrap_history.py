@@ -17,9 +17,20 @@ import requests
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "")
+from data.sources import get_source
+
+ODDS_API_KEY     = os.environ.get("ODDS_API_KEY", "")
+ODDSJAM_API_KEY  = os.environ.get("ODDSJAM_API_KEY", "")
+ODDS_DATA_SOURCE = os.environ.get("ODDS_DATA_SOURCE", "the_odds_api").strip().lower()
 LINE_HISTORY_DIR = Path("./line_history")
 LINE_HISTORY_DIR.mkdir(exist_ok=True)
+
+_SOURCE = None
+def _src():
+    global _SOURCE
+    if _SOURCE is None:
+        _SOURCE = get_source(ODDS_DATA_SOURCE)
+    return _SOURCE
 
 SPORTS = {
     "basketball_nba":      "NBA",
@@ -37,20 +48,11 @@ def fetch_historical_odds(sport_key, date_str, markets="h2h,spreads,totals"):
     Fetch historical odds snapshot for a specific date.
     date_str format: 2024-01-15T12:00:00Z
     """
-    url = f"https://api.the-odds-api.com/v4/historical/sports/{sport_key}/odds"
-    params = {
-        "apiKey":      ODDS_API_KEY,
-        "regions":     "us,eu",
-        "markets":     markets,
-        "oddsFormat":  "american",
-        "date":        date_str,
-    }
-    r = requests.get(url, params=params, timeout=20)
-    if r.status_code != 200:
-        print(f"  [{sport_key}] {date_str} → HTTP {r.status_code}")
-        return []
-    data = r.json()
-    return data.get("data", [])
+    return _src().fetch_historical_odds(
+        sport_key, date_str,
+        markets=[m.strip() for m in markets.split(",") if m.strip()],
+        regions="us,eu",
+    )
 
 
 def extract_book_odds(event):
@@ -108,9 +110,13 @@ def save_history(history):
 def bootstrap():
     print(f"\n=== BOOTSTRAP HISTORICAL ODDS ===\n")
 
-    if not ODDS_API_KEY:
+    if ODDS_DATA_SOURCE == "the_odds_api" and not ODDS_API_KEY:
         print("Set ODDS_API_KEY env var first.")
         return
+    if ODDS_DATA_SOURCE == "oddsjam" and not ODDSJAM_API_KEY:
+        print("Set ODDSJAM_API_KEY env var first.")
+        return
+    print(f"  [data source] {_src().name}")
 
     # Pull snapshots from the past 3 days at 6-hour intervals
     # This gives ~12 movement snapshots per event
