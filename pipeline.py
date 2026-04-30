@@ -74,9 +74,12 @@ def mode_predict(bankroll, min_signals):
 
     headers = [
         "sport", "market", "side", "american_odds", "american_odds_display",
-        "model_prob", "fair_prob", "edge_pct", "ev_pct", "bet_pct", "bet_usd",
+        "model_prob", "sized_prob", "fair_prob",
+        "edge_pct", "edge_pct_raw", "shrinkage_alpha",
+        "ev_pct", "bet_pct", "bet_usd",
         "confidence", "signals", "n_signals", "pin_move_full", "money_vs_tickets",
-        "book", "line", "is_home", "event_id", "sport_key"
+        "clv_signed_train", "trained_on",
+        "book", "line", "is_home", "event_id", "sport_key",
     ]
 
     if slate.empty:

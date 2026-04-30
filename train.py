@@ -36,8 +36,10 @@ def main():
     if args.synthetic or n_real < MIN_REAL_OUTCOMES:
         logger.warning("Using SYNTHETIC outcomes for bootstrap.")
         records = synthetic_outcomes(label_histories(histories, outcomes={}))
+        trained_on = "synthetic"
     else:
         records = label_histories(histories, outcomes)
+        trained_on = "real"
 
     feat_df = build_feature_dataframe(records)
     if feat_df.empty:
@@ -59,8 +61,14 @@ def main():
             if n_pos < 10 or (len(df) - n_pos) < 10:
                 continue
             try:
+                # Sort chronologically before training — TimeSeriesSplit requires it.
+                df_sorted = df.sort_values("commence_time", kind="mergesort").reset_index(drop=True)
                 model   = LineMovementModel(sport_key, market)
-                metrics = model.train(df, n_splits=min(5, max(3, len(df) // 40)))
+                metrics = model.train(
+                    df_sorted,
+                    n_splits=min(5, max(3, len(df_sorted) // 40)),
+                    trained_on=trained_on,
+                )
                 model.save()
                 results[f"{sport_key}/{market}"] = metrics
             except Exception as e:
