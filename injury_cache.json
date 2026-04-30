@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-30T00:10:17.688367+00:00",
+  "timestamp": "2026-04-30T08:40:42.797455+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -336,8 +336,8 @@
         "player_name": "Kevin Huerter",
         "team": "",
         "position": "G",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -524,16 +524,6 @@
       },
       {
         "player_name": "Luka Doncic",
-        "team": "",
-        "position": "G",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Austin Reaves",
         "team": "",
         "position": "G",
         "status": "out",
@@ -933,17 +923,17 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Jonathan Isaac",
+        "player_name": "Franz Wagner",
         "team": "",
         "position": "F",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Franz Wagner",
+        "player_name": "Jonathan Isaac",
         "team": "",
         "position": "F",
         "status": "out",
@@ -1088,6 +1078,16 @@
         "position": "F",
         "status": "out",
         "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Brandon Ingram",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2165,6 +2165,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Brandon Williamson",
+        "team": "",
+        "position": "SP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Eugenio Suarez",
         "team": "",
         "position": "3B",
@@ -2885,6 +2895,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Edwin Diaz",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Mookie Betts",
         "team": "",
         "position": "SS",
@@ -2926,16 +2946,6 @@
       },
       {
         "player_name": "Brusdar Graterol",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Edwin Diaz",
         "team": "",
         "position": "RP",
         "status": "15-day-il",
@@ -5240,16 +5250,6 @@
         "player_name": "Brandon Carlo",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Barrett Hayton",
-        "team": "",
-        "position": "C",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -7859,6 +7859,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Jay Tufele",
+        "team": "",
+        "position": "DT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Joe Bachie",
+        "team": "",
+        "position": "LB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Jack Campbell",
         "team": "",
         "position": "LB",
@@ -8086,26 +8106,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jared Goff",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Rock Ya-Sin",
-        "team": "",
-        "position": "CB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -10109,6 +10109,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Kadyn Proctor",
+        "team": "",
+        "position": "OT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Theo Wease Jr.",
         "team": "",
         "position": "WR",
@@ -10259,16 +10269,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Kadyn Proctor",
-        "team": "",
-        "position": "OT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "De'Von Achane",
         "team": "",
         "position": "RB",
@@ -10352,6 +10352,16 @@
         "player_name": "Robert Beal Jr.",
         "team": "",
         "position": "DE",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Eric Johnson II",
+        "team": "",
+        "position": "DT",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -10596,16 +10606,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Justin Jefferson",
-        "team": "",
-        "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -12359,6 +12359,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Harrison Bryant",
+        "team": "",
+        "position": "TE",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Michael Dansby",
         "team": "",
         "position": "CB",
@@ -12595,16 +12605,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "AJ Finley",
-        "team": "",
-        "position": "S",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
