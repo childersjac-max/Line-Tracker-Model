@@ -33,13 +33,24 @@ LATE_MOVE_HOURS_THRESHOLD  = 6.0
 EARLY_OPEN_HOURS_THRESHOLD = 48.0
 
 MIN_EDGE_TO_BET            = 0.005
-MIN_SAMPLES_TO_TRAIN       = 10
+MIN_SAMPLES_TO_TRAIN       = 50          # raised from 10 — 10 is far too few for stable training
 MIN_REAL_OUTCOMES          = 20
+MIN_MODEL_PROB             = 0.30        # don't bet on long-shot mathematical edges
 
 KELLY_FRACTION             = 0.25
 MAX_BET_PCT                = 0.04
 MIN_BET_PCT                = 0.005
 MAX_TOTAL_EXPOSURE_PCT     = 0.20
+
+# Probability shrinkage toward fair (no-vig) prob before Kelly sizing.
+# 1.0 = trust the model fully (original behavior)
+# 0.0 = always bet the fair prob (zero edge, zero bets)
+# 0.5 = compromise that dramatically reduces drawdown when the model is overconfident
+PROB_SHRINKAGE_ALPHA       = 0.5
+
+# Time-series CV settings
+TIMESERIES_CV_SPLITS       = 5
+CALIBRATION_TAIL_FRACTION  = 0.20        # fraction of (chronological) tail used for prefit calibration
 
 XGB_PARAMS = {
     "objective":        "binary:logistic",
