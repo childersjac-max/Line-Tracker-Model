@@ -20,6 +20,35 @@ from features.movement import FEATURE_COLS
 logger = logging.getLogger(__name__)
 
 
+def _detect_n_features(clf, cal, fallback: int) -> int:
+    """Return the number of features the model was trained on.
+
+    Checks `n_features_in_` on the raw classifier first, then on the
+    calibrated wrapper, then falls back to the XGBoost booster's num_feature.
+    Used only for legacy model files that pre-date feature_cols persistence.
+    """
+    for obj in (clf, cal):
+        if obj is None:
+            continue
+        # scikit-learn sets n_features_in_ on fit
+        if hasattr(obj, "n_features_in_"):
+            return int(obj.n_features_in_)
+        # CalibratedClassifierCV wraps the estimator
+        if hasattr(obj, "estimator") and hasattr(obj.estimator, "n_features_in_"):
+            return int(obj.estimator.n_features_in_)
+        # Iterate calibrated classifiers list (sklearn ≥ 1.2)
+        if hasattr(obj, "calibrated_classifiers_"):
+            for cc in obj.calibrated_classifiers_:
+                if hasattr(cc, "estimator") and hasattr(cc.estimator, "n_features_in_"):
+                    return int(cc.estimator.n_features_in_)
+    # Last resort: ask the XGBoost booster directly
+    try:
+        return int(clf.get_booster().num_features())
+    except Exception:
+        pass
+    return fallback
+
+
 class LineMovementModel:
     def __init__(self, sport_key, market):
         self.sport_key = sport_key
@@ -183,7 +212,24 @@ class LineMovementModel:
         bundle = joblib.load(self._path())
         self._clf = bundle["clf"]
         self._cal = bundle["cal"]
-        self.feature_cols = bundle.get("feature_cols", list(FEATURE_COLS))
+
+        saved_cols = bundle.get("feature_cols")
+        if saved_cols is not None:
+            # Modern model file — trust the saved list exactly.
+            self.feature_cols = saved_cols
+        else:
+            # Older model file saved before feature_cols was persisted.
+            # Detect the training width from the booster so we slice the
+            # current FEATURE_COLS to exactly the right length. This is
+            # safe because new features are always appended to the END of
+            # FEATURE_COLS, so the first N are the same as at train time.
+            n = _detect_n_features(self._clf, self._cal, fallback=len(FEATURE_COLS))
+            self.feature_cols = list(FEATURE_COLS)[:n]
+            logger.debug(
+                f"[{self.sport_key}/{self.market}] legacy model: "
+                f"detected {n} training features → using first {n} of FEATURE_COLS"
+            )
+
         # Pull metadata sidecar if present so callers can read trained_on
         sidecar = self._path().with_suffix(".json")
         if sidecar.exists():
