@@ -32,6 +32,12 @@ FADE_MAX_SHARP_MOVE        = 1.0
 LATE_MOVE_HOURS_THRESHOLD  = 6.0
 EARLY_OPEN_HOURS_THRESHOLD = 48.0
 
+# ── Arbitrage angle ────────────────────────────────────────────────
+# Minimum 2-way arb margin (% profit on pair) before a side is flagged
+# as `is_arb_side` in the slate. Set above zero to filter razor-thin
+# edges that are usually stale-line artifacts.
+MIN_ARB_MARGIN_PCT         = 0.5
+
 MIN_EDGE_TO_BET            = 0.005
 MIN_SAMPLES_TO_TRAIN       = 50          # raised from 10 — 10 is far too few for stable training
 MIN_REAL_OUTCOMES          = 20
