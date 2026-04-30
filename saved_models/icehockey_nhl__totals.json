@@ -2,7 +2,7 @@
   "sport_key": "icehockey_nhl",
   "market": "totals",
   "trained_on": "synthetic",
-  "trained_at": "2026-04-30T08:38:28.215575+00:00",
+  "trained_at": "2026-04-30T16:01:10.763960+00:00",
   "feature_cols": [
     "pin_move_full",
     "pin_move_6h",
@@ -43,7 +43,10 @@
     "has_major_injury",
     "home_injury_score",
     "away_injury_score",
-    "injury_asymmetry"
+    "injury_asymmetry",
+    "is_arb_side",
+    "arb_margin_pct",
+    "arb_book_count"
   ],
   "cv_metrics": {
     "auc_mean": 0.5,
