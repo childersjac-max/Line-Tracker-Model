@@ -1,0 +1,98 @@
+name: Daily Bet Slate
+
+on:
+  # Runs every day at 3:00 PM Eastern Time
+  #   EDT (Mar–Nov): 3 PM ET = 19:00 UTC
+  #   EST (Nov–Mar): 3 PM ET = 20:00 UTC
+  # GitHub Actions cron uses UTC, so we use 19:00 UTC (EDT / summer schedule).
+  # If you notice it running an hour late in winter, change to "0 20 * * *".
+  schedule:
+    - cron: "0 19 * * *"
+
+  # Also allows you to trigger it manually from the GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      bankroll:
+        description: "Bankroll size ($)"
+        required: false
+        default: "10000"
+      min_signals:
+        description: "Minimum signals required to bet (0 = all edges)"
+        required: false
+        default: "0"
+
+env:
+  ODDS_DATA_SOURCE: oddsjam
+  ODDSJAM_API_KEY: ${{ secrets.ODDSJAM_API_KEY }}
+  # Uncomment if you ever switch back to The Odds API:
+  # ODDS_DATA_SOURCE: the_odds_api
+  # ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+
+jobs:
+  run-pipeline:
+    name: Scrape → Track → Results → Predict
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install requests beautifulsoup4 pandas numpy scikit-learn xgboost joblib
+          fi
+
+      - name: Pull today's odds
+        run: python pipeline.py --mode scrape
+
+      - name: Track line movement
+        run: python pipeline.py --mode track
+
+      - name: Fetch yesterday's results
+        run: python pipeline.py --mode results
+
+      - name: Score today's slate
+        run: |
+          BANKROLL="${{ github.event.inputs.bankroll || '10000' }}"
+          MIN_SIG="${{ github.event.inputs.min_signals || '0' }}"
+          python pipeline.py --mode predict \
+            --bankroll "$BANKROLL" \
+            --min-signals "$MIN_SIG"
+
+      - name: Upload bet slate
+        uses: actions/upload-artifact@v4
+        with:
+          name: bet-slate-${{ github.run_id }}
+          path: output/bet_slate_latest.csv
+          retention-days: 30
+
+      - name: Print slate summary
+        run: |
+          echo "=== TODAY'S SLATE ==="
+          if [ -f output/bet_slate_latest.csv ]; then
+            python -c "
+          import pandas as pd, sys
+          df = pd.read_csv('output/bet_slate_latest.csv')
+          if df.empty:
+              print('No edges found today.')
+          else:
+              print(f'{len(df)} bet(s) found:\n')
+              cols = ['sport','market','side','american_odds_display',
+                      'edge_pct','bet_usd','confidence','signals']
+              cols = [c for c in cols if c in df.columns]
+              print(df[cols].to_string(index=False))
+          "
+          else
+            echo "No slate file generated."
+          fi
