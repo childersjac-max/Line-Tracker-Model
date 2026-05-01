@@ -1,0 +1,104 @@
+{
+  "event_id": "dd40fd7156c9a60a0ce8365206fc9310",
+  "sport_key": "icehockey_nhl",
+  "home_team": "Colorado Avalanche",
+  "away_team": "Minnesota Wild",
+  "commence_time": "2026-05-03T23:00:15Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_07-54-18",
+      "hours_to_game": 63.08808117361111,
+      "h2h": {
+        "Colorado Avalanche": {
+          "fanduel": -188,
+          "betmgm": -180,
+          "lowvig": -178,
+          "betonlineag": -178
+        },
+        "Minnesota Wild": {
+          "fanduel": 155,
+          "betmgm": 150,
+          "lowvig": 156,
+          "betonlineag": 156
+        }
+      },
+      "spreads": {
+        "Colorado Avalanche": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 124
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 140
+          },
+          "lowvig": {
+            "line": -1.5,
+            "price": 140
+          },
+          "betonlineag": {
+            "line": -1.5,
+            "price": 140
+          }
+        },
+        "Minnesota Wild": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -152
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -170
+          },
+          "lowvig": {
+            "line": 1.5,
+            "price": -160
+          },
+          "betonlineag": {
+            "line": 1.5,
+            "price": -160
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 5.5,
+            "price": -140
+          },
+          "betmgm": {
+            "line": 5.5,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 5.5,
+            "price": -111
+          },
+          "betonlineag": {
+            "line": 5.5,
+            "price": -111
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 5.5,
+            "price": 114
+          },
+          "betmgm": {
+            "line": 5.5,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 5.5,
+            "price": -105
+          },
+          "betonlineag": {
+            "line": 5.5,
+            "price": -105
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
