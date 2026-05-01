@@ -100,6 +100,197 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-01_22-37-51",
+      "hours_to_game": 21.539995319166668,
+      "h2h": {
+        "Boston Red Sox": {
+          "fanduel": -126,
+          "lowvig": -115,
+          "betonlineag": -115,
+          "sport888": -133,
+          "fanatics": -125,
+          "draftkings": -126,
+          "williamhill_us": -120,
+          "gtbets": -115,
+          "unibet_fr": -139,
+          "winamax_de": -128,
+          "winamax_fr": -139,
+          "onexbet": -116,
+          "betmgm": -120
+        },
+        "Houston Astros": {
+          "fanduel": 108,
+          "lowvig": 104,
+          "betonlineag": 104,
+          "sport888": 105,
+          "fanatics": 105,
+          "draftkings": 104,
+          "williamhill_us": 100,
+          "gtbets": 105,
+          "unibet_fr": -104,
+          "winamax_de": 100,
+          "winamax_fr": -102,
+          "onexbet": 107,
+          "betmgm": 100
+        }
+      },
+      "spreads": {
+        "Boston Red Sox": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 162
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 150
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -193
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -195
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 144
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -200
+          }
+        },
+        "Houston Astros": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -196
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -180
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 158
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 162
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -156
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 165
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": -118
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": -120
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": 105
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -120
+          },
+          "draftkings": {
+            "line": 9.0,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": 9.0,
+            "price": -115
+          },
+          "gtbets": {
+            "line": 9.0,
+            "price": -120
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": 109
+          },
+          "betmgm": {
+            "line": 9.0,
+            "price": -115
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": 103
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": 100
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -133
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": 100
+          },
+          "draftkings": {
+            "line": 9.0,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": 9.0,
+            "price": -105
+          },
+          "gtbets": {
+            "line": 9.0,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -119
+          },
+          "betmgm": {
+            "line": 9.0,
+            "price": -105
+          }
+        }
+      },
       "splits": {}
     }
   ]

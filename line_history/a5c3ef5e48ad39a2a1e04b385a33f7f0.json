@@ -1,0 +1,86 @@
+{
+  "event_id": "a5c3ef5e48ad39a2a1e04b385a33f7f0",
+  "sport_key": "baseball_mlb",
+  "home_team": "Tampa Bay Rays",
+  "away_team": "San Francisco Giants",
+  "commence_time": "2026-05-02T22:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_22-37-51",
+      "hours_to_game": 23.539995108888892,
+      "h2h": {
+        "San Francisco Giants": {
+          "fanduel": -116,
+          "sport888": -118,
+          "fanatics": -115
+        },
+        "Tampa Bay Rays": {
+          "fanduel": -102,
+          "sport888": -110,
+          "fanatics": -105
+        }
+      },
+      "spreads": {
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 146
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 150
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 150
+          }
+        },
+        "Tampa Bay Rays": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -178
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -180
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -122
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
