@@ -1,0 +1,106 @@
+{
+  "event_id": "27aba50ebc7d419dd836a458e12b2faf",
+  "sport_key": "baseball_mlb",
+  "home_team": "Boston Red Sox",
+  "away_team": "Houston Astros",
+  "commence_time": "2026-05-02T20:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 24.225838785833332,
+      "h2h": {
+        "Boston Red Sox": {
+          "fanduel": -126,
+          "lowvig": -135,
+          "betonlineag": -135,
+          "sport888": -133,
+          "fanatics": -130
+        },
+        "Houston Astros": {
+          "fanduel": 108,
+          "lowvig": 122,
+          "betonlineag": 122,
+          "sport888": 105,
+          "fanatics": 110
+        }
+      },
+      "spreads": {
+        "Boston Red Sox": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 164
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 145
+          }
+        },
+        "Houston Astros": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -200
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 145
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -175
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": -118
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": -120
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": 110
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -120
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": 103
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": 100
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -137
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": 100
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

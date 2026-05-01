@@ -1,0 +1,106 @@
+{
+  "event_id": "8a401fa09b77692deee8ed01cd058b3d",
+  "sport_key": "baseball_mlb",
+  "home_team": "Detroit Tigers",
+  "away_team": "Texas Rangers",
+  "commence_time": "2026-05-02T23:16:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 27.309172051944444,
+      "h2h": {
+        "Detroit Tigers": {
+          "fanduel": -126,
+          "lowvig": -125,
+          "betonlineag": -125,
+          "sport888": -133,
+          "fanatics": -125
+        },
+        "Texas Rangers": {
+          "fanduel": 108,
+          "lowvig": 113,
+          "betonlineag": 113,
+          "sport888": 105,
+          "fanatics": 105
+        }
+      },
+      "spreads": {
+        "Detroit Tigers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 164
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 165
+          }
+        },
+        "Texas Rangers": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -200
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -200
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": 112
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": 110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -105
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": -128
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": -130
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -118
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -115
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

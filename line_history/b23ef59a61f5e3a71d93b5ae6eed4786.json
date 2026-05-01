@@ -1,0 +1,88 @@
+{
+  "event_id": "b23ef59a61f5e3a71d93b5ae6eed4786",
+  "sport_key": "baseball_mlb",
+  "home_team": "Los Angeles Angels",
+  "away_team": "New York Mets",
+  "commence_time": "2026-05-03T01:39:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 29.69250518388889,
+      "h2h": {
+        "Los Angeles Angels": {
+          "fanduel": 110,
+          "lowvig": 116,
+          "betonlineag": 116,
+          "sport888": 110
+        },
+        "New York Mets": {
+          "fanduel": -130,
+          "lowvig": -128,
+          "betonlineag": -128,
+          "sport888": -137
+        }
+      },
+      "spreads": {
+        "Los Angeles Angels": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -164
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -167
+          }
+        },
+        "New York Mets": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 136
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 135
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": 100
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -103
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -133
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -115
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -117
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 105
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

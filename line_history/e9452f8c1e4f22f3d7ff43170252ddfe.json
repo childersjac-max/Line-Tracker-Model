@@ -1,0 +1,86 @@
+{
+  "event_id": "e9452f8c1e4f22f3d7ff43170252ddfe",
+  "sport_key": "baseball_mlb",
+  "home_team": "New York Yankees",
+  "away_team": "Baltimore Orioles",
+  "commence_time": "2026-05-02T17:36:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 21.642505889166667,
+      "h2h": {
+        "Baltimore Orioles": {
+          "fanduel": 130,
+          "fanatics": 130,
+          "sport888": 125
+        },
+        "New York Yankees": {
+          "fanduel": -154,
+          "fanatics": -155,
+          "sport888": -154
+        }
+      },
+      "spreads": {
+        "Baltimore Orioles": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -162
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -165
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -161
+          }
+        },
+        "New York Yankees": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 134
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 135
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 130
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -115
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -118
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -105
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -105
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

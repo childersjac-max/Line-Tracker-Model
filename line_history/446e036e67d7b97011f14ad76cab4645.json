@@ -1,0 +1,106 @@
+{
+  "event_id": "446e036e67d7b97011f14ad76cab4645",
+  "sport_key": "baseball_mlb",
+  "home_team": "Athletics",
+  "away_team": "Cleveland Guardians",
+  "commence_time": "2026-05-02T20:06:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 24.14250566388889,
+      "h2h": {
+        "Athletics": {
+          "fanduel": -138,
+          "sport888": -141,
+          "lowvig": -130,
+          "betonlineag": -130,
+          "fanatics": -140
+        },
+        "Cleveland Guardians": {
+          "fanduel": 118,
+          "sport888": 115,
+          "lowvig": 118,
+          "betonlineag": 118,
+          "fanatics": 115
+        }
+      },
+      "spreads": {
+        "Athletics": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 136
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 135
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 135
+          }
+        },
+        "Cleveland Guardians": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -164
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -167
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -165
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 10.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 10.5,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 10.0,
+            "price": -102
+          },
+          "betonlineag": {
+            "line": 10.0,
+            "price": -105
+          },
+          "fanatics": {
+            "line": 10.0,
+            "price": -105
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 10.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 10.5,
+            "price": -125
+          },
+          "lowvig": {
+            "line": 10.0,
+            "price": -113
+          },
+          "betonlineag": {
+            "line": 10.0,
+            "price": -115
+          },
+          "fanatics": {
+            "line": 10.0,
+            "price": -115
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

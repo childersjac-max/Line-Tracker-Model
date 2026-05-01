@@ -1,0 +1,106 @@
+{
+  "event_id": "7bda241ffa570175ee12fdbd71a4b3c9",
+  "sport_key": "baseball_mlb",
+  "home_team": "Pittsburgh Pirates",
+  "away_team": "Cincinnati Reds",
+  "commence_time": "2026-05-02T20:06:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 24.142505589166664,
+      "h2h": {
+        "Cincinnati Reds": {
+          "fanduel": 116,
+          "betonlineag": 122,
+          "lowvig": 122,
+          "sport888": 110,
+          "fanatics": 115
+        },
+        "Pittsburgh Pirates": {
+          "fanduel": -134,
+          "betonlineag": -135,
+          "lowvig": -135,
+          "sport888": -137,
+          "fanatics": -140
+        }
+      },
+      "spreads": {
+        "Cincinnati Reds": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -184
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -180
+          }
+        },
+        "Pittsburgh Pirates": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 152
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 150
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -120
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -107
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -110
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -102
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -107
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -118
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

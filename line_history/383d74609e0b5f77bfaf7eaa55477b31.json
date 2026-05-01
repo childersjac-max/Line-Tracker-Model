@@ -1,0 +1,88 @@
+{
+  "event_id": "383d74609e0b5f77bfaf7eaa55477b31",
+  "sport_key": "baseball_mlb",
+  "home_team": "Seattle Mariners",
+  "away_team": "Kansas City Royals",
+  "commence_time": "2026-05-03T01:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 29.72583845583333,
+      "h2h": {
+        "Kansas City Royals": {
+          "fanduel": 136,
+          "lowvig": 131,
+          "betonlineag": 131,
+          "sport888": 135
+        },
+        "Seattle Mariners": {
+          "fanduel": -162,
+          "lowvig": -145,
+          "betonlineag": -145,
+          "sport888": -167
+        }
+      },
+      "spreads": {
+        "Kansas City Royals": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -172
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -175
+          }
+        },
+        "Seattle Mariners": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 142
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 140
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -108
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": 110
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": 108
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -112
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": -126
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": -128
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "event_id": "c0137f0b36b1eea6d91260c926fe437e",
+  "sport_key": "baseball_mlb",
+  "home_team": "Minnesota Twins",
+  "away_team": "Toronto Blue Jays",
+  "commence_time": "2026-05-02T18:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 22.225839137222223,
+      "h2h": {
+        "Minnesota Twins": {
+          "fanduel": 112,
+          "lowvig": 118,
+          "fanatics": 115,
+          "betonlineag": 118,
+          "sport888": 105
+        },
+        "Toronto Blue Jays": {
+          "fanduel": -132,
+          "lowvig": -130,
+          "fanatics": -140,
+          "betonlineag": -130,
+          "sport888": -133
+        }
+      },
+      "spreads": {
+        "Minnesota Twins": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -162
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -145
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -167
+          }
+        },
+        "Toronto Blue Jays": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 134
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 120
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 135
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -104
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -107
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -113
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

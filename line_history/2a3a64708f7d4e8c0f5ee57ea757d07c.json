@@ -1,0 +1,108 @@
+{
+  "event_id": "2a3a64708f7d4e8c0f5ee57ea757d07c",
+  "sport_key": "baseball_mlb",
+  "home_team": "Chicago Cubs",
+  "away_team": "Arizona Diamondbacks",
+  "commence_time": "2026-05-02T18:21:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-01_19-56-43",
+      "hours_to_game": 22.39250573361111,
+      "h2h": {
+        "Arizona Diamondbacks": {
+          "fanduel": 136,
+          "betonlineag": 140,
+          "lowvig": 140,
+          "sport888": 135,
+          "fanatics": 130,
+          "matchbook": 102
+        },
+        "Chicago Cubs": {
+          "fanduel": -162,
+          "betonlineag": -155,
+          "lowvig": -155,
+          "sport888": -167,
+          "fanatics": -155,
+          "matchbook": -192
+        }
+      },
+      "spreads": {
+        "Arizona Diamondbacks": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -170
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -167
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -170
+          },
+          "matchbook": {
+            "line": 1.5,
+            "price": -238
+          }
+        },
+        "Chicago Cubs": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 140
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 135
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 140
+          },
+          "matchbook": {
+            "line": -1.5,
+            "price": 102
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 7.5,
+            "price": -110
+          },
+          "matchbook": {
+            "line": 7.5,
+            "price": -154
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 7.5,
+            "price": -110
+          },
+          "matchbook": {
+            "line": 7.5,
+            "price": -152
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
