@@ -91,6 +91,125 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-01_15-40-08",
+      "hours_to_game": 82.48498340777778,
+      "h2h": {
+        "Colorado Avalanche": {
+          "draftkings": -170,
+          "lowvig": -178,
+          "betonlineag": -178,
+          "williamhill_us": -178,
+          "gtbets": -180
+        },
+        "Minnesota Wild": {
+          "draftkings": 142,
+          "lowvig": 156,
+          "betonlineag": 156,
+          "williamhill_us": 150,
+          "gtbets": 150
+        }
+      },
+      "spreads": {
+        "Colorado Avalanche": {
+          "draftkings": {
+            "line": -1.5,
+            "price": 136
+          },
+          "lowvig": {
+            "line": -1.5,
+            "price": 140
+          },
+          "betonlineag": {
+            "line": -1.5,
+            "price": 140
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 135
+          },
+          "gtbets": {
+            "line": -1.5,
+            "price": 135
+          }
+        },
+        "Minnesota Wild": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -162
+          },
+          "lowvig": {
+            "line": 1.5,
+            "price": -160
+          },
+          "betonlineag": {
+            "line": 1.5,
+            "price": -160
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -160
+          },
+          "gtbets": {
+            "line": 1.5,
+            "price": -160
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 5.5,
+            "price": -125
+          },
+          "lowvig": {
+            "line": 5.5,
+            "price": -111
+          },
+          "betonlineag": {
+            "line": 5.5,
+            "price": -111
+          },
+          "williamhill_us": {
+            "line": 5.5,
+            "price": -120
+          },
+          "gtbets": {
+            "line": 5.5,
+            "price": -120
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 5.5,
+            "price": 105
+          },
+          "lowvig": {
+            "line": 5.5,
+            "price": -105
+          },
+          "betonlineag": {
+            "line": 5.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": 5.5,
+            "price": 100
+          },
+          "gtbets": {
+            "line": 5.5,
+            "price": 100
+          }
+        }
+      },
       "splits": {}
     }
   ]
