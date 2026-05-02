@@ -169,6 +169,158 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-02_14-14-50",
+      "hours_to_game": 80.74003209499999,
+      "h2h": {
+        "Anaheim Ducks": {
+          "betrivers": 148,
+          "unibet_nl": 225,
+          "unibet_se": 230,
+          "pmu_fr": 205,
+          "leovegas_se": 230,
+          "unibet_fr": 200,
+          "williamhill": 138,
+          "mybookieag": 134,
+          "betclic_fr": 213,
+          "winamax_fr": 215,
+          "winamax_de": 220,
+          "tipico_de": 220
+        },
+        "Vegas Golden Knights": {
+          "betrivers": -182,
+          "unibet_nl": -104,
+          "unibet_se": 102,
+          "pmu_fr": -118,
+          "leovegas_se": 102,
+          "unibet_fr": -115,
+          "williamhill": -175,
+          "mybookieag": -165,
+          "betclic_fr": -109,
+          "winamax_fr": -109,
+          "winamax_de": -104,
+          "tipico_de": -108
+        },
+        "Draw": {
+          "unibet_nl": 320,
+          "unibet_se": 325,
+          "pmu_fr": 290,
+          "leovegas_se": 325,
+          "unibet_fr": 300,
+          "betclic_fr": 315,
+          "winamax_fr": 320,
+          "winamax_de": 330,
+          "tipico_de": 320
+        }
+      },
+      "spreads": {
+        "Anaheim Ducks": {
+          "betrivers": {
+            "line": 1.5,
+            "price": -182
+          },
+          "unibet_nl": {
+            "line": 0.5,
+            "price": -120
+          },
+          "unibet_se": {
+            "line": 0.5,
+            "price": -120
+          },
+          "pmu_fr": {
+            "line": 0.5,
+            "price": -139
+          },
+          "leovegas_se": {
+            "line": 0.5,
+            "price": -118
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -169
+          }
+        },
+        "Vegas Golden Knights": {
+          "betrivers": {
+            "line": -1.5,
+            "price": 140
+          },
+          "unibet_nl": {
+            "line": -0.5,
+            "price": -105
+          },
+          "unibet_se": {
+            "line": -0.5,
+            "price": -105
+          },
+          "pmu_fr": {
+            "line": -0.5,
+            "price": -120
+          },
+          "leovegas_se": {
+            "line": -0.5,
+            "price": -104
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 138
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "betrivers": {
+            "line": 5.5,
+            "price": -139
+          },
+          "unibet_nl": {
+            "line": 6.5,
+            "price": 148
+          },
+          "pmu_fr": {
+            "line": 6.5,
+            "price": 128
+          },
+          "mybookieag": {
+            "line": 6.0,
+            "price": 101
+          },
+          "tipico_de": {
+            "line": 5.5,
+            "price": -149
+          }
+        },
+        "Under": {
+          "betrivers": {
+            "line": 5.5,
+            "price": 110
+          },
+          "unibet_nl": {
+            "line": 6.5,
+            "price": -182
+          },
+          "pmu_fr": {
+            "line": 6.5,
+            "price": -235
+          },
+          "mybookieag": {
+            "line": 6.0,
+            "price": -124
+          },
+          "tipico_de": {
+            "line": 5.5,
+            "price": 105
+          }
+        }
+      },
       "splits": {}
     }
   ]
