@@ -1,0 +1,130 @@
+{
+  "event_id": "83a816db7e0b75a4f8d0b9a486ad3113",
+  "sport_key": "baseball_mlb",
+  "home_team": "Tampa Bay Rays",
+  "away_team": "San Francisco Giants",
+  "commence_time": "2026-05-03T17:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-02_20-00-37",
+      "hours_to_game": 21.66055053611111,
+      "h2h": {
+        "San Francisco Giants": {
+          "fanduel": 100,
+          "lowvig": 108,
+          "fanatics": 105,
+          "betonlineag": 108,
+          "sport888": 100,
+          "unibet_fr": -111,
+          "winamax_de": -104,
+          "winamax_fr": -109,
+          "onexbet": 107
+        },
+        "Tampa Bay Rays": {
+          "fanduel": -118,
+          "lowvig": -119,
+          "fanatics": -125,
+          "betonlineag": -119,
+          "sport888": -125,
+          "unibet_fr": -130,
+          "winamax_de": -122,
+          "winamax_fr": -128,
+          "onexbet": -116
+        }
+      },
+      "spreads": {
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 164
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -195
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 165
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -180
+          }
+        },
+        "Tampa Bay Rays": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -200
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 160
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -213
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 165
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": -102
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -105
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": -105
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -110
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -101
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -102
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": -113
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -115
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -118
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -108
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

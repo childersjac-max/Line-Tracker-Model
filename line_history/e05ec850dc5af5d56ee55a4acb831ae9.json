@@ -1,0 +1,130 @@
+{
+  "event_id": "e05ec850dc5af5d56ee55a4acb831ae9",
+  "sport_key": "baseball_mlb",
+  "home_team": "Seattle Mariners",
+  "away_team": "Kansas City Royals",
+  "commence_time": "2026-05-03T20:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-02_20-00-37",
+      "hours_to_game": 24.16054999361111,
+      "h2h": {
+        "Kansas City Royals": {
+          "fanduel": 102,
+          "betonlineag": 104,
+          "fanatics": 105,
+          "lowvig": 104,
+          "sport888": 100,
+          "unibet_fr": -111,
+          "winamax_de": -102,
+          "winamax_fr": -111,
+          "onexbet": 107
+        },
+        "Seattle Mariners": {
+          "fanduel": -120,
+          "betonlineag": -115,
+          "fanatics": -125,
+          "lowvig": -115,
+          "sport888": -125,
+          "unibet_fr": -135,
+          "winamax_de": -125,
+          "winamax_fr": -135,
+          "onexbet": -116
+        }
+      },
+      "spreads": {
+        "Kansas City Royals": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 168
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -205
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 165
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -176
+          }
+        },
+        "Seattle Mariners": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -205
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 170
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -213
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 161
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -105
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -102
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -133
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -116
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -115
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -113
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 105
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 107
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
