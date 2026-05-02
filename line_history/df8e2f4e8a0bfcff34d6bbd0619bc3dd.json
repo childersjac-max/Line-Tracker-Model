@@ -1,0 +1,86 @@
+{
+  "event_id": "df8e2f4e8a0bfcff34d6bbd0619bc3dd",
+  "sport_key": "icehockey_nhl",
+  "home_team": "Vegas Golden Knights",
+  "away_team": "Anaheim Ducks",
+  "commence_time": "2026-05-05T01:40:18Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-02_06-24-27",
+      "hours_to_game": 67.25235632972222,
+      "h2h": {
+        "Anaheim Ducks": {
+          "fanduel": 138,
+          "draftkings": 140,
+          "betmgm": 140
+        },
+        "Vegas Golden Knights": {
+          "fanduel": -166,
+          "draftkings": -166,
+          "betmgm": -170
+        }
+      },
+      "spreads": {
+        "Anaheim Ducks": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -170
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -166
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -170
+          }
+        },
+        "Vegas Golden Knights": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 138
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 140
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 140
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 5.5,
+            "price": -120
+          },
+          "draftkings": {
+            "line": 5.5,
+            "price": -125
+          },
+          "betmgm": {
+            "line": 5.5,
+            "price": -125
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 5.5,
+            "price": -102
+          },
+          "draftkings": {
+            "line": 5.5,
+            "price": 105
+          },
+          "betmgm": {
+            "line": 5.5,
+            "price": 105
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
