@@ -80,6 +80,125 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-02_10-08-05",
+      "hours_to_game": 63.525271805277775,
+      "h2h": {
+        "Anaheim Ducks": {
+          "fanduel": 138,
+          "draftkings": 140,
+          "betmgm": 140,
+          "williamhill_us": 140,
+          "gtbets": 140
+        },
+        "Vegas Golden Knights": {
+          "fanduel": -166,
+          "draftkings": -166,
+          "betmgm": -170,
+          "williamhill_us": -165,
+          "gtbets": -165
+        }
+      },
+      "spreads": {
+        "Anaheim Ducks": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -170
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -166
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -170
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -165
+          },
+          "gtbets": {
+            "line": 1.5,
+            "price": -165
+          }
+        },
+        "Vegas Golden Knights": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 138
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 140
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 140
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 140
+          },
+          "gtbets": {
+            "line": -1.5,
+            "price": 140
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 5.5,
+            "price": -120
+          },
+          "draftkings": {
+            "line": 5.5,
+            "price": -125
+          },
+          "betmgm": {
+            "line": 5.5,
+            "price": -125
+          },
+          "williamhill_us": {
+            "line": 5.5,
+            "price": -125
+          },
+          "gtbets": {
+            "line": 5.5,
+            "price": -125
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 5.5,
+            "price": -102
+          },
+          "draftkings": {
+            "line": 5.5,
+            "price": 105
+          },
+          "betmgm": {
+            "line": 5.5,
+            "price": 105
+          },
+          "williamhill_us": {
+            "line": 5.5,
+            "price": 105
+          },
+          "gtbets": {
+            "line": 5.5,
+            "price": 105
+          }
+        }
+      },
       "splits": {}
     }
   ]
