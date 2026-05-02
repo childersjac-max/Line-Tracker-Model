@@ -169,6 +169,176 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-02_17-12-12",
+      "hours_to_game": 77.78408243666667,
+      "h2h": {
+        "Anaheim Ducks": {
+          "betrivers": 148,
+          "unibet_nl": 225,
+          "unibet_se": 230,
+          "pmu_fr": 205,
+          "leovegas_se": 230,
+          "unibet_fr": 185,
+          "williamhill": 138,
+          "mybookieag": 131,
+          "betclic_fr": 198,
+          "winamax_fr": 200,
+          "winamax_de": 205,
+          "tipico_de": 200,
+          "fanatics": 135
+        },
+        "Vegas Golden Knights": {
+          "betrivers": -182,
+          "unibet_nl": -104,
+          "unibet_se": 102,
+          "pmu_fr": -118,
+          "leovegas_se": 102,
+          "unibet_fr": -112,
+          "williamhill": -175,
+          "mybookieag": -161,
+          "betclic_fr": -105,
+          "winamax_fr": -104,
+          "winamax_de": -102,
+          "tipico_de": -105,
+          "fanatics": -165
+        },
+        "Draw": {
+          "unibet_nl": 320,
+          "unibet_se": 325,
+          "pmu_fr": 290,
+          "leovegas_se": 325,
+          "unibet_fr": 310,
+          "betclic_fr": 330,
+          "winamax_fr": 330,
+          "winamax_de": 340,
+          "tipico_de": 350
+        }
+      },
+      "spreads": {
+        "Anaheim Ducks": {
+          "betrivers": {
+            "line": 1.5,
+            "price": -182
+          },
+          "unibet_nl": {
+            "line": 0.5,
+            "price": -120
+          },
+          "unibet_se": {
+            "line": 0.5,
+            "price": -120
+          },
+          "pmu_fr": {
+            "line": 0.5,
+            "price": -139
+          },
+          "leovegas_se": {
+            "line": 0.5,
+            "price": -118
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -172
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -180
+          }
+        },
+        "Vegas Golden Knights": {
+          "betrivers": {
+            "line": -1.5,
+            "price": 140
+          },
+          "unibet_nl": {
+            "line": -0.5,
+            "price": -105
+          },
+          "unibet_se": {
+            "line": -0.5,
+            "price": -105
+          },
+          "pmu_fr": {
+            "line": -0.5,
+            "price": -120
+          },
+          "leovegas_se": {
+            "line": -0.5,
+            "price": -104
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 140
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 145
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "betrivers": {
+            "line": 5.5,
+            "price": -139
+          },
+          "unibet_nl": {
+            "line": 6.5,
+            "price": 148
+          },
+          "pmu_fr": {
+            "line": 6.5,
+            "price": 128
+          },
+          "mybookieag": {
+            "line": 6.0,
+            "price": -120
+          },
+          "tipico_de": {
+            "line": 5.5,
+            "price": -175
+          },
+          "fanatics": {
+            "line": 6.5,
+            "price": 110
+          }
+        },
+        "Under": {
+          "betrivers": {
+            "line": 5.5,
+            "price": 110
+          },
+          "unibet_nl": {
+            "line": 6.5,
+            "price": -182
+          },
+          "pmu_fr": {
+            "line": 6.5,
+            "price": -235
+          },
+          "mybookieag": {
+            "line": 6.0,
+            "price": -102
+          },
+          "tipico_de": {
+            "line": 5.5,
+            "price": 125
+          },
+          "fanatics": {
+            "line": 6.5,
+            "price": -135
+          }
+        }
+      },
       "splits": {}
     }
   ]
