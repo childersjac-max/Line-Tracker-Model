@@ -173,6 +173,18 @@ def score_all(bankroll=10000.0, min_signals=0):
     bets_list = apply_portfolio_cap(bets_list, bankroll)
     df = pd.DataFrame(bets_list)
 
+    # ── Injury annotation ─────────────────────────────────────────────
+    # Reads the ESPN injury cache (written by scrape step) and adds
+    # home_injury_score, away_injury_score, has_major_injury, injured_players,
+    # side_injury_score, opp_injury_score, and appends INJURY_RISK / OPP_INJURED
+    # signal tags. Does NOT modify XGBoost inputs — annotates output only.
+    try:
+        from features.injury import annotate_slate_with_injuries, apply_injury_signals
+        df = annotate_slate_with_injuries(df)
+        df = apply_injury_signals(df)
+    except Exception as e:
+        print(f"  [injury] Annotation skipped (non-fatal): {e}")
+
     # ── Sort: confidence first, then by game time, then edge ──────────
     conf_order = {"HIGH": 0, "MEDIUM": 1, "LOW": 2}
     df["_co"] = df["confidence"].map(conf_order).fillna(3)
