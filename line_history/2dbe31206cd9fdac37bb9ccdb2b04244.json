@@ -109,6 +109,118 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-03_10-38-17",
+      "hours_to_game": 86.84999899666667,
+      "h2h": {
+        "Anaheim Ducks": {
+          "unibet_nl": 215,
+          "unibet_se": 220,
+          "leovegas_se": 220,
+          "betrivers": 138,
+          "pmu_fr": 195,
+          "marathonbet": 230
+        },
+        "Vegas Golden Knights": {
+          "unibet_nl": 102,
+          "unibet_se": 105,
+          "leovegas_se": 105,
+          "betrivers": -167,
+          "pmu_fr": -113,
+          "marathonbet": -105
+        },
+        "Draw": {
+          "unibet_nl": 320,
+          "unibet_se": 330,
+          "leovegas_se": 330,
+          "pmu_fr": 295,
+          "marathonbet": 333
+        }
+      },
+      "spreads": {
+        "Anaheim Ducks": {
+          "unibet_nl": {
+            "line": 1.5,
+            "price": -182
+          },
+          "unibet_se": {
+            "line": 1.5,
+            "price": -182
+          },
+          "leovegas_se": {
+            "line": 1.5,
+            "price": -180
+          },
+          "betrivers": {
+            "line": 1.5,
+            "price": -186
+          },
+          "pmu_fr": {
+            "line": 1.5,
+            "price": -225
+          }
+        },
+        "Vegas Golden Knights": {
+          "unibet_nl": {
+            "line": -1.5,
+            "price": 145
+          },
+          "unibet_se": {
+            "line": -1.5,
+            "price": 145
+          },
+          "leovegas_se": {
+            "line": -1.5,
+            "price": 145
+          },
+          "betrivers": {
+            "line": -1.5,
+            "price": 143
+          },
+          "pmu_fr": {
+            "line": -1.5,
+            "price": 130
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "unibet_nl": {
+            "line": 6.5,
+            "price": 132
+          },
+          "betrivers": {
+            "line": 6.5,
+            "price": 100
+          },
+          "pmu_fr": {
+            "line": 6.5,
+            "price": 115
+          }
+        },
+        "Under": {
+          "unibet_nl": {
+            "line": 6.5,
+            "price": -167
+          },
+          "betrivers": {
+            "line": 6.5,
+            "price": -129
+          },
+          "pmu_fr": {
+            "line": 6.5,
+            "price": -205
+          }
+        }
+      },
       "splits": {}
     }
   ]
