@@ -82,6 +82,9 @@ def mode_predict(bankroll, min_signals):
         # Arbitrage angle
         "is_arb_side", "arb_margin_pct", "arb_book_count",
         "arb_book", "arb_partner_book", "arb_partner_price", "arb_partner_line",
+        # Injury annotation
+        "home_injury_score", "away_injury_score", "has_major_injury",
+        "injured_players", "side_injury_score", "opp_injury_score",
         "book", "line", "is_home", "event_id", "sport_key",
     ]
 
@@ -97,7 +100,8 @@ def mode_predict(bankroll, min_signals):
         slate[headers].to_csv(out_path, index=False)
         logger.info(f"{len(slate)} bets found. Saved to {out_path}")
         print(slate[["sport", "market", "side", "american_odds_display",
-                      "edge_pct", "bet_usd", "confidence", "signals"]].to_string(index=False))
+                      "edge_pct", "bet_usd", "confidence", "signals",
+                      "has_major_injury", "injured_players"]].to_string(index=False))
 
     logger.info(f"Slate written → {out_path}")
 
