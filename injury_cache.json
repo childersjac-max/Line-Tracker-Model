@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-04T15:33:41.445708+00:00",
+  "timestamp": "2026-05-04T20:49:47.396537+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -813,7 +813,7 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Anthony Edwards",
+        "player_name": "Ayo Dosunmu",
         "team": "",
         "position": "G",
         "status": "out",
@@ -823,11 +823,11 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Ayo Dosunmu",
+        "player_name": "Anthony Edwards",
         "team": "",
         "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -1665,16 +1665,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Ryan Noda",
-        "team": "",
-        "position": "1B",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Dean Kremer",
         "team": "",
         "position": "SP",
@@ -1785,6 +1775,26 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Danny Coulombe",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Patrick Sandoval",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Sonny Gray",
         "team": "",
         "position": "SP",
@@ -1822,16 +1832,6 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Patrick Sandoval",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2385,6 +2385,36 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Zach McKinstry",
+        "team": "",
+        "position": "2B",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Gleyber Torres",
+        "team": "",
+        "position": "2B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Tarik Skubal",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Justin Verlander",
         "team": "",
         "position": "SP",
@@ -2415,31 +2445,11 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Gleyber Torres",
-        "team": "",
-        "position": "2B",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Will Vest",
         "team": "",
         "position": "RP",
         "status": "15-day-il",
         "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Zach McKinstry",
-        "team": "",
-        "position": "2B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -2622,16 +2632,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Zach Dezenzo",
-        "team": "",
-        "position": "LF",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3065,26 +3065,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Andrew Vaughn",
-        "team": "",
-        "position": "1B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Jackson Chourio",
-        "team": "",
-        "position": "CF",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Jacob Misiorowski",
         "team": "",
         "position": "SP",
@@ -3475,13 +3455,13 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Gerrit Cole",
+        "player_name": "Reed Garrett",
         "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
         "is_major": 0.0,
-        "is_key_pos": true,
+        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3492,6 +3472,16 @@
         "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Gerrit Cole",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -4115,16 +4105,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Yandy Diaz",
-        "team": "",
-        "position": "1B",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Mason Englert",
         "team": "",
         "position": "RP",
@@ -4395,6 +4375,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "George Springer",
+        "team": "",
+        "position": "DH",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jose Berrios",
         "team": "",
         "position": "SP",
@@ -4411,16 +4401,6 @@
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "George Springer",
-        "team": "",
-        "position": "DH",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -4690,26 +4670,6 @@
         "player_name": "Radko Gudas",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Jansen Harkins",
-        "team": "",
-        "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Ross Johnston",
-        "team": "",
-        "position": "LW",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -4737,7 +4697,7 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Noah Ostlund",
+        "player_name": "Sam Carrick",
         "team": "",
         "position": "C",
         "status": "out",
@@ -4747,7 +4707,7 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Sam Carrick",
+        "player_name": "Noah Ostlund",
         "team": "",
         "position": "C",
         "status": "out",
@@ -4837,6 +4797,26 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Roope Hintz",
+        "team": "",
+        "position": "C",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Tyler Seguin",
+        "team": "",
+        "position": "C",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Arttu Hyry",
         "team": "",
         "position": "RW",
@@ -4850,26 +4830,6 @@
         "player_name": "Nils Lundkvist",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Roope Hintz",
-        "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Nathan Bastian",
-        "team": "",
-        "position": "RW",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -5117,6 +5077,16 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Ridly Greig",
+        "team": "",
+        "position": "C",
+        "status": "suspension",
+        "injury_type": "Suspension",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Artem Zub",
         "team": "",
         "position": "D",
@@ -5150,8 +5120,8 @@
         "player_name": "Owen Tippett",
         "team": "",
         "position": "RW",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -5969,6 +5939,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Skylar Thompson",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Elijah Tau-Tolliver",
         "team": "",
         "position": "RB",
@@ -6202,16 +6182,6 @@
         "player_name": "Danny Pinter",
         "team": "",
         "position": "C",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "CJ Okoye",
-        "team": "",
-        "position": "DT",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -7219,6 +7189,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Deshaun Watson",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Dawand Jones",
         "team": "",
         "position": "OT",
@@ -7230,16 +7210,6 @@
       },
       {
         "player_name": "Shedeur Sanders",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Deshaun Watson",
         "team": "",
         "position": "QB",
         "status": "active",
@@ -8219,6 +8189,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Tyrod Taylor",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Jaden Nixon",
         "team": "",
         "position": "RB",
@@ -8456,16 +8436,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Chris Brooks",
-        "team": "",
-        "position": "RB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -9219,6 +9189,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Emmett Johnson",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Patrick Mahomes",
         "team": "",
         "position": "QB",
@@ -9292,16 +9272,6 @@
         "player_name": "Cyrus Allen",
         "team": "",
         "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Emmett Johnson",
-        "team": "",
-        "position": "RB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -9469,6 +9439,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Justin Shorter",
+        "team": "",
+        "position": "WR",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Fernando Mendoza",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "E.J. Williams Jr.",
         "team": "",
         "position": "WR",
@@ -9619,16 +9609,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Fernando Mendoza",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Jordan Meredith",
         "team": "",
         "position": "C",
@@ -9706,16 +9686,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Connor Heyward",
-        "team": "",
-        "position": "FB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
