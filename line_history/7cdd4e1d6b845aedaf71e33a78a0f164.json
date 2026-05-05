@@ -132,6 +132,111 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-05_00-10-36",
+      "hours_to_game": 23.476942789444447,
+      "h2h": {
+        "Chicago Cubs": {
+          "betonlineag": -157,
+          "lowvig": -157,
+          "sport888": -167,
+          "winamax_fr": -192,
+          "unibet_fr": -185,
+          "winamax_de": -172,
+          "nordicbet": -159,
+          "onexbet": -154,
+          "williamhill": -162,
+          "gtbets": -157,
+          "fanatics": -155,
+          "williamhill_us": -165,
+          "draftkings": -168,
+          "betmgm": -170
+        },
+        "Cincinnati Reds": {
+          "betonlineag": 142,
+          "lowvig": 142,
+          "sport888": 135,
+          "winamax_fr": 120,
+          "unibet_fr": 125,
+          "winamax_de": 135,
+          "nordicbet": 127,
+          "onexbet": 141,
+          "williamhill": 130,
+          "gtbets": 144,
+          "fanatics": 130,
+          "williamhill_us": 140,
+          "draftkings": 139,
+          "betmgm": 140
+        }
+      },
+      "spreads": {
+        "Chicago Cubs": {
+          "nordicbet": {
+            "line": -1.5,
+            "price": 127
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 124
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 120
+          }
+        },
+        "Cincinnati Reds": {
+          "nordicbet": {
+            "line": 1.5,
+            "price": -167
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -135
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -145
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "nordicbet": {
+            "line": 8.5,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 105
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          }
+        },
+        "Under": {
+          "nordicbet": {
+            "line": 8.5,
+            "price": -122
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -114
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          }
+        }
+      },
       "splits": {}
     }
   ]
