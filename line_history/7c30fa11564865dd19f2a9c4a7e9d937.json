@@ -140,6 +140,151 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-05_23-37-05",
+      "hours_to_game": 20.504178669166667,
+      "h2h": {
+        "Chicago White Sox": {
+          "fanduel": -108,
+          "fanatics": -110,
+          "sport888": -110,
+          "betsson": -111,
+          "nordicbet": -111,
+          "winamax_de": -111,
+          "winamax_fr": -125,
+          "onexbet": -104,
+          "williamhill": -110,
+          "marathonbet": -111
+        },
+        "Los Angeles Angels": {
+          "fanduel": -108,
+          "fanatics": -110,
+          "sport888": -110,
+          "betsson": -111,
+          "nordicbet": -111,
+          "winamax_de": -111,
+          "winamax_fr": -125,
+          "onexbet": -104,
+          "williamhill": -110,
+          "marathonbet": -111
+        }
+      },
+      "spreads": {
+        "Chicago White Sox": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 155
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 155
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "betsson": {
+            "line": 1.5,
+            "price": -233
+          },
+          "nordicbet": {
+            "line": 1.5,
+            "price": -233
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 144
+          }
+        },
+        "Los Angeles Angels": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -188
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -190
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "betsson": {
+            "line": -1.5,
+            "price": 175
+          },
+          "nordicbet": {
+            "line": -1.5,
+            "price": 175
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -156
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -124
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -120
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "betsson": {
+            "line": 9.0,
+            "price": -108
+          },
+          "nordicbet": {
+            "line": 9.0,
+            "price": -108
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -115
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 102
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "betsson": {
+            "line": 9.0,
+            "price": -120
+          },
+          "nordicbet": {
+            "line": 9.0,
+            "price": -120
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 106
+          }
+        }
+      },
       "splits": {}
     }
   ]
