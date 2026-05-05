@@ -1,8 +1,10 @@
 # models/scorer.py
 
+import os
 import logging
 import pandas as pd
 import numpy as np
+from datetime import datetime, timezone, timedelta
 from configs.config import (
     MIN_EDGE_TO_BET, MARKETS, SPORTS,
     PROB_SHRINKAGE_ALPHA, MIN_MODEL_PROB,
@@ -16,32 +18,100 @@ from models.model import load_all_models
 
 logger = logging.getLogger(__name__)
 
+ODDS_DATA_SOURCE = os.environ.get("ODDS_DATA_SOURCE", "the_odds_api").strip().lower()
+
+
+def _hours_to_game(commence_time_str):
+    try:
+        commence = datetime.fromisoformat(commence_time_str.replace("Z", "+00:00"))
+        now = datetime.now(timezone.utc)
+        return (commence - now).total_seconds() / 3600.0
+    except Exception:
+        return None
+
+
+def _fetch_oj_arb_lookup(sport_keys):
+    """
+    Fetch OddsJam's pre-computed arbitrage feed for all sports.
+    Returns dict keyed by (event_id, market, side) -> arb_info.
+    Only called when ODDS_DATA_SOURCE=oddsjam.
+    Falls back gracefully to {} if the endpoint is unavailable or returns no data.
+    """
+    lookup = {}
+    try:
+        from data.sources import get_source
+        src = get_source("oddsjam")
+        for sport_key in sport_keys:
+            arbs = src.fetch_arbitrage_opportunities(sport_key=sport_key)
+            for arb in arbs:
+                eid    = arb.get("event_id")
+                market = arb.get("market")
+                margin = float(arb.get("margin_pct") or 0.0)
+                legs   = arb.get("legs") or []
+                for leg in legs:
+                    side = leg.get("side")
+                    if not side or not eid or not market:
+                        continue
+                    partner_legs = [l for l in legs if l.get("side") != side]
+                    partner = partner_legs[0] if partner_legs else {}
+                    key = (eid, market, side)
+                    # Keep highest-margin arb for this (event, market, side)
+                    if key not in lookup or margin > lookup[key]["arb_margin_pct"]:
+                        lookup[key] = {
+                            "is_arb_side":       1,
+                            "arb_margin_pct":    round(margin, 3),
+                            "arb_book":          leg.get("book"),
+                            "arb_partner_book":  partner.get("book"),
+                            "arb_partner_price": partner.get("price"),
+                            "arb_partner_line":  partner.get("line"),
+                            "arb_book_count":    len(legs),
+                        }
+    except Exception as e:
+        logger.warning("OddsJam arb feed fetch skipped (non-fatal): %s", e)
+    return lookup
+
 
 def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_model_prob=None):
     """
     Score the current slate.
 
     prob_shrinkage_alpha: blend factor between model_prob and fair (no-vig) prob.
-        sized_prob = α * model_prob + (1 - α) * fair_prob
+        sized_prob = alpha * model_prob + (1 - alpha) * fair_prob
         Defaults to PROB_SHRINKAGE_ALPHA from config.
-    min_model_prob: minimum raw model probability required to bet
-        (avoids long-shot mathematical edges). Defaults to MIN_MODEL_PROB.
+    min_model_prob: minimum raw model probability required to bet.
+        Defaults to MIN_MODEL_PROB from config.
     """
     alpha    = PROB_SHRINKAGE_ALPHA if prob_shrinkage_alpha is None else prob_shrinkage_alpha
     min_prob = MIN_MODEL_PROB       if min_model_prob       is None else min_model_prob
 
     histories = load_all_histories()
     if not histories:
-        print("No line histories found.")
+        logger.info("No line histories found.")
         return pd.DataFrame()
 
-    records = label_histories(histories, outcomes={})
+    # ── Filter to only UPCOMING games ────────────────────────────────
+    upcoming = []
+    for hist in histories:
+        htg = _hours_to_game(hist.get("commence_time", ""))
+        if htg is not None and htg > 0:
+            upcoming.append(hist)
+
+    if not upcoming:
+        logger.info("No upcoming games found in line history.")
+        return pd.DataFrame()
+
+    logger.info("Scoring %d upcoming games (filtered from %d total)", len(upcoming), len(histories))
+
+    records = label_histories(upcoming, outcomes={})
     if not records:
         return pd.DataFrame()
 
     feat_df = build_feature_dataframe(records)
     if feat_df.empty:
         return pd.DataFrame()
+
+    # Lookup for game metadata
+    hist_map = {h["event_id"]: h for h in upcoming}
 
     all_bets = []
     synthetic_models_used = []
@@ -59,7 +129,6 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
             if mdf.empty:
                 continue
 
-            # ── Tier 1 fix #21: synthetic-training guard ────────────────────
             trained_on = getattr(model, "trained_on", None) or "unknown"
             if trained_on == "synthetic":
                 synthetic_models_used.append(f"{sport_key}/{market}")
@@ -71,28 +140,21 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
                     continue
                 model_prob = float(probs[i])
 
-                # ── Tier 1 fix #1: use NO-VIG Pinnacle prob as fair, NEVER
-                # the with-vig implied prob.
+                # Use no-vig Pinnacle prob as fair benchmark (Tier 1 fix #1)
                 fair_prob = row.get("pin_no_vig_prob")
                 if fair_prob is None or (isinstance(fair_prob, float) and np.isnan(fair_prob)):
-                    # Last-resort fallback (should be rare): with-vig prob.
                     fair_prob = row.get("pin_implied_prob", 0.5)
                 fair_prob = float(fair_prob)
 
-                # ── Tier 1 fix #16: shrink model prob toward fair prob
-                # before sizing. Hugely reduces drawdown when the model is
-                # overconfident, at the cost of slightly fewer bets cleared.
-                sized_prob = alpha * model_prob + (1 - alpha) * fair_prob
-
-                # Edge measured on the SHRUNK prob (this is what we're actually
-                # betting). Raw edge is reported separately for diagnostics.
+                # Shrink model prob toward fair to reduce overconfidence (Tier 1 fix #16)
+                sized_prob  = alpha * model_prob + (1 - alpha) * fair_prob
                 edge_shrunk = sized_prob - fair_prob
-                edge_raw    = model_prob  - fair_prob
+                edge_raw    = model_prob - fair_prob
 
                 best_odds = row.get("best_pub_price")
 
                 if (edge_shrunk < MIN_EDGE_TO_BET
-                        or sized_prob  < min_prob
+                        or sized_prob < min_prob
                         or best_odds is None
                         or (isinstance(best_odds, float) and np.isnan(best_odds))):
                     continue
@@ -100,6 +162,22 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
                 bet_pct, bet_usd = size_bet(sized_prob, best_odds, bankroll)
                 if bet_pct == 0:
                     continue
+
+                event_id = row.get("event_id", "")
+                hist     = hist_map.get(event_id, {})
+                home     = hist.get("home_team", "")
+                away     = hist.get("away_team", "")
+                commence = hist.get("commence_time", "")
+                htg      = _hours_to_game(commence)
+
+                # Format game time in ET
+                game_time = ""
+                try:
+                    dt = datetime.fromisoformat(commence.replace("Z", "+00:00"))
+                    dt_et = dt - timedelta(hours=4)
+                    game_time = dt_et.strftime("%a %b %-d · %-I:%M %p ET")
+                except Exception:
+                    game_time = commence[:10] if commence else ""
 
                 signals = []
                 if row.get("sig_sharp"): signals.append("SHARP_MONEY")
@@ -110,7 +188,7 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
                     signals.append(f"ARBITRAGE({margin_lbl:.2f}%)")
 
                 all_bets.append({
-                    "event_id":    row.get("event_id"),
+                    "event_id":    event_id,
                     "sport":       SPORTS.get(sport_key, sport_key),
                     "sport_key":   sport_key,
                     "market":      market,
@@ -118,25 +196,30 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
                     "is_home":     row.get("is_home"),
                     "line":        row.get("line"),
                     "book":        row.get("best_pub_book"),
-                    "american_odds": best_odds,
-                    "model_prob":      round(model_prob,  4),
-                    "sized_prob":      round(sized_prob,  4),
-                    "fair_prob":       round(fair_prob,   4),
-                    "edge_pct":        round(edge_shrunk * 100, 2),
-                    "edge_pct_raw":    round(edge_raw    * 100, 2),
-                    "shrinkage_alpha": alpha,
-                    "ev_pct":          round(ev_pct(sized_prob, best_odds), 2),
-                    "bet_pct":         round(bet_pct, 4),
-                    "bet_usd":         round(bet_usd, 2),
-                    "confidence":      confidence_label(edge_shrunk, bet_pct),
-                    "signals":         ", ".join(signals) if signals else "CLV_MODEL",
-                    "n_signals":       row.get("n_signals", 0),
-                    "pin_move_full":    row.get("pin_move_full", 0),
-                    "money_vs_tickets": row.get("money_vs_tickets", 0),
-                    "clv_signed_train": row.get("clv_signed", 0),
-                    "trained_on":       trained_on,    # Tier 1 fix #21 — visible in CSV
+                    "home_team":   home,
+                    "away_team":   away,
+                    "matchup":     f"{away} @ {home}" if away and home else "",
+                    "game_time":   game_time,
+                    "hours_to_game": round(htg, 1) if htg else None,
+                    "american_odds":       best_odds,
+                    "model_prob":          round(model_prob,  4),
+                    "sized_prob":          round(sized_prob,  4),
+                    "fair_prob":           round(fair_prob,   4),
+                    "edge_pct":            round(edge_shrunk * 100, 2),
+                    "edge_pct_raw":        round(edge_raw    * 100, 2),
+                    "shrinkage_alpha":     alpha,
+                    "ev_pct":              round(ev_pct(sized_prob, best_odds), 2),
+                    "bet_pct":             round(bet_pct, 4),
+                    "bet_usd":             round(bet_usd, 2),
+                    "confidence":          confidence_label(edge_shrunk, bet_pct),
+                    "signals":             ", ".join(signals) if signals else "CLV_MODEL",
+                    "n_signals":           row.get("n_signals", 0),
+                    "pin_move_full":       row.get("pin_move_full", 0),
+                    "money_vs_tickets":    row.get("money_vs_tickets", 0),
+                    "clv_signed_train":    row.get("clv_signed", 0),
+                    "trained_on":          trained_on,
                     "american_odds_display": f"+{int(best_odds)}" if best_odds > 0 else str(int(best_odds)),
-                    # Arbitrage angle (always present; 0/None when not an arb)
+                    # Arbitrage columns (local detection — overridden below by OddsJam feed)
                     "is_arb_side":       int(row.get("is_arb_side", 0) or 0),
                     "arb_margin_pct":    round(float(row.get("arb_margin_pct", 0) or 0), 3),
                     "arb_book_count":    int(row.get("arb_book_count", 0) or 0),
@@ -148,8 +231,8 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
 
     if synthetic_models_used:
         logger.warning(
-            "⚠️  %d model(s) trained on SYNTHETIC outcomes were used to score this slate: %s. "
-            "Recommendations are tagged trained_on=synthetic. Do NOT bet these as real edges.",
+            "WARNING: %d model(s) trained on SYNTHETIC outcomes: %s. "
+            "Tagged trained_on=synthetic.",
             len(synthetic_models_used), ", ".join(sorted(set(synthetic_models_used))),
         )
 
@@ -166,35 +249,66 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
 
     totals_mask = df["market"] == "totals"
     if totals_mask.any():
-        totals_df    = df[totals_mask].copy()
-        other_df     = df[~totals_mask].copy()
         totals_dedup = (
-            totals_df.sort_values("edge_pct", ascending=False)
-                     .drop_duplicates(subset=["event_id", "market"], keep="first")
+            df[totals_mask].sort_values("edge_pct", ascending=False)
+                           .drop_duplicates(subset=["event_id", "market"], keep="first")
         )
-        df = pd.concat([other_df, totals_dedup], ignore_index=True)
+        df = pd.concat([df[~totals_mask], totals_dedup], ignore_index=True)
 
     spreads_mask = df["market"] == "spreads"
     if spreads_mask.any():
-        spreads_df    = df[spreads_mask].copy()
-        other_df      = df[~spreads_mask].copy()
         spreads_dedup = (
-            spreads_df.sort_values("edge_pct", ascending=False)
-                      .drop_duplicates(subset=["event_id", "market"], keep="first")
+            df[spreads_mask].sort_values("edge_pct", ascending=False)
+                            .drop_duplicates(subset=["event_id", "market"], keep="first")
         )
-        df = pd.concat([other_df, spreads_dedup], ignore_index=True)
+        df = pd.concat([df[~spreads_mask], spreads_dedup], ignore_index=True)
 
     # ── PORTFOLIO CAP ─────────────────────────────────────────────────
     bets_list = df.to_dict("records")
     bets_list = apply_portfolio_cap(bets_list, bankroll)
     df = pd.DataFrame(bets_list)
 
-    # ── SORT ──────────────────────────────────────────────────────────
+    # ── ODDJAM ARB ENRICHMENT ─────────────────────────────────────────
+    # When using OddsJam, fetch their pre-computed arb feed and overlay
+    # it onto the locally-detected arbs.  OddsJam's results take priority
+    # (their feed is pre-screened and more accurate); local detection
+    # remains the fallback for any bet not covered by the OddsJam feed.
+    if ODDS_DATA_SOURCE == "oddsjam":
+        logger.info("Fetching OddsJam arbitrage feed...")
+        oj_lookup = _fetch_oj_arb_lookup(list(SPORTS.keys()))
+        if oj_lookup:
+            logger.info("OddsJam arb feed: %d arb leg(s) found", len(oj_lookup))
+            def _enrich_row(row):
+                key = (row.get("event_id"), row.get("market"), row.get("side"))
+                oj  = oj_lookup.get(key)
+                if oj:
+                    for k, v in oj.items():
+                        row[k] = v
+                    # Re-stamp signal with OddsJam's margin
+                    sigs = [s for s in (row.get("signals") or "").split(", ")
+                            if s and not s.startswith("ARBITRAGE")]
+                    sigs.append(f"ARBITRAGE({float(oj['arb_margin_pct']):.2f}%)")
+                    row["signals"] = ", ".join(sigs)
+                return row
+            df = df.apply(_enrich_row, axis=1)
+        else:
+            logger.info("OddsJam arb feed: no active arbitrage opportunities found")
+
+    # ── INJURY ANNOTATION ─────────────────────────────────────────────
+    try:
+        from features.injury import annotate_slate_with_injuries, apply_injury_signals
+        df = annotate_slate_with_injuries(df)
+        df = apply_injury_signals(df)
+    except Exception as e:
+        logger.warning("  [injury] Annotation skipped (non-fatal): %s", e)
+
+    # ── SORT: confidence → hours to game → edge ───────────────────────
     conf_order = {"HIGH": 0, "MEDIUM": 1, "LOW": 2}
-    df["_co"] = df["confidence"].map(conf_order).fillna(3)
+    df["_co"]  = df["confidence"].map(conf_order).fillna(3)
+    df["_htg"] = pd.to_numeric(df.get("hours_to_game"), errors="coerce").fillna(999)
     df = (
-        df.sort_values(["_co", "edge_pct"], ascending=[True, False])
-          .drop(columns=["_co"])
+        df.sort_values(["_co", "_htg", "edge_pct"], ascending=[True, True, False])
+          .drop(columns=["_co", "_htg"])
           .reset_index(drop=True)
     )
 
