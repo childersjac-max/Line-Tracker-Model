@@ -1,0 +1,102 @@
+{
+  "event_id": "fb98c375df55f7f70d2f35b2209bdd61",
+  "sport_key": "baseball_mlb",
+  "home_team": "San Diego Padres",
+  "away_team": "St. Louis Cardinals",
+  "commence_time": "2026-05-08T02:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-06_20-58-47",
+      "hours_to_game": 29.19030350722222,
+      "h2h": {
+        "San Diego Padres": {
+          "fanduel": -178,
+          "sport888": -188,
+          "unibet_fr": -200,
+          "winamax_de": -185,
+          "winamax_fr": -204,
+          "onexbet": -172,
+          "gtbets": -150
+        },
+        "St. Louis Cardinals": {
+          "fanduel": 150,
+          "sport888": 150,
+          "unibet_fr": 130,
+          "winamax_de": 145,
+          "winamax_fr": 130,
+          "onexbet": 158,
+          "gtbets": 137
+        }
+      },
+      "spreads": {
+        "San Diego Padres": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 118
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 120
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 115
+          }
+        },
+        "St. Louis Cardinals": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -142
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -150
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -124
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -117
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 108
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
