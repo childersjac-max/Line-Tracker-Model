@@ -3323,6 +3323,434 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-10_18-06-26",
+      "hours_to_game": 7.547332246944445,
+      "h2h": {
+        "Anaheim Ducks": {
+          "draftkings": -108,
+          "betsson": -109,
+          "nordicbet": -109,
+          "fanatics": -110,
+          "betmgm": -110,
+          "fanduel": -111,
+          "lowvig": -103,
+          "betonlineag": -103,
+          "williamhill_us": -105,
+          "unibet_fr": 140,
+          "williamhill": -110,
+          "mybookieag": -108,
+          "marathonbet": 151,
+          "coolbet": 150,
+          "betanysports": -110,
+          "onexbet": 155,
+          "pmu_fr": 135,
+          "unibet_se": 155,
+          "leovegas_se": 155,
+          "betrivers": -106,
+          "unibet_nl": 150,
+          "tipico_de": 140,
+          "gtbets": -110,
+          "winamax_de": 145,
+          "winamax_fr": 140,
+          "pinnacle": -102,
+          "betus": -110,
+          "matchbook": 102,
+          "bovada": -105
+        },
+        "Vegas Golden Knights": {
+          "draftkings": -112,
+          "betsson": -114,
+          "nordicbet": -114,
+          "fanatics": -110,
+          "betmgm": -110,
+          "fanduel": -108,
+          "lowvig": -111,
+          "betonlineag": -111,
+          "williamhill_us": -115,
+          "unibet_fr": 135,
+          "williamhill": -110,
+          "mybookieag": -113,
+          "marathonbet": 142,
+          "coolbet": 142,
+          "betanysports": -110,
+          "onexbet": 146,
+          "pmu_fr": 120,
+          "unibet_se": 140,
+          "leovegas_se": 140,
+          "betrivers": -115,
+          "unibet_nl": 135,
+          "tipico_de": 140,
+          "gtbets": -110,
+          "winamax_de": 140,
+          "winamax_fr": 135,
+          "pinnacle": -108,
+          "betus": -110,
+          "matchbook": -104,
+          "bovada": -115
+        },
+        "Draw": {
+          "unibet_fr": 310,
+          "marathonbet": 325,
+          "coolbet": 330,
+          "onexbet": 332,
+          "pmu_fr": 310,
+          "unibet_se": 340,
+          "leovegas_se": 340,
+          "unibet_nl": 335,
+          "tipico_de": 330,
+          "winamax_de": 320,
+          "winamax_fr": 310
+        }
+      },
+      "spreads": {
+        "Anaheim Ducks": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -258
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -270
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 220
+          },
+          "fanduel": {
+            "line": -1.5,
+            "price": 205
+          },
+          "lowvig": {
+            "line": 1.5,
+            "price": -250
+          },
+          "betonlineag": {
+            "line": 1.5,
+            "price": -250
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -240
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -260
+          },
+          "coolbet": {
+            "line": 1.5,
+            "price": -250
+          },
+          "betanysports": {
+            "line": 1.5,
+            "price": -260
+          },
+          "onexbet": {
+            "line": 0.0,
+            "price": -102
+          },
+          "pmu_fr": {
+            "line": 1.5,
+            "price": -315
+          },
+          "unibet_se": {
+            "line": 1.5,
+            "price": -250
+          },
+          "leovegas_se": {
+            "line": 1.5,
+            "price": -245
+          },
+          "betrivers": {
+            "line": 1.5,
+            "price": -250
+          },
+          "unibet_nl": {
+            "line": 1.5,
+            "price": -250
+          },
+          "gtbets": {
+            "line": 1.5,
+            "price": -260
+          },
+          "pinnacle": {
+            "line": 1.5,
+            "price": -257
+          },
+          "betus": {
+            "line": 1.5,
+            "price": -250
+          },
+          "matchbook": {
+            "line": -1.5,
+            "price": 235
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -260
+          }
+        },
+        "Vegas Golden Knights": {
+          "draftkings": {
+            "line": -1.5,
+            "price": 210
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 210
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -275
+          },
+          "fanduel": {
+            "line": 1.5,
+            "price": -260
+          },
+          "lowvig": {
+            "line": -1.5,
+            "price": 207
+          },
+          "betonlineag": {
+            "line": -1.5,
+            "price": 207
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 196
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 206
+          },
+          "coolbet": {
+            "line": -1.5,
+            "price": 200
+          },
+          "betanysports": {
+            "line": -1.5,
+            "price": 210
+          },
+          "onexbet": {
+            "line": 0.0,
+            "price": -110
+          },
+          "pmu_fr": {
+            "line": -1.5,
+            "price": 175
+          },
+          "unibet_se": {
+            "line": -1.5,
+            "price": 195
+          },
+          "leovegas_se": {
+            "line": -1.5,
+            "price": 195
+          },
+          "betrivers": {
+            "line": -1.5,
+            "price": 190
+          },
+          "unibet_nl": {
+            "line": -1.5,
+            "price": 195
+          },
+          "gtbets": {
+            "line": -1.5,
+            "price": 210
+          },
+          "pinnacle": {
+            "line": -1.5,
+            "price": 220
+          },
+          "betus": {
+            "line": -1.5,
+            "price": 212
+          },
+          "matchbook": {
+            "line": 1.5,
+            "price": -294
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 215
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 6.5,
+            "price": -102
+          },
+          "fanatics": {
+            "line": 6.5,
+            "price": -105
+          },
+          "betmgm": {
+            "line": 6.5,
+            "price": -105
+          },
+          "fanduel": {
+            "line": 6.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 6.5,
+            "price": 103
+          },
+          "betonlineag": {
+            "line": 6.5,
+            "price": 103
+          },
+          "williamhill_us": {
+            "line": 6.5,
+            "price": -105
+          },
+          "mybookieag": {
+            "line": 6.5,
+            "price": -105
+          },
+          "coolbet": {
+            "line": 6.5,
+            "price": 125
+          },
+          "betanysports": {
+            "line": 6.5,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 6.5,
+            "price": 127
+          },
+          "pmu_fr": {
+            "line": 6.5,
+            "price": 114
+          },
+          "betrivers": {
+            "line": 6.5,
+            "price": 100
+          },
+          "unibet_nl": {
+            "line": 6.5,
+            "price": 130
+          },
+          "tipico_de": {
+            "line": 6.5,
+            "price": 115
+          },
+          "gtbets": {
+            "line": 6.5,
+            "price": -105
+          },
+          "pinnacle": {
+            "line": 6.5,
+            "price": 103
+          },
+          "betus": {
+            "line": 6.5,
+            "price": 100
+          },
+          "matchbook": {
+            "line": 4.5,
+            "price": -476
+          },
+          "bovada": {
+            "line": 6.5,
+            "price": 100
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 6.5,
+            "price": -118
+          },
+          "fanatics": {
+            "line": 6.5,
+            "price": -115
+          },
+          "betmgm": {
+            "line": 6.5,
+            "price": -115
+          },
+          "fanduel": {
+            "line": 6.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 6.5,
+            "price": -119
+          },
+          "betonlineag": {
+            "line": 6.5,
+            "price": -119
+          },
+          "williamhill_us": {
+            "line": 6.5,
+            "price": -115
+          },
+          "mybookieag": {
+            "line": 6.5,
+            "price": -117
+          },
+          "coolbet": {
+            "line": 6.5,
+            "price": -154
+          },
+          "betanysports": {
+            "line": 6.5,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 6.5,
+            "price": -144
+          },
+          "pmu_fr": {
+            "line": 6.5,
+            "price": -200
+          },
+          "betrivers": {
+            "line": 6.5,
+            "price": -125
+          },
+          "unibet_nl": {
+            "line": 6.5,
+            "price": -165
+          },
+          "tipico_de": {
+            "line": 6.5,
+            "price": -161
+          },
+          "gtbets": {
+            "line": 6.5,
+            "price": -115
+          },
+          "pinnacle": {
+            "line": 6.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 6.5,
+            "price": -120
+          },
+          "matchbook": {
+            "line": 4.5,
+            "price": 360
+          },
+          "bovada": {
+            "line": 6.5,
+            "price": -120
+          }
+        }
+      },
       "splits": {}
     }
   ]
