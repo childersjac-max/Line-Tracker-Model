@@ -1,0 +1,114 @@
+{
+  "event_id": "265d87925f501ac50a2a12c6b5a91354",
+  "sport_key": "baseball_mlb",
+  "home_team": "Athletics",
+  "away_team": "St. Louis Cardinals",
+  "commence_time": "2026-05-13T01:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-11_18-30-54",
+      "hours_to_game": 31.15736700833333,
+      "h2h": {
+        "Athletics": {
+          "fanduel": -148,
+          "lowvig": -150,
+          "betonlineag": -150,
+          "sport888": -150,
+          "unibet_fr": -167,
+          "winamax_de": -152,
+          "winamax_fr": -172,
+          "mybookieag": -147,
+          "williamhill": -150
+        },
+        "St. Louis Cardinals": {
+          "fanduel": 126,
+          "lowvig": 136,
+          "betonlineag": 136,
+          "sport888": 120,
+          "unibet_fr": 110,
+          "winamax_de": 120,
+          "winamax_fr": 110,
+          "mybookieag": 125,
+          "williamhill": 120
+        }
+      },
+      "spreads": {
+        "Athletics": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 128
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 125
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 130
+          }
+        },
+        "St. Louis Cardinals": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -154
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -154
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -150
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 10.0,
+            "price": -122
+          },
+          "lowvig": {
+            "line": 10.0,
+            "price": -113
+          },
+          "betonlineag": {
+            "line": 10.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 10.5,
+            "price": -110
+          },
+          "mybookieag": {
+            "line": 10.5,
+            "price": -105
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 10.0,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 10.0,
+            "price": -102
+          },
+          "betonlineag": {
+            "line": 10.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 10.5,
+            "price": -118
+          },
+          "mybookieag": {
+            "line": 10.5,
+            "price": -116
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "event_id": "07b1faa56850a94bfd3921725fe520a2",
+  "sport_key": "baseball_mlb",
+  "home_team": "Boston Red Sox",
+  "away_team": "Philadelphia Phillies",
+  "commence_time": "2026-05-12T22:46:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-11_18-30-54",
+      "hours_to_game": 28.240701015000003,
+      "h2h": {
+        "Boston Red Sox": {
+          "fanduel": 126,
+          "fanatics": 120,
+          "sport888": 120,
+          "unibet_fr": 110,
+          "winamax_fr": 110,
+          "winamax_de": 120,
+          "mybookieag": 126,
+          "williamhill": 120
+        },
+        "Philadelphia Phillies": {
+          "fanduel": -148,
+          "fanatics": -145,
+          "sport888": -150,
+          "unibet_fr": -167,
+          "winamax_fr": -172,
+          "winamax_de": -152,
+          "mybookieag": -149,
+          "williamhill": -150
+        }
+      },
+      "spreads": {
+        "Boston Red Sox": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -137
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -130
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -137
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -135
+          }
+        },
+        "Philadelphia Phillies": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 114
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 110
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 110
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 115
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -122
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "mybookieag": {
+            "line": 8.5,
+            "price": -103
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "mybookieag": {
+            "line": 8.5,
+            "price": -119
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "event_id": "ad3552c4909328a0be4de1ec98e97bcf",
+  "sport_key": "baseball_mlb",
+  "home_team": "Minnesota Twins",
+  "away_team": "Miami Marlins",
+  "commence_time": "2026-05-12T23:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-11_18-30-54",
+      "hours_to_game": 29.15736730472222,
+      "h2h": {
+        "Miami Marlins": {
+          "fanduel": -104,
+          "betonlineag": 100,
+          "lowvig": 100,
+          "mybookieag": -105,
+          "sport888": -110,
+          "winamax_fr": -119,
+          "winamax_de": -109,
+          "unibet_fr": -118,
+          "williamhill": -110,
+          "fanatics": -105
+        },
+        "Minnesota Twins": {
+          "fanduel": -112,
+          "betonlineag": -110,
+          "lowvig": -110,
+          "mybookieag": -111,
+          "sport888": -118,
+          "winamax_fr": -128,
+          "winamax_de": -116,
+          "unibet_fr": -127,
+          "williamhill": -110,
+          "fanatics": -115
+        }
+      },
+      "spreads": {
+        "Miami Marlins": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 152
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 150
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 150
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 155
+          }
+        },
+        "Minnesota Twins": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -184
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -180
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -190
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -105
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": -125
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": -123
+          },
+          "mybookieag": {
+            "line": 9.0,
+            "price": -106
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -133
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -110
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -115
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": 105
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": 107
+          },
+          "mybookieag": {
+            "line": 9.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 105
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

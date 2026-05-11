@@ -1,0 +1,132 @@
+{
+  "event_id": "744c4597586797d5f7e9be094f031f11",
+  "sport_key": "baseball_mlb",
+  "home_team": "Atlanta Braves",
+  "away_team": "Chicago Cubs",
+  "commence_time": "2026-05-12T23:16:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-11_18-30-54",
+      "hours_to_game": 28.740700778888886,
+      "h2h": {
+        "Atlanta Braves": {
+          "fanduel": -116,
+          "sport888": -125,
+          "unibet_fr": -130,
+          "mybookieag": -115,
+          "winamax_fr": -132,
+          "winamax_de": -119,
+          "fanatics": -120,
+          "betonlineag": -115,
+          "lowvig": -115,
+          "williamhill": -125
+        },
+        "Chicago Cubs": {
+          "fanduel": -102,
+          "sport888": 100,
+          "unibet_fr": -115,
+          "mybookieag": -102,
+          "winamax_fr": -116,
+          "winamax_de": -104,
+          "fanatics": 100,
+          "betonlineag": 104,
+          "lowvig": 104,
+          "williamhill": 100
+        }
+      },
+      "spreads": {
+        "Atlanta Braves": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -188
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -190
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -190
+          }
+        },
+        "Chicago Cubs": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 155
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 150
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 155
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 155
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -137
+          },
+          "mybookieag": {
+            "line": 9.0,
+            "price": -109
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 9.5,
+            "price": 110
+          },
+          "lowvig": {
+            "line": 9.5,
+            "price": 112
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 110
+          },
+          "mybookieag": {
+            "line": 9.0,
+            "price": -112
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 9.5,
+            "price": -130
+          },
+          "lowvig": {
+            "line": 9.5,
+            "price": -128
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

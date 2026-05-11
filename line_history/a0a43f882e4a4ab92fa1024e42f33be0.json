@@ -1,0 +1,114 @@
+{
+  "event_id": "a0a43f882e4a4ab92fa1024e42f33be0",
+  "sport_key": "baseball_mlb",
+  "home_team": "Milwaukee Brewers",
+  "away_team": "San Diego Padres",
+  "commence_time": "2026-05-12T23:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-11_18-30-54",
+      "hours_to_game": 29.15736722305556,
+      "h2h": {
+        "Milwaukee Brewers": {
+          "fanduel": -126,
+          "betonlineag": -122,
+          "lowvig": -122,
+          "sport888": -133,
+          "unibet_fr": -143,
+          "mybookieag": -127,
+          "winamax_fr": -143,
+          "winamax_de": -132,
+          "williamhill": -125
+        },
+        "San Diego Padres": {
+          "fanduel": 108,
+          "betonlineag": 111,
+          "lowvig": 111,
+          "sport888": 105,
+          "unibet_fr": -105,
+          "mybookieag": 108,
+          "winamax_fr": -106,
+          "winamax_de": 105,
+          "williamhill": 100
+        }
+      },
+      "spreads": {
+        "Milwaukee Brewers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 158
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 155
+          }
+        },
+        "San Diego Padres": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -194
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -190
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": 103
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -110
+          },
+          "mybookieag": {
+            "line": 8.5,
+            "price": -111
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": -118
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -110
+          },
+          "mybookieag": {
+            "line": 8.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

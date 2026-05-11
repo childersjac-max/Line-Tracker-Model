@@ -1,0 +1,112 @@
+{
+  "event_id": "c125a2382938301b1e4462c3600de32b",
+  "sport_key": "baseball_mlb",
+  "home_team": "Chicago White Sox",
+  "away_team": "Kansas City Royals",
+  "commence_time": "2026-05-12T23:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-11_18-30-54",
+      "hours_to_game": 29.157367371944442,
+      "h2h": {
+        "Chicago White Sox": {
+          "fanduel": 100,
+          "lowvig": 115,
+          "betonlineag": 115,
+          "sport888": 100,
+          "mybookieag": 100,
+          "winamax_fr": -114,
+          "winamax_de": -102,
+          "williamhill": 100
+        },
+        "Kansas City Royals": {
+          "fanduel": -118,
+          "lowvig": -127,
+          "betonlineag": -127,
+          "sport888": -125,
+          "mybookieag": -118,
+          "winamax_fr": -135,
+          "winamax_de": -122,
+          "williamhill": -125
+        }
+      },
+      "spreads": {
+        "Chicago White Sox": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -164
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -161
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -160
+          }
+        },
+        "Kansas City Royals": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 136
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 130
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 140
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": -107
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -137
+          },
+          "mybookieag": {
+            "line": 9.0,
+            "price": -108
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": -107
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 110
+          },
+          "mybookieag": {
+            "line": 9.0,
+            "price": -114
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

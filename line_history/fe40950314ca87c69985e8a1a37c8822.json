@@ -1,0 +1,132 @@
+{
+  "event_id": "fe40950314ca87c69985e8a1a37c8822",
+  "sport_key": "baseball_mlb",
+  "home_team": "New York Mets",
+  "away_team": "Detroit Tigers",
+  "commence_time": "2026-05-12T23:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-11_18-30-54",
+      "hours_to_game": 28.65736752388889,
+      "h2h": {
+        "Detroit Tigers": {
+          "fanduel": 130,
+          "betonlineag": 131,
+          "lowvig": 131,
+          "unibet_fr": 115,
+          "sport888": 125,
+          "fanatics": 130,
+          "mybookieag": 130,
+          "winamax_fr": 110,
+          "winamax_de": 125,
+          "williamhill": 130
+        },
+        "New York Mets": {
+          "fanduel": -154,
+          "betonlineag": -145,
+          "lowvig": -145,
+          "unibet_fr": -172,
+          "sport888": -154,
+          "fanatics": -155,
+          "mybookieag": -154,
+          "winamax_fr": -179,
+          "winamax_de": -156,
+          "williamhill": -162
+        }
+      },
+      "spreads": {
+        "Detroit Tigers": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -166
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -167
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -155
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -155
+          }
+        },
+        "New York Mets": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 138
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 135
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 130
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 135
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": 100
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": -113
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -118
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "mybookieag": {
+            "line": 7.5,
+            "price": -118
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -122
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": -102
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "mybookieag": {
+            "line": 7.5,
+            "price": -104
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
