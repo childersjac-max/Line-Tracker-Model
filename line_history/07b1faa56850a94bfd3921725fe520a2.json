@@ -106,6 +106,117 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-11_22-34-57",
+      "hours_to_game": 24.171863864444447,
+      "h2h": {
+        "Boston Red Sox": {
+          "fanduel": 126,
+          "fanatics": 120,
+          "sport888": 120,
+          "unibet_fr": 110,
+          "winamax_fr": 110,
+          "winamax_de": 120,
+          "williamhill": 120,
+          "onexbet": 128,
+          "marathonbet": 121
+        },
+        "Philadelphia Phillies": {
+          "fanduel": -148,
+          "fanatics": -145,
+          "sport888": -150,
+          "unibet_fr": -167,
+          "winamax_fr": -172,
+          "winamax_de": -152,
+          "williamhill": -150,
+          "onexbet": -139,
+          "marathonbet": -150
+        }
+      },
+      "spreads": {
+        "Boston Red Sox": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -137
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -130
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -137
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -121
+          }
+        },
+        "Philadelphia Phillies": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 114
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 110
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 110
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 112
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -122
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 102
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -111
+          }
+        }
+      },
       "splits": {}
     }
   ]

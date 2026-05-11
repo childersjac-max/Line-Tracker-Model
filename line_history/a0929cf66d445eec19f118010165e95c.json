@@ -108,6 +108,155 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-11_22-34-57",
+      "hours_to_game": 27.588529006666665,
+      "h2h": {
+        "Los Angeles Dodgers": {
+          "fanduel": -290,
+          "betonlineag": -260,
+          "lowvig": -260,
+          "unibet_fr": -333,
+          "winamax_de": -303,
+          "winamax_fr": -345,
+          "sport888": -300,
+          "williamhill": -300,
+          "onexbet": -273,
+          "gtbets": -260,
+          "williamhill_us": -278,
+          "fanatics": -285
+        },
+        "San Francisco Giants": {
+          "fanduel": 235,
+          "betonlineag": 231,
+          "lowvig": 231,
+          "unibet_fr": 205,
+          "winamax_de": 230,
+          "winamax_fr": 200,
+          "sport888": 225,
+          "williamhill": 230,
+          "onexbet": 246,
+          "gtbets": 220,
+          "williamhill_us": 222,
+          "fanatics": 230
+        }
+      },
+      "spreads": {
+        "Los Angeles Dodgers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": -130
+          },
+          "sport888": {
+            "line": -2.5,
+            "price": 105
+          },
+          "onexbet": {
+            "line": -2.5,
+            "price": 110
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": -145
+          }
+        },
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": 1.5,
+            "price": 108
+          },
+          "sport888": {
+            "line": 2.5,
+            "price": -133
+          },
+          "onexbet": {
+            "line": 2.5,
+            "price": -120
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": 120
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": -125
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": -123
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -114
+          },
+          "gtbets": {
+            "line": 8.5,
+            "price": -125
+          },
+          "williamhill_us": {
+            "line": 8.5,
+            "price": -120
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -105
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": 105
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": 107
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 105
+          },
+          "gtbets": {
+            "line": 8.5,
+            "price": 105
+          },
+          "williamhill_us": {
+            "line": 8.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -115
+          }
+        }
+      },
       "splits": {}
     }
   ]
