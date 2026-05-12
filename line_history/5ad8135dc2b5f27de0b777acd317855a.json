@@ -1,0 +1,104 @@
+{
+  "event_id": "5ad8135dc2b5f27de0b777acd317855a",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Kansas City Chiefs",
+  "away_team": "Denver Broncos",
+  "commence_time": "2026-09-15T00:15:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-12_21-52-14",
+      "hours_to_game": 3002.3663938052778,
+      "h2h": {
+        "Denver Broncos": {
+          "draftkings": 130,
+          "williamhill_us": 135,
+          "fanatics": 120,
+          "fanduel": 120
+        },
+        "Kansas City Chiefs": {
+          "draftkings": -155,
+          "williamhill_us": -160,
+          "fanatics": -145,
+          "fanduel": -142
+        }
+      },
+      "spreads": {
+        "Denver Broncos": {
+          "draftkings": {
+            "line": 2.5,
+            "price": 100
+          },
+          "williamhill_us": {
+            "line": 3.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 2.5,
+            "price": -105
+          },
+          "fanduel": {
+            "line": 2.5,
+            "price": -110
+          }
+        },
+        "Kansas City Chiefs": {
+          "draftkings": {
+            "line": -2.5,
+            "price": -120
+          },
+          "williamhill_us": {
+            "line": -3.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": -2.5,
+            "price": -115
+          },
+          "fanduel": {
+            "line": -2.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 44.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 42.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 43.5,
+            "price": -104
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 44.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 42.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 43.5,
+            "price": -118
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
