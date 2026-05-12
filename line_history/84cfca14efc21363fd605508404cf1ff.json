@@ -1,0 +1,104 @@
+{
+  "event_id": "84cfca14efc21363fd605508404cf1ff",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Dallas Cowboys",
+  "away_team": "Baltimore Ravens",
+  "commence_time": "2026-09-27T20:25:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-12_16-38-06",
+      "hours_to_game": 3315.769047261389,
+      "h2h": {
+        "Baltimore Ravens": {
+          "draftkings": -135,
+          "williamhill_us": -140,
+          "fanduel": -130,
+          "betmgm": -130
+        },
+        "Dallas Cowboys": {
+          "draftkings": 114,
+          "williamhill_us": 117,
+          "fanduel": 110,
+          "betmgm": 110
+        }
+      },
+      "spreads": {
+        "Baltimore Ravens": {
+          "draftkings": {
+            "line": -2.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -2.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": -2.5,
+            "price": -105
+          },
+          "betmgm": {
+            "line": -2.5,
+            "price": -105
+          }
+        },
+        "Dallas Cowboys": {
+          "draftkings": {
+            "line": 2.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 2.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 2.5,
+            "price": -115
+          },
+          "betmgm": {
+            "line": 2.5,
+            "price": -115
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 50.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 48.0,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 50.5,
+            "price": -105
+          },
+          "betmgm": {
+            "line": 50.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 50.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 48.0,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 50.5,
+            "price": -115
+          },
+          "betmgm": {
+            "line": 50.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
