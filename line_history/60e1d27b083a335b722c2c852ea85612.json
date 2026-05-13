@@ -62,6 +62,105 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-13_21-58-01",
+      "hours_to_game": 4635.3531920625,
+      "h2h": {
+        "Minnesota Vikings": {
+          "draftkings": 164,
+          "williamhill_us": 170,
+          "fanduel": 188
+        },
+        "San Francisco 49ers": {
+          "draftkings": -198,
+          "williamhill_us": -205,
+          "fanduel": -225
+        }
+      },
+      "spreads": {
+        "Minnesota Vikings": {
+          "draftkings": {
+            "line": 3.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 4.0,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 4.5,
+            "price": -118
+          },
+          "onexbet": {
+            "line": 4.5,
+            "price": -125
+          }
+        },
+        "San Francisco 49ers": {
+          "draftkings": {
+            "line": -3.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -4.0,
+            "price": -110
+          },
+          "fanduel": {
+            "line": -4.5,
+            "price": -104
+          },
+          "onexbet": {
+            "line": -4.5,
+            "price": 100
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 46.0,
+            "price": -106
+          },
+          "fanduel": {
+            "line": 47.5,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 47.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 46.0,
+            "price": -115
+          },
+          "fanduel": {
+            "line": 47.5,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 47.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]

@@ -1,0 +1,86 @@
+{
+  "event_id": "5b612899d6dcdf998107f2c6c6e49a58",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Los Angeles Rams",
+  "away_team": "Green Bay Packers",
+  "commence_time": "2026-11-26T01:00:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-13_21-58-01",
+      "hours_to_game": 4707.019858618612,
+      "h2h": {
+        "Green Bay Packers": {
+          "draftkings": 164,
+          "williamhill_us": 180,
+          "fanduel": 176
+        },
+        "Los Angeles Rams": {
+          "draftkings": -198,
+          "williamhill_us": -220,
+          "fanduel": -210
+        }
+      },
+      "spreads": {
+        "Green Bay Packers": {
+          "draftkings": {
+            "line": 3.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 4.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 4.5,
+            "price": -120
+          }
+        },
+        "Los Angeles Rams": {
+          "draftkings": {
+            "line": -3.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -4.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": -4.5,
+            "price": -102
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 49.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 49.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 49.5,
+            "price": -115
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 49.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 49.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 49.5,
+            "price": -105
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
