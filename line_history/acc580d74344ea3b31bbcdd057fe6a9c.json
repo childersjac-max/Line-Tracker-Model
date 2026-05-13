@@ -2724,6 +2724,287 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-13_08-21-52",
+      "hours_to_game": 2896.2068030780556,
+      "h2h": {
+        "Los Angeles Rams": {
+          "draftkings": -148,
+          "williamhill_us": -160,
+          "betmgm": -140,
+          "betsson": -154,
+          "nordicbet": -154,
+          "williamhill": -138,
+          "betclic_fr": -147,
+          "tipico_de": -143,
+          "fanduel": -130,
+          "leovegas_se": -137,
+          "unibet_se": -137,
+          "betrivers": -137,
+          "unibet_nl": -137,
+          "bovada": -145
+        },
+        "San Francisco 49ers": {
+          "draftkings": 124,
+          "williamhill_us": 135,
+          "betmgm": 115,
+          "betsson": 118,
+          "nordicbet": 118,
+          "williamhill": 110,
+          "betclic_fr": 110,
+          "tipico_de": 110,
+          "fanduel": 110,
+          "leovegas_se": 112,
+          "unibet_se": 112,
+          "betrivers": 112,
+          "unibet_nl": 112,
+          "bovada": 125
+        }
+      },
+      "spreads": {
+        "Los Angeles Rams": {
+          "draftkings": {
+            "line": -2.5,
+            "price": -120
+          },
+          "williamhill_us": {
+            "line": -3.0,
+            "price": -105
+          },
+          "betmgm": {
+            "line": -2.5,
+            "price": -105
+          },
+          "betsson": {
+            "line": -2.5,
+            "price": -116
+          },
+          "nordicbet": {
+            "line": -2.5,
+            "price": -116
+          },
+          "onexbet": {
+            "line": -2.5,
+            "price": -115
+          },
+          "fanduel": {
+            "line": -2.5,
+            "price": -105
+          },
+          "betonlineag": {
+            "line": -2.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": -2.5,
+            "price": 100
+          },
+          "leovegas_se": {
+            "line": -2.5,
+            "price": -112
+          },
+          "unibet_se": {
+            "line": -2.5,
+            "price": -112
+          },
+          "betrivers": {
+            "line": -2.5,
+            "price": -113
+          },
+          "unibet_nl": {
+            "line": -2.5,
+            "price": -112
+          },
+          "bovada": {
+            "line": -2.5,
+            "price": -120
+          },
+          "gtbets": {
+            "line": -2.5,
+            "price": -114
+          }
+        },
+        "San Francisco 49ers": {
+          "draftkings": {
+            "line": 2.5,
+            "price": 100
+          },
+          "williamhill_us": {
+            "line": 3.0,
+            "price": -115
+          },
+          "betmgm": {
+            "line": 2.5,
+            "price": -115
+          },
+          "betsson": {
+            "line": 2.5,
+            "price": -111
+          },
+          "nordicbet": {
+            "line": 2.5,
+            "price": -111
+          },
+          "onexbet": {
+            "line": 2.5,
+            "price": -105
+          },
+          "fanduel": {
+            "line": 2.5,
+            "price": -115
+          },
+          "betonlineag": {
+            "line": 2.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 2.5,
+            "price": -110
+          },
+          "leovegas_se": {
+            "line": 2.5,
+            "price": -109
+          },
+          "unibet_se": {
+            "line": 2.5,
+            "price": -109
+          },
+          "betrivers": {
+            "line": 2.5,
+            "price": -110
+          },
+          "unibet_nl": {
+            "line": 2.5,
+            "price": -109
+          },
+          "bovada": {
+            "line": 2.5,
+            "price": 100
+          },
+          "gtbets": {
+            "line": 2.5,
+            "price": -104
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 48.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 48.5,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 49.5,
+            "price": -110
+          },
+          "betsson": {
+            "line": 49.0,
+            "price": -114
+          },
+          "nordicbet": {
+            "line": 49.0,
+            "price": -114
+          },
+          "onexbet": {
+            "line": 49.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 49.5,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 49.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 49.0,
+            "price": -107
+          },
+          "betrivers": {
+            "line": 48.5,
+            "price": -112
+          },
+          "unibet_nl": {
+            "line": 48.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": 48.5,
+            "price": -110
+          },
+          "gtbets": {
+            "line": 48.5,
+            "price": -109
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 48.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 48.5,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 49.5,
+            "price": -110
+          },
+          "betsson": {
+            "line": 49.0,
+            "price": -114
+          },
+          "nordicbet": {
+            "line": 49.0,
+            "price": -114
+          },
+          "onexbet": {
+            "line": 49.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 49.5,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 49.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 49.0,
+            "price": -107
+          },
+          "betrivers": {
+            "line": 48.5,
+            "price": -112
+          },
+          "unibet_nl": {
+            "line": 48.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": 48.5,
+            "price": -110
+          },
+          "gtbets": {
+            "line": 48.5,
+            "price": -109
+          }
+        }
+      },
       "splits": {}
     }
   ]

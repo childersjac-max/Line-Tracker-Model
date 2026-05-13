@@ -98,6 +98,139 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-13_08-21-52",
+      "hours_to_game": 2991.873468136667,
+      "h2h": {
+        "Denver Broncos": {
+          "draftkings": 130,
+          "williamhill_us": 135,
+          "fanatics": 120,
+          "fanduel": 120
+        },
+        "Kansas City Chiefs": {
+          "draftkings": -155,
+          "williamhill_us": -160,
+          "fanatics": -145,
+          "fanduel": -142
+        }
+      },
+      "spreads": {
+        "Denver Broncos": {
+          "draftkings": {
+            "line": 2.5,
+            "price": 100
+          },
+          "williamhill_us": {
+            "line": 3.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 2.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 2.5,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 2.5,
+            "price": 100
+          },
+          "betonlineag": {
+            "line": 2.5,
+            "price": -105
+          }
+        },
+        "Kansas City Chiefs": {
+          "draftkings": {
+            "line": -2.5,
+            "price": -120
+          },
+          "williamhill_us": {
+            "line": -3.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": -2.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": -2.5,
+            "price": -110
+          },
+          "lowvig": {
+            "line": -2.5,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": -2.5,
+            "price": -115
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 44.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 42.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 43.5,
+            "price": -104
+          },
+          "lowvig": {
+            "line": 42.5,
+            "price": -107
+          },
+          "betonlineag": {
+            "line": 42.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 44.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 42.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 43.5,
+            "price": -118
+          },
+          "lowvig": {
+            "line": 42.5,
+            "price": -107
+          },
+          "betonlineag": {
+            "line": 42.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]
