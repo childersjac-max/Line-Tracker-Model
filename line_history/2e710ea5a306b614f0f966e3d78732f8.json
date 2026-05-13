@@ -1,0 +1,68 @@
+{
+  "event_id": "2e710ea5a306b614f0f966e3d78732f8",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "New Orleans Saints",
+  "away_team": "Pittsburgh Steelers",
+  "commence_time": "2026-10-25T14:30:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-13_16-41-39",
+      "hours_to_game": 3957.792725734722,
+      "h2h": {
+        "New Orleans Saints": {
+          "draftkings": 114,
+          "williamhill_us": 110
+        },
+        "Pittsburgh Steelers": {
+          "draftkings": -135,
+          "williamhill_us": -131
+        }
+      },
+      "spreads": {
+        "New Orleans Saints": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -110
+          }
+        },
+        "Pittsburgh Steelers": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 41.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 41.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

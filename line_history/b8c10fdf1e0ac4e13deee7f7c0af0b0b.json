@@ -1,0 +1,68 @@
+{
+  "event_id": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Detroit Lions",
+  "away_team": "New England Patriots",
+  "commence_time": "2026-11-15T14:30:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-13_16-41-39",
+      "hours_to_game": 4461.7927255605555,
+      "h2h": {
+        "Detroit Lions": {
+          "draftkings": -125,
+          "williamhill_us": -140
+        },
+        "New England Patriots": {
+          "draftkings": 105,
+          "williamhill_us": 117
+        }
+      },
+      "spreads": {
+        "Detroit Lions": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -2.5,
+            "price": -110
+          }
+        },
+        "New England Patriots": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 2.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 47.5,
+            "price": -102
+          },
+          "williamhill_us": {
+            "line": 47.0,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 47.5,
+            "price": -118
+          },
+          "williamhill_us": {
+            "line": 47.0,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
