@@ -2,7 +2,7 @@
   "sport_key": "americanfootball_nfl",
   "market": "spreads",
   "trained_on": "synthetic",
-  "trained_at": "2026-05-13T22:48:03.826671+00:00",
+  "trained_at": "2026-05-14T09:41:16.991017+00:00",
   "feature_cols": [
     "pin_move_full",
     "pin_move_6h",
@@ -51,8 +51,8 @@
   "cv_metrics": {
     "auc_mean": 0.5,
     "auc_std": 0.0,
-    "logloss_mean": 0.7156396412669036,
-    "brier_mean": 0.26046643406152725,
+    "logloss_mean": 0.7754278297904219,
+    "brier_mean": 0.2879437953233719,
     "n_splits_used": 2,
     "n_samples": 28,
     "n_wins": 11,
