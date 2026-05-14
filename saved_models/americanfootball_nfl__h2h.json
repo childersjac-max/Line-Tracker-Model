@@ -2,7 +2,7 @@
   "sport_key": "americanfootball_nfl",
   "market": "h2h",
   "trained_on": "synthetic",
-  "trained_at": "2026-05-13T22:48:03.506029+00:00",
+  "trained_at": "2026-05-14T22:19:19.179608+00:00",
   "feature_cols": [
     "pin_move_full",
     "pin_move_6h",
@@ -51,12 +51,12 @@
   "cv_metrics": {
     "auc_mean": 0.5,
     "auc_std": 0.0,
-    "logloss_mean": 0.7419099999738732,
-    "brier_mean": 0.2742401510477066,
+    "logloss_mean": 0.6931471805599453,
+    "brier_mean": 0.25,
     "n_splits_used": 2,
-    "n_samples": 28,
-    "n_wins": 18,
-    "n_losses": 10,
+    "n_samples": 30,
+    "n_wins": 12,
+    "n_losses": 18,
     "cv_strategy": "TimeSeriesSplit"
   }
 }
