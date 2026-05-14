@@ -1856,6 +1856,283 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-14_20-59-51",
+      "hours_to_game": 2931.3223370325,
+      "h2h": {
+        "Dallas Cowboys": {
+          "draftkings": -130,
+          "williamhill_us": -131,
+          "fanatics": -160,
+          "betclic_fr": -139,
+          "williamhill": -138,
+          "fanduel": -154,
+          "betmgm": -150,
+          "leovegas_se": -148,
+          "unibet_se": -148,
+          "betrivers": -148,
+          "unibet_nl": -148,
+          "bovada": -130
+        },
+        "New York Giants": {
+          "draftkings": 110,
+          "williamhill_us": 110,
+          "fanatics": 130,
+          "betclic_fr": 105,
+          "williamhill": 110,
+          "fanduel": 130,
+          "betmgm": 125,
+          "leovegas_se": 123,
+          "unibet_se": 123,
+          "betrivers": 112,
+          "unibet_nl": 123,
+          "bovada": 110
+        }
+      },
+      "spreads": {
+        "Dallas Cowboys": {
+          "draftkings": {
+            "line": -2.5,
+            "price": -105
+          },
+          "onexbet": {
+            "line": -2.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": -2.0,
+            "price": -115
+          },
+          "fanduel": {
+            "line": -2.5,
+            "price": -120
+          },
+          "betonlineag": {
+            "line": -2.0,
+            "price": -105
+          },
+          "betmgm": {
+            "line": -2.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": -2.0,
+            "price": 100
+          },
+          "leovegas_se": {
+            "line": -2.5,
+            "price": -117
+          },
+          "unibet_se": {
+            "line": -2.5,
+            "price": -117
+          },
+          "betrivers": {
+            "line": -2.5,
+            "price": -118
+          },
+          "unibet_nl": {
+            "line": -2.5,
+            "price": -117
+          },
+          "bovada": {
+            "line": -2.5,
+            "price": -105
+          },
+          "gtbets": {
+            "line": -2.0,
+            "price": -104
+          },
+          "betus": {
+            "line": -1.5,
+            "price": -115
+          }
+        },
+        "New York Giants": {
+          "draftkings": {
+            "line": 2.5,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 2.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 2.0,
+            "price": -105
+          },
+          "fanduel": {
+            "line": 2.5,
+            "price": -102
+          },
+          "betonlineag": {
+            "line": 2.0,
+            "price": -115
+          },
+          "betmgm": {
+            "line": 2.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 2.0,
+            "price": -110
+          },
+          "leovegas_se": {
+            "line": 2.5,
+            "price": -105
+          },
+          "unibet_se": {
+            "line": 2.5,
+            "price": -105
+          },
+          "betrivers": {
+            "line": 2.5,
+            "price": -106
+          },
+          "unibet_nl": {
+            "line": 2.5,
+            "price": -105
+          },
+          "bovada": {
+            "line": 2.5,
+            "price": -115
+          },
+          "gtbets": {
+            "line": 2.0,
+            "price": -114
+          },
+          "betus": {
+            "line": 1.5,
+            "price": -105
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 47.5,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 48.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 49.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 48.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 48.5,
+            "price": -115
+          },
+          "betonlineag": {
+            "line": 48.0,
+            "price": -108
+          },
+          "betmgm": {
+            "line": 48.5,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 48.0,
+            "price": -105
+          },
+          "betrivers": {
+            "line": 48.5,
+            "price": -109
+          },
+          "unibet_nl": {
+            "line": 48.5,
+            "price": -108
+          },
+          "bovada": {
+            "line": 47.5,
+            "price": -115
+          },
+          "gtbets": {
+            "line": 47.5,
+            "price": -114
+          },
+          "betus": {
+            "line": 48.0,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 47.5,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 48.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 49.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 48.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 48.5,
+            "price": -105
+          },
+          "betonlineag": {
+            "line": 48.0,
+            "price": -112
+          },
+          "betmgm": {
+            "line": 48.5,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 48.0,
+            "price": -109
+          },
+          "betrivers": {
+            "line": 48.5,
+            "price": -114
+          },
+          "unibet_nl": {
+            "line": 48.5,
+            "price": -113
+          },
+          "bovada": {
+            "line": 47.5,
+            "price": -105
+          },
+          "gtbets": {
+            "line": 47.5,
+            "price": -104
+          },
+          "betus": {
+            "line": 48.0,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]
