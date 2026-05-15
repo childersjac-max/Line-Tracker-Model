@@ -98,6 +98,107 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-15_17-02-56",
+      "hours_to_game": 3071.937030975556,
+      "h2h": {
+        "Baltimore Ravens": {
+          "draftkings": -380,
+          "williamhill_us": -380,
+          "nordicbet": -400,
+          "betsson": -400
+        },
+        "New Orleans Saints": {
+          "draftkings": 300,
+          "williamhill_us": 285,
+          "nordicbet": 280,
+          "betsson": 280
+        }
+      },
+      "spreads": {
+        "Baltimore Ravens": {
+          "draftkings": {
+            "line": -7.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -7.5,
+            "price": -110
+          },
+          "nordicbet": {
+            "line": -14.0,
+            "price": 176
+          },
+          "betsson": {
+            "line": -7.5,
+            "price": -110
+          }
+        },
+        "New Orleans Saints": {
+          "draftkings": {
+            "line": 7.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 7.5,
+            "price": -110
+          },
+          "nordicbet": {
+            "line": 14.0,
+            "price": -233
+          },
+          "betsson": {
+            "line": 7.5,
+            "price": -118
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 45.5,
+            "price": -110
+          },
+          "nordicbet": {
+            "line": 48.5,
+            "price": 116
+          },
+          "betsson": {
+            "line": 46.0,
+            "price": -114
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 45.5,
+            "price": -110
+          },
+          "nordicbet": {
+            "line": 48.5,
+            "price": -149
+          },
+          "betsson": {
+            "line": 46.0,
+            "price": -114
+          }
+        }
+      },
       "splits": {}
     }
   ]
