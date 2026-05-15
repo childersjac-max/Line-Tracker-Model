@@ -1,23 +1,58 @@
 {
+  "americanfootball_nfl|moneyline": {
+    "sport_key": "americanfootball_nfl",
+    "market": "moneyline",
+    "n_records": 166,
+    "n_labeled": 0,
+    "patterns": []
+  },
+  "americanfootball_nfl|spread": {
+    "sport_key": "americanfootball_nfl",
+    "market": "spread",
+    "n_records": 166,
+    "n_labeled": 0,
+    "patterns": []
+  },
+  "americanfootball_nfl|total": {
+    "sport_key": "americanfootball_nfl",
+    "market": "total",
+    "n_records": 166,
+    "n_labeled": 0,
+    "patterns": []
+  },
   "baseball_mlb|moneyline": {
     "sport_key": "baseball_mlb",
     "market": "moneyline",
-    "n_records": 562,
-    "n_labeled": 496,
+    "n_records": 592,
+    "n_labeled": 518,
     "patterns": []
   },
   "baseball_mlb|spread": {
     "sport_key": "baseball_mlb",
     "market": "spread",
-    "n_records": 562,
-    "n_labeled": 482,
+    "n_records": 592,
+    "n_labeled": 504,
     "patterns": []
   },
   "baseball_mlb|total": {
     "sport_key": "baseball_mlb",
     "market": "total",
-    "n_records": 562,
-    "n_labeled": 484,
+    "n_records": 592,
+    "n_labeled": 506,
+    "patterns": []
+  },
+  "icehockey_nhl|spread": {
+    "sport_key": "icehockey_nhl",
+    "market": "spread",
+    "n_records": 112,
+    "n_labeled": 90,
+    "patterns": []
+  },
+  "icehockey_nhl|total": {
+    "sport_key": "icehockey_nhl",
+    "market": "total",
+    "n_records": 112,
+    "n_labeled": 90,
     "patterns": []
   },
   "basketball_nba|moneyline": {
@@ -39,20 +74,6 @@
     "market": "total",
     "n_records": 182,
     "n_labeled": 96,
-    "patterns": []
-  },
-  "icehockey_nhl|spread": {
-    "sport_key": "icehockey_nhl",
-    "market": "spread",
-    "n_records": 108,
-    "n_labeled": 86,
-    "patterns": []
-  },
-  "icehockey_nhl|total": {
-    "sport_key": "icehockey_nhl",
-    "market": "total",
-    "n_records": 108,
-    "n_labeled": 86,
     "patterns": []
   },
   "americanfootball_ncaaf|moneyline": {
@@ -80,27 +101,6 @@
     "sport_key": "icehockey_nhl",
     "market": "moneyline",
     "n_records": 10,
-    "n_labeled": 0,
-    "patterns": []
-  },
-  "americanfootball_nfl|moneyline": {
-    "sport_key": "americanfootball_nfl",
-    "market": "moneyline",
-    "n_records": 28,
-    "n_labeled": 0,
-    "patterns": []
-  },
-  "americanfootball_nfl|spread": {
-    "sport_key": "americanfootball_nfl",
-    "market": "spread",
-    "n_records": 28,
-    "n_labeled": 0,
-    "patterns": []
-  },
-  "americanfootball_nfl|total": {
-    "sport_key": "americanfootball_nfl",
-    "market": "total",
-    "n_records": 28,
     "n_labeled": 0,
     "patterns": []
   }
