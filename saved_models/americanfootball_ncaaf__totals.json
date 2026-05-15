@@ -2,7 +2,7 @@
   "sport_key": "americanfootball_ncaaf",
   "market": "totals",
   "trained_on": "synthetic",
-  "trained_at": "2026-05-15T10:02:38.438896+00:00",
+  "trained_at": "2026-05-15T16:30:24.245387+00:00",
   "feature_cols": [
     "pin_move_full",
     "pin_move_6h",
@@ -51,12 +51,12 @@
   "cv_metrics": {
     "auc_mean": 0.5,
     "auc_std": 0.0,
-    "logloss_mean": 0.7266647296209028,
-    "brier_mean": 0.26661422848701477,
+    "logloss_mean": 0.7767274620561899,
+    "brier_mean": 0.28983382880687714,
     "n_splits_used": 2,
     "n_samples": 24,
-    "n_wins": 14,
-    "n_losses": 10,
+    "n_wins": 10,
+    "n_losses": 14,
     "cv_strategy": "TimeSeriesSplit"
   }
 }
