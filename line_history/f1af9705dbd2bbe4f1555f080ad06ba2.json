@@ -1,0 +1,68 @@
+{
+  "event_id": "f1af9705dbd2bbe4f1555f080ad06ba2",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Seattle Seahawks",
+  "away_team": "Los Angeles Rams",
+  "commence_time": "2026-12-26T01:15:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_00-14-05",
+      "hours_to_game": 5401.000945648334,
+      "h2h": {
+        "Los Angeles Rams": {
+          "draftkings": 100,
+          "fanduel": -102
+        },
+        "Seattle Seahawks": {
+          "draftkings": -120,
+          "fanduel": -116
+        }
+      },
+      "spreads": {
+        "Los Angeles Rams": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -115
+          },
+          "fanduel": {
+            "line": 1.5,
+            "price": -115
+          }
+        },
+        "Seattle Seahawks": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -105
+          },
+          "fanduel": {
+            "line": -1.5,
+            "price": -105
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 47.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 46.5,
+            "price": -115
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 47.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 46.5,
+            "price": -105
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

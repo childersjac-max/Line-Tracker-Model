@@ -1354,6 +1354,157 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-15_00-14-05",
+      "hours_to_game": 4700.250946504722,
+      "h2h": {
+        "Dallas Cowboys": {
+          "draftkings": -120,
+          "williamhill_us": -120,
+          "fanduel": -116,
+          "williamhill": -125,
+          "betmgm": -105
+        },
+        "Philadelphia Eagles": {
+          "draftkings": 100,
+          "williamhill_us": 100,
+          "fanduel": -102,
+          "williamhill": 100,
+          "betmgm": -115
+        }
+      },
+      "spreads": {
+        "Dallas Cowboys": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": -105
+          },
+          "fanduel": {
+            "line": -1.5,
+            "price": -104
+          },
+          "betonlineag": {
+            "line": -1.0,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": -1.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 100
+          }
+        },
+        "Philadelphia Eagles": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -115
+          },
+          "fanduel": {
+            "line": 1.5,
+            "price": -118
+          },
+          "betonlineag": {
+            "line": 1.0,
+            "price": -110
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 1.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -125
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 49.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 49.0,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 49.5,
+            "price": -115
+          },
+          "betonlineag": {
+            "line": 49.5,
+            "price": -115
+          },
+          "betmgm": {
+            "line": 49.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 49.5,
+            "price": -113
+          },
+          "onexbet": {
+            "line": 49.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 49.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 49.0,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 49.5,
+            "price": -105
+          },
+          "betonlineag": {
+            "line": 49.5,
+            "price": -105
+          },
+          "betmgm": {
+            "line": 49.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 49.5,
+            "price": -102
+          },
+          "onexbet": {
+            "line": 49.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]

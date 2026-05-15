@@ -1,0 +1,68 @@
+{
+  "event_id": "44a3bcf5bd002583ddef2207a92dd977",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Pittsburgh Steelers",
+  "away_team": "Denver Broncos",
+  "commence_time": "2026-11-27T20:00:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_00-14-05",
+      "hours_to_game": 4723.750945812777,
+      "h2h": {
+        "Denver Broncos": {
+          "draftkings": -118,
+          "fanduel": -120
+        },
+        "Pittsburgh Steelers": {
+          "draftkings": -102,
+          "fanduel": 102
+        }
+      },
+      "spreads": {
+        "Denver Broncos": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -105
+          },
+          "fanduel": {
+            "line": -1.5,
+            "price": -110
+          }
+        },
+        "Pittsburgh Steelers": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -115
+          },
+          "fanduel": {
+            "line": 1.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 41.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 39.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 41.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 39.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

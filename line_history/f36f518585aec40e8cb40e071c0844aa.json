@@ -1,0 +1,68 @@
+{
+  "event_id": "f36f518585aec40e8cb40e071c0844aa",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Buffalo Bills",
+  "away_team": "Kansas City Chiefs",
+  "commence_time": "2026-11-27T01:20:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_00-14-05",
+      "hours_to_game": 4705.08427921889,
+      "h2h": {
+        "Buffalo Bills": {
+          "draftkings": -135,
+          "fanduel": -142
+        },
+        "Kansas City Chiefs": {
+          "draftkings": 114,
+          "fanduel": 120
+        }
+      },
+      "spreads": {
+        "Buffalo Bills": {
+          "draftkings": {
+            "line": -2.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": -2.5,
+            "price": -114
+          }
+        },
+        "Kansas City Chiefs": {
+          "draftkings": {
+            "line": 2.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 2.5,
+            "price": -106
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 49.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 50.5,
+            "price": -105
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 49.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 50.5,
+            "price": -115
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
