@@ -1,0 +1,50 @@
+{
+  "event_id": "2e523fcb0497aa689473e290eb2b97de",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "New Orleans Saints",
+  "away_team": "Las Vegas Raiders",
+  "commence_time": "2026-09-27T20:25:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3250.335456965,
+      "h2h": {
+        "Las Vegas Raiders": {
+          "draftkings": 140
+        },
+        "New Orleans Saints": {
+          "draftkings": -166
+        }
+      },
+      "spreads": {
+        "Las Vegas Raiders": {
+          "draftkings": {
+            "line": 3.0,
+            "price": -110
+          }
+        },
+        "New Orleans Saints": {
+          "draftkings": {
+            "line": -3.0,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

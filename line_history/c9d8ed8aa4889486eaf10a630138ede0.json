@@ -907,6 +907,141 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3411.418790079444,
+      "h2h": {
+        "Indianapolis Colts": {
+          "draftkings": -110,
+          "williamhill_us": -115,
+          "fanduel": 100,
+          "betmgm": -105,
+          "bovada": -110
+        },
+        "Washington Commanders": {
+          "draftkings": -110,
+          "williamhill_us": -105,
+          "fanduel": -118,
+          "betmgm": -115,
+          "bovada": -110
+        }
+      },
+      "spreads": {
+        "Indianapolis Colts": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -122
+          },
+          "williamhill_us": {
+            "line": -1.0,
+            "price": -105
+          },
+          "fanduel": {
+            "line": 1.5,
+            "price": -115
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -120
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -125
+          }
+        },
+        "Washington Commanders": {
+          "draftkings": {
+            "line": -1.5,
+            "price": 102
+          },
+          "williamhill_us": {
+            "line": 1.0,
+            "price": -115
+          },
+          "fanduel": {
+            "line": -1.5,
+            "price": -105
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 105
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 48.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 48.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 49.5,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 49.5,
+            "price": -110
+          },
+          "onexbet": {
+            "line": 49.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": 48.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 48.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 48.5,
+            "price": -110
+          },
+          "fanduel": {
+            "line": 49.5,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 49.5,
+            "price": -110
+          },
+          "onexbet": {
+            "line": 49.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": 48.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]

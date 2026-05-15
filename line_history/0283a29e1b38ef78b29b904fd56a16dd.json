@@ -1,0 +1,68 @@
+{
+  "event_id": "0283a29e1b38ef78b29b904fd56a16dd",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Chicago Bears",
+  "away_team": "Minnesota Vikings",
+  "commence_time": "2026-09-20T17:00:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3078.9187924466664,
+      "h2h": {
+        "Chicago Bears": {
+          "draftkings": -180,
+          "williamhill_us": -235
+        },
+        "Minnesota Vikings": {
+          "draftkings": 150,
+          "williamhill_us": 190
+        }
+      },
+      "spreads": {
+        "Chicago Bears": {
+          "draftkings": {
+            "line": -3.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": -5.5,
+            "price": -110
+          }
+        },
+        "Minnesota Vikings": {
+          "draftkings": {
+            "line": 3.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": 5.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 45.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 45.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 45.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 45.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

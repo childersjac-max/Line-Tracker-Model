@@ -1,0 +1,68 @@
+{
+  "event_id": "50bc247030707d823b9c3581d7eb5760",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Kansas City Chiefs",
+  "away_team": "Indianapolis Colts",
+  "commence_time": "2026-09-21T00:20:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3086.252125126389,
+      "h2h": {
+        "Indianapolis Colts": {
+          "draftkings": 205,
+          "williamhill_us": 250
+        },
+        "Kansas City Chiefs": {
+          "draftkings": -250,
+          "williamhill_us": -330
+        }
+      },
+      "spreads": {
+        "Indianapolis Colts": {
+          "draftkings": {
+            "line": 5.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 7.0,
+            "price": -110
+          }
+        },
+        "Kansas City Chiefs": {
+          "draftkings": {
+            "line": -5.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -7.0,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 47.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 46.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 47.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 46.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "event_id": "71b3b83747589efdc5baef2c5cf811bf",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Los Angeles Chargers",
+  "away_team": "Las Vegas Raiders",
+  "commence_time": "2026-09-20T20:05:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3082.0021253625,
+      "h2h": {
+        "Las Vegas Raiders": {
+          "draftkings": 330,
+          "williamhill_us": 400,
+          "betsson": 345,
+          "nordicbet": 345
+        },
+        "Los Angeles Chargers": {
+          "draftkings": -425,
+          "williamhill_us": -550,
+          "betsson": -526,
+          "nordicbet": -526
+        }
+      },
+      "spreads": {
+        "Las Vegas Raiders": {
+          "draftkings": {
+            "line": 8.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 10.0,
+            "price": -106
+          },
+          "betsson": {
+            "line": 9.5,
+            "price": -111
+          },
+          "nordicbet": {
+            "line": 9.5,
+            "price": -111
+          }
+        },
+        "Los Angeles Chargers": {
+          "draftkings": {
+            "line": -8.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -10.0,
+            "price": -115
+          },
+          "betsson": {
+            "line": -9.5,
+            "price": -116
+          },
+          "nordicbet": {
+            "line": -9.5,
+            "price": -116
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 43.5,
+            "price": -110
+          },
+          "betsson": {
+            "line": 43.0,
+            "price": -114
+          },
+          "nordicbet": {
+            "line": 43.0,
+            "price": -114
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 42.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 43.5,
+            "price": -110
+          },
+          "betsson": {
+            "line": 43.0,
+            "price": -114
+          },
+          "nordicbet": {
+            "line": 43.0,
+            "price": -114
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

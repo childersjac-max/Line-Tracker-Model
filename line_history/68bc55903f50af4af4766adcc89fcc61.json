@@ -1,0 +1,68 @@
+{
+  "event_id": "68bc55903f50af4af4766adcc89fcc61",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "San Francisco 49ers",
+  "away_team": "Miami Dolphins",
+  "commence_time": "2026-09-20T20:25:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3082.335458514167,
+      "h2h": {
+        "Miami Dolphins": {
+          "draftkings": 425,
+          "williamhill_us": 400
+        },
+        "San Francisco 49ers": {
+          "draftkings": -575,
+          "williamhill_us": -550
+        }
+      },
+      "spreads": {
+        "Miami Dolphins": {
+          "draftkings": {
+            "line": 10.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 10.5,
+            "price": -110
+          }
+        },
+        "San Francisco 49ers": {
+          "draftkings": {
+            "line": -10.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -10.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 45.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 45.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

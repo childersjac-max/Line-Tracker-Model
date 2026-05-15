@@ -1,0 +1,68 @@
+{
+  "event_id": "aee7eae1849ebb103b9bf233e9741392",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Atlanta Falcons",
+  "away_team": "Carolina Panthers",
+  "commence_time": "2026-09-20T17:00:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3078.918792586944,
+      "h2h": {
+        "Atlanta Falcons": {
+          "draftkings": -120,
+          "williamhill_us": -165
+        },
+        "Carolina Panthers": {
+          "draftkings": 100,
+          "williamhill_us": 130
+        }
+      },
+      "spreads": {
+        "Atlanta Falcons": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": -3.0,
+            "price": -115
+          }
+        },
+        "Carolina Panthers": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": 3.0,
+            "price": -105
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 43.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 42.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 43.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 42.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

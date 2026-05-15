@@ -1,0 +1,50 @@
+{
+  "event_id": "555afd4a27aaa392662881cffa8f2eef",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "New York Giants",
+  "away_team": "Tennessee Titans",
+  "commence_time": "2026-09-27T17:00:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3246.9187911952777,
+      "h2h": {
+        "New York Giants": {
+          "draftkings": -175
+        },
+        "Tennessee Titans": {
+          "draftkings": 145
+        }
+      },
+      "spreads": {
+        "New York Giants": {
+          "draftkings": {
+            "line": -3.0,
+            "price": -120
+          }
+        },
+        "Tennessee Titans": {
+          "draftkings": {
+            "line": 3.0,
+            "price": 100
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 45.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 45.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

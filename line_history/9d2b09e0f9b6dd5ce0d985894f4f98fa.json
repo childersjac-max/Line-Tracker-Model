@@ -1,0 +1,50 @@
+{
+  "event_id": "9d2b09e0f9b6dd5ce0d985894f4f98fa",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "San Francisco 49ers",
+  "away_team": "Arizona Cardinals",
+  "commence_time": "2026-09-27T20:05:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3250.0021244333334,
+      "h2h": {
+        "Arizona Cardinals": {
+          "draftkings": 470
+        },
+        "San Francisco 49ers": {
+          "draftkings": -650
+        }
+      },
+      "spreads": {
+        "Arizona Cardinals": {
+          "draftkings": {
+            "line": 11.5,
+            "price": -110
+          }
+        },
+        "San Francisco 49ers": {
+          "draftkings": {
+            "line": -11.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

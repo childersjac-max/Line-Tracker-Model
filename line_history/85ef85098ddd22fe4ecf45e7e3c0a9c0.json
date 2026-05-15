@@ -1,0 +1,68 @@
+{
+  "event_id": "85ef85098ddd22fe4ecf45e7e3c0a9c0",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Dallas Cowboys",
+  "away_team": "Washington Commanders",
+  "commence_time": "2026-09-20T20:25:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3082.3354585752777,
+      "h2h": {
+        "Dallas Cowboys": {
+          "draftkings": -205,
+          "williamhill_us": -191
+        },
+        "Washington Commanders": {
+          "draftkings": 170,
+          "williamhill_us": 160
+        }
+      },
+      "spreads": {
+        "Dallas Cowboys": {
+          "draftkings": {
+            "line": -4.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": -3.0,
+            "price": -115
+          }
+        },
+        "Washington Commanders": {
+          "draftkings": {
+            "line": 4.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": 3.0,
+            "price": -105
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 51.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 52.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 51.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 52.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

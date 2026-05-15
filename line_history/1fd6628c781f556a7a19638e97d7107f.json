@@ -1,0 +1,68 @@
+{
+  "event_id": "1fd6628c781f556a7a19638e97d7107f",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Denver Broncos",
+  "away_team": "Jacksonville Jaguars",
+  "commence_time": "2026-09-20T20:05:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3082.0021254175003,
+      "h2h": {
+        "Denver Broncos": {
+          "draftkings": -142,
+          "williamhill_us": -178
+        },
+        "Jacksonville Jaguars": {
+          "draftkings": 120,
+          "williamhill_us": 150
+        }
+      },
+      "spreads": {
+        "Denver Broncos": {
+          "draftkings": {
+            "line": -2.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": -3.0,
+            "price": -110
+          }
+        },
+        "Jacksonville Jaguars": {
+          "draftkings": {
+            "line": 2.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": 3.0,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 43.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 45.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 43.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 45.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

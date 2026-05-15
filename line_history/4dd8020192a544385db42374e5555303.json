@@ -1,0 +1,68 @@
+{
+  "event_id": "4dd8020192a544385db42374e5555303",
+  "sport_key": "americanfootball_nfl",
+  "home_team": "Arizona Cardinals",
+  "away_team": "Seattle Seahawks",
+  "commence_time": "2026-09-20T20:25:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-15_10-04-00",
+      "hours_to_game": 3082.335458630556,
+      "h2h": {
+        "Arizona Cardinals": {
+          "draftkings": 390,
+          "williamhill_us": 280
+        },
+        "Seattle Seahawks": {
+          "draftkings": -520,
+          "williamhill_us": -355
+        }
+      },
+      "spreads": {
+        "Arizona Cardinals": {
+          "draftkings": {
+            "line": 10.0,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 7.0,
+            "price": -105
+          }
+        },
+        "Seattle Seahawks": {
+          "draftkings": {
+            "line": -10.0,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -7.0,
+            "price": -115
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 44.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 44.0,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 44.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 44.0,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
