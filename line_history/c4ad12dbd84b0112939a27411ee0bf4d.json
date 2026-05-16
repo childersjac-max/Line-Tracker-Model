@@ -1,0 +1,50 @@
+{
+  "event_id": "c4ad12dbd84b0112939a27411ee0bf4d",
+  "sport_key": "baseball_mlb",
+  "home_team": "Houston Astros",
+  "away_team": "Texas Rangers",
+  "commence_time": "2026-05-17T18:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-16_22-31-46",
+      "hours_to_game": 19.638554209444447,
+      "h2h": {
+        "Houston Astros": {
+          "fanduel": 100
+        },
+        "Texas Rangers": {
+          "fanduel": -118
+        }
+      },
+      "spreads": {
+        "Houston Astros": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -176
+          }
+        },
+        "Texas Rangers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 146
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 102
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -124
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

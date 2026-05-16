@@ -463,6 +463,71 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-16_22-31-46",
+      "hours_to_game": 3546.455235368333,
+      "h2h": {
+        "Cleveland Browns": {
+          "draftkings": 105,
+          "williamhill_us": 100
+        },
+        "New York Jets": {
+          "draftkings": -125,
+          "williamhill_us": -131
+        }
+      },
+      "spreads": {
+        "Cleveland Browns": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 2.0,
+            "price": -115
+          }
+        },
+        "New York Jets": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -2.0,
+            "price": -115
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 39.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 38.5,
+            "price": -115
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 39.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 38.5,
+            "price": -115
+          }
+        }
+      },
       "splits": {}
     }
   ]
