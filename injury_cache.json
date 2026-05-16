@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-16T00:07:43.407614+00:00",
+  "timestamp": "2026-05-16T07:34:36.213253+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -256,8 +256,8 @@
         "player_name": "Larry Nance Jr.",
         "team": "",
         "position": "F",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -808,16 +808,6 @@
         "position": "G",
         "status": "out",
         "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Terrence Shannon Jr.",
-        "team": "",
-        "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2745,6 +2735,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Logan O'Hoppe",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Drew Pomeranz",
         "team": "",
         "position": "RP",
@@ -3235,6 +3235,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Clay Holmes",
+        "team": "",
+        "position": "SP",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jorge Polanco",
         "team": "",
         "position": "1B",
@@ -3515,16 +3525,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Trea Turner",
-        "team": "",
-        "position": "SS",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Zach Pop",
         "team": "",
         "position": "RP",
@@ -3795,6 +3795,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Heliot Ramos",
+        "team": "",
+        "position": "LF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jason Foley",
         "team": "",
         "position": "RP",
@@ -3885,21 +3895,21 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Matt Brash",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Cal Raleigh",
         "team": "",
         "position": "C",
         "status": "10-day-il",
         "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Matt Brash",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
