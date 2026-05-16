@@ -284,6 +284,87 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-16_11-33-41",
+      "hours_to_game": 3221.424507893611,
+      "h2h": {
+        "Jacksonville Jaguars": {
+          "draftkings": -118,
+          "williamhill_us": -131
+        },
+        "New England Patriots": {
+          "draftkings": -102,
+          "williamhill_us": 100
+        }
+      },
+      "spreads": {
+        "Jacksonville Jaguars": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": -115
+          },
+          "betus": {
+            "line": -1.5,
+            "price": -105
+          }
+        },
+        "New England Patriots": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 1.5,
+            "price": -115
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 45.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 46.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 45.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 45.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 46.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 45.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]
