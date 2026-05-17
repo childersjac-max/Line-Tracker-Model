@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-16T19:50:46.277881+00:00",
+  "timestamp": "2026-05-17T11:45:05.068272+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -358,6 +358,36 @@
         "position": "G",
         "status": "out",
         "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Kevin Huerter",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Duncan Robinson",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Caris LeVert",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -1395,6 +1425,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Denzel Clarke",
+        "team": "",
+        "position": "CF",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Brooks Kriske",
         "team": "",
         "position": "RP",
@@ -1408,16 +1448,6 @@
         "player_name": "Max Muncy",
         "team": "",
         "position": "3B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Denzel Clarke",
-        "team": "",
-        "position": "CF",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -2095,6 +2125,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Jose Trevino",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Eugenio Suarez",
         "team": "",
         "position": "3B",
@@ -2485,6 +2525,26 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Jose Altuve",
+        "team": "",
+        "position": "2B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Josh Hader",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jeremy Pena",
         "team": "",
         "position": "SS",
@@ -2615,16 +2675,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Josh Hader",
-        "team": "",
-        "position": "RP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Yainer Diaz",
         "team": "",
         "position": "C",
@@ -2735,27 +2785,27 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Logan O'Hoppe",
+        "player_name": "Travis d'Arnaud",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Drew Pomeranz",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
         "player_name": "Ben Joyce",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Drew Pomeranz",
         "team": "",
         "position": "RP",
         "status": "15-day-il",
@@ -2772,16 +2822,6 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Travis d'Arnaud",
-        "team": "",
-        "position": "C",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2815,16 +2855,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Brusdar Graterol",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Blake Snell",
         "team": "",
         "position": "SP",
@@ -2832,6 +2862,16 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Brusdar Graterol",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2995,16 +3035,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Brandon Woodruff",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Christian Yelich",
         "team": "",
         "position": "DH",
@@ -3012,6 +3042,16 @@
         "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Brandon Woodruff",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3105,16 +3145,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Byron Buxton",
-        "team": "",
-        "position": "CF",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Taj Bradley",
         "team": "",
         "position": "SP",
@@ -3122,6 +3152,16 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Byron Buxton",
+        "team": "",
+        "position": "CF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3425,6 +3465,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Gerrit Cole",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Max Fried",
         "team": "",
         "position": "SP",
@@ -3462,16 +3512,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Gerrit Cole",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3595,6 +3635,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Ryan O'Hearn",
+        "team": "",
+        "position": "RF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jared Jones",
         "team": "",
         "position": "SP",
@@ -3658,16 +3708,6 @@
         "player_name": "Mike Clevinger",
         "team": "",
         "position": "RP",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Dominic Fletcher",
-        "team": "",
-        "position": "RF",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -3788,9 +3828,9 @@
         "player_name": "Heliot Ramos",
         "team": "",
         "position": "LF",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -3822,16 +3862,6 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Erik Miller",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3881,6 +3911,26 @@
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Brendan Donovan",
+        "team": "",
+        "position": "3B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Mitch Garver",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -4055,6 +4105,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Jake Fraley",
+        "team": "",
+        "position": "RF",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Gavin Lux",
         "team": "",
         "position": "LF",
@@ -4192,6 +4252,16 @@
         "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Corey Seager",
+        "team": "",
+        "position": "SS",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -4843,6 +4913,36 @@
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Josh Manson",
+        "team": "",
+        "position": "D",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Brent Burns",
+        "team": "",
+        "position": "D",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Cale Makar",
+        "team": "",
+        "position": "D",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -11031,7 +11131,7 @@
       {
         "player_name": "Jared Wilson",
         "team": "",
-        "position": "G",
+        "position": "C",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -12279,6 +12379,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Aaron Rodgers",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Chris Boswell",
         "team": "",
         "position": "PK",
@@ -12516,16 +12626,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Rico Dowdle",
-        "team": "",
-        "position": "RB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
