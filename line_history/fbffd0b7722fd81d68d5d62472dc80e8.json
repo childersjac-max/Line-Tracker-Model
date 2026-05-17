@@ -560,6 +560,87 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-17_15-43-32",
+      "hours_to_game": 3529.2621410816664,
+      "h2h": {
+        "New York Giants": {
+          "draftkings": 114,
+          "williamhill_us": 125
+        },
+        "Washington Commanders": {
+          "draftkings": -135,
+          "williamhill_us": -155
+        }
+      },
+      "spreads": {
+        "New York Giants": {
+          "draftkings": {
+            "line": 2.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 3.0,
+            "price": -120
+          },
+          "betus": {
+            "line": 2.5,
+            "price": -110
+          }
+        },
+        "Washington Commanders": {
+          "draftkings": {
+            "line": -2.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -3.0,
+            "price": -110
+          },
+          "betus": {
+            "line": -2.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 48.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 49.0,
+            "price": -115
+          },
+          "betus": {
+            "line": 48.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 48.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 49.0,
+            "price": -115
+          },
+          "betus": {
+            "line": 48.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]
