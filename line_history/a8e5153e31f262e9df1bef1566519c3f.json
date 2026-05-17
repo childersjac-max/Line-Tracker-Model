@@ -1,0 +1,92 @@
+{
+  "event_id": "a8e5153e31f262e9df1bef1566519c3f",
+  "sport_key": "baseball_mlb",
+  "home_team": "Los Angeles Angels",
+  "away_team": "Athletics",
+  "commence_time": "2026-05-19T01:39:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-17_19-56-45",
+      "hours_to_game": 29.688956998055556,
+      "h2h": {
+        "Athletics": {
+          "fanduel": -124,
+          "sport888": -133,
+          "unibet_fr": -141,
+          "onexbet": -116,
+          "winamax_de": -128,
+          "winamax_fr": -143
+        },
+        "Los Angeles Angels": {
+          "fanduel": 106,
+          "sport888": 105,
+          "unibet_fr": -106,
+          "onexbet": 107,
+          "winamax_de": 100,
+          "winamax_fr": -106
+        }
+      },
+      "spreads": {
+        "Athletics": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 136
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 130
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 127
+          }
+        },
+        "Los Angeles Angels": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -164
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -161
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -139
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -137
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -126
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 110
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 116
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

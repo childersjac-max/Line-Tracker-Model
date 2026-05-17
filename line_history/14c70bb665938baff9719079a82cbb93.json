@@ -1,0 +1,120 @@
+{
+  "event_id": "14c70bb665938baff9719079a82cbb93",
+  "sport_key": "baseball_mlb",
+  "home_team": "Seattle Mariners",
+  "away_team": "Chicago White Sox",
+  "commence_time": "2026-05-19T01:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-17_19-56-45",
+      "hours_to_game": 29.7222901925,
+      "h2h": {
+        "Chicago White Sox": {
+          "fanduel": 146,
+          "gtbets": 162,
+          "lowvig": 156,
+          "betonlineag": 156,
+          "sport888": 145,
+          "winamax_de": 140,
+          "winamax_fr": 125,
+          "onexbet": 146
+        },
+        "Seattle Mariners": {
+          "fanduel": -174,
+          "gtbets": -177,
+          "lowvig": -173,
+          "betonlineag": -173,
+          "sport888": -188,
+          "winamax_de": -179,
+          "winamax_fr": -200,
+          "onexbet": -159
+        }
+      },
+      "spreads": {
+        "Chicago White Sox": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -156
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -161
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -139
+          }
+        },
+        "Seattle Mariners": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 130
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 130
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 127
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": 100
+          },
+          "gtbets": {
+            "line": 7.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 7.0,
+            "price": -107
+          },
+          "betonlineag": {
+            "line": 7.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 107
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -122
+          },
+          "gtbets": {
+            "line": 7.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 7.0,
+            "price": -107
+          },
+          "betonlineag": {
+            "line": 7.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -116
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
