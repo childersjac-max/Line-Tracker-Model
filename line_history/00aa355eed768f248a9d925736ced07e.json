@@ -1,0 +1,108 @@
+{
+  "event_id": "00aa355eed768f248a9d925736ced07e",
+  "sport_key": "baseball_mlb",
+  "home_team": "Arizona Diamondbacks",
+  "away_team": "San Francisco Giants",
+  "commence_time": "2026-05-20T01:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-18_19-14-19",
+      "hours_to_game": 30.43119902611111,
+      "h2h": {
+        "Arizona Diamondbacks": {
+          "fanduel": -118,
+          "lowvig": -105,
+          "betonlineag": -105,
+          "unibet_fr": -132,
+          "sport888": -125,
+          "onexbet": -116
+        },
+        "San Francisco Giants": {
+          "fanduel": 100,
+          "lowvig": -105,
+          "betonlineag": -105,
+          "unibet_fr": -114,
+          "sport888": 100,
+          "onexbet": 107
+        }
+      },
+      "spreads": {
+        "Arizona Diamondbacks": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -196
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -172
+          }
+        },
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 162
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 158
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -107
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -116
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -102
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -107
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 107
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
