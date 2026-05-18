@@ -104,6 +104,123 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-18_22-43-06",
+      "hours_to_game": 24.95134736916667,
+      "h2h": {
+        "Chicago Cubs": {
+          "fanduel": 102,
+          "betonlineag": -101,
+          "lowvig": -101,
+          "unibet_fr": -115,
+          "sport888": 100,
+          "fanatics": -105,
+          "onexbet": 107,
+          "winamax_de": -106,
+          "winamax_fr": -116,
+          "gtbets": -101,
+          "draftkings": -105,
+          "williamhill_us": -105
+        },
+        "Milwaukee Brewers": {
+          "fanduel": -120,
+          "betonlineag": -109,
+          "lowvig": -109,
+          "unibet_fr": -130,
+          "sport888": -125,
+          "fanatics": -115,
+          "onexbet": -116,
+          "winamax_de": -119,
+          "winamax_fr": -132,
+          "gtbets": -109,
+          "draftkings": -115,
+          "williamhill_us": -115
+        }
+      },
+      "spreads": {
+        "Chicago Cubs": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -172
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -175
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -170
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -159
+          }
+        },
+        "Milwaukee Brewers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 142
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 140
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 140
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 146
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 107
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -116
+          }
+        }
+      },
       "splits": {}
     }
   ]
