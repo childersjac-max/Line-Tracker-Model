@@ -1,0 +1,110 @@
+{
+  "event_id": "eb71b24bcac6134977abdc1add17dd0a",
+  "sport_key": "baseball_mlb",
+  "home_team": "San Diego Padres",
+  "away_team": "Los Angeles Dodgers",
+  "commence_time": "2026-05-21T00:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-19_22-47-37",
+      "hours_to_game": 25.866485495,
+      "h2h": {
+        "Los Angeles Dodgers": {
+          "fanduel": -184,
+          "sport888": -188,
+          "unibet_fr": -192,
+          "winamax_de": -179,
+          "winamax_fr": -192,
+          "onexbet": -159,
+          "draftkings": -168
+        },
+        "San Diego Padres": {
+          "fanduel": 154,
+          "sport888": 145,
+          "unibet_fr": 125,
+          "winamax_de": 140,
+          "winamax_fr": 125,
+          "onexbet": 146,
+          "draftkings": 139
+        }
+      },
+      "spreads": {
+        "Los Angeles Dodgers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": -110
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": -103
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": -102
+          }
+        },
+        "San Diego Padres": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -118
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -105
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -118
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -124
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 101
+          },
+          "draftkings": {
+            "line": 7.0,
+            "price": -122
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": 102
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -110
+          },
+          "draftkings": {
+            "line": 7.0,
+            "price": 102
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
