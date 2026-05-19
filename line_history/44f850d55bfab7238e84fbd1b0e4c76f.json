@@ -1,0 +1,50 @@
+{
+  "event_id": "44f850d55bfab7238e84fbd1b0e4c76f",
+  "sport_key": "baseball_mlb",
+  "home_team": "Philadelphia Phillies",
+  "away_team": "Cincinnati Reds",
+  "commence_time": "2026-05-20T17:06:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-19_18-19-09",
+      "hours_to_game": 22.765558053333333,
+      "h2h": {
+        "Cincinnati Reds": {
+          "fanduel": 122
+        },
+        "Philadelphia Phillies": {
+          "fanduel": -144
+        }
+      },
+      "spreads": {
+        "Cincinnati Reds": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -166
+          }
+        },
+        "Philadelphia Phillies": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 138
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
