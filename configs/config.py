@@ -87,3 +87,6 @@ LINE_HISTORY_DIR = "./line_history"
 OUTCOMES_FILE    = "./outcomes.json"
 MODELS_DIR       = "./saved_models"
 OUTPUT_DIR       = "./pipeline_output"
+PAPER_LOG_FILE   = "./pipeline_output/paper_trading_log.csv"
+# Closing snapshot: last pre-game snap within this many hours of tip (bpr uses ~30 min)
+CLOSING_SNAP_MAX_HOURS_BEFORE_START = 0.5

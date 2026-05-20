@@ -26,6 +26,24 @@ def no_vig_prob(american_a, american_b):
 def clv_edge(model_prob, no_vig_market_prob):
     return model_prob - no_vig_market_prob
 
+
+def compute_clv_vs_close(bet_fair_prob, closing_fair_prob):
+    """
+    True CLV vs closing line (same convention as bpr-model lib/odds-math.js).
+    Positive clv_prob_pts => your bet-time fair prob exceeds closing fair
+    (line moved in your favor / you beat the close).
+    """
+    if bet_fair_prob is None or closing_fair_prob is None:
+        return None, None
+    try:
+        bet = float(bet_fair_prob)
+        close = float(closing_fair_prob)
+    except (TypeError, ValueError):
+        return None, None
+    pts = bet - close
+    pct = (pts / close * 100.0) if close > 0 else None
+    return round(pts, 5), (round(pct, 2) if pct is not None else None)
+
 def ev_pct(model_prob, american_odds):
     dec = american_to_decimal(american_odds)
     return (model_prob * (dec - 1.0) - (1.0 - model_prob)) * 100.0

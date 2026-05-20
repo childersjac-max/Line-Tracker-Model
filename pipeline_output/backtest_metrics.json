@@ -1,0 +1,51 @@
+{
+  "scoring_parity": "matches score_all (no-vig fair, shrinkage, MIN_EDGE_TO_BET)",
+  "shrinkage_alpha": 0.5,
+  "n_bets": 914,
+  "hit_rate": 0.4442013129102845,
+  "roi_pct": 1.2983905834887168,
+  "total_pnl": 2709.280086412151,
+  "total_wagered": 208664.48978183727,
+  "clv_mean_pts": 0.0,
+  "clv_positive_pct": 0.0,
+  "sharpe": 0.1537352763286106,
+  "profit_factor": 1.0234478127753763,
+  "max_drawdown_pct": -46.39180256205871,
+  "by_market": {
+    "h2h": {
+      "n_bets": 183,
+      "hit_rate": 0.3879781420765027,
+      "roi_pct": -0.8667010063706475,
+      "clv_mean_pts": 0.0
+    },
+    "spreads": {
+      "n_bets": 335,
+      "hit_rate": 0.42388059701492536,
+      "roi_pct": 10.770876729051436,
+      "clv_mean_pts": 0.0
+    },
+    "totals": {
+      "n_bets": 396,
+      "hit_rate": 0.48737373737373735,
+      "roi_pct": -5.326124456156374,
+      "clv_mean_pts": 0.0
+    }
+  },
+  "by_signal": {
+    "SHARP_MONEY": {
+      "n_bets": 17,
+      "hit_rate": 0.47058823529411764,
+      "roi_pct": -2.8049477154998432
+    },
+    "CLV_MODEL": {
+      "n_bets": 897,
+      "hit_rate": 0.443701226309922,
+      "roi_pct": 1.3615968763342061
+    }
+  },
+  "multi_signal": {
+    "n_bets": 0,
+    "hit_rate": 0,
+    "roi_pct": 0
+  }
+}

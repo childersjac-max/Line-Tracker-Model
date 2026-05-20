@@ -5,12 +5,9 @@ import logging
 import pandas as pd
 import numpy as np
 from datetime import datetime, timezone, timedelta
-from configs.config import (
-    MIN_EDGE_TO_BET, MARKETS, SPORTS,
-    PROB_SHRINKAGE_ALPHA, MIN_MODEL_PROB,
-)
-from utils.odds_math import ev_pct
+from configs.config import MARKETS, SPORTS, PROB_SHRINKAGE_ALPHA, MIN_MODEL_PROB
 from utils.kelly import size_bet, apply_portfolio_cap, confidence_label
+from utils.scoring import evaluate_bet_row
 from features.movement import build_feature_dataframe
 from data.labeler import label_histories
 from data.line_tracker import load_all_histories
@@ -139,25 +136,17 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
                 if min_signals > 0 and row.get("n_signals", 0) < min_signals:
                     continue
                 model_prob = float(probs[i])
-
-                # Use no-vig Pinnacle prob as fair benchmark (Tier 1 fix #1)
-                fair_prob = row.get("pin_no_vig_prob")
-                if fair_prob is None or (isinstance(fair_prob, float) and np.isnan(fair_prob)):
-                    fair_prob = row.get("pin_implied_prob", 0.5)
-                fair_prob = float(fair_prob)
-
-                # Shrink model prob toward fair to reduce overconfidence (Tier 1 fix #16)
-                sized_prob  = alpha * model_prob + (1 - alpha) * fair_prob
-                edge_shrunk = sized_prob - fair_prob
-                edge_raw    = model_prob - fair_prob
-
-                best_odds = row.get("best_pub_price")
-
-                if (edge_shrunk < MIN_EDGE_TO_BET
-                        or sized_prob < min_prob
-                        or best_odds is None
-                        or (isinstance(best_odds, float) and np.isnan(best_odds))):
+                ev = evaluate_bet_row(
+                    model_prob, row, alpha=alpha, min_model_prob=min_prob,
+                )
+                if ev is None:
                     continue
+
+                fair_prob = ev["fair_prob"]
+                sized_prob = ev["sized_prob"]
+                edge_shrunk = ev["edge_shrunk"]
+                edge_raw = ev["edge_raw"]
+                best_odds = ev["american_odds"]
 
                 bet_pct, bet_usd = size_bet(sized_prob, best_odds, bankroll)
                 if bet_pct == 0:
@@ -205,10 +194,10 @@ def score_all(bankroll=10000.0, min_signals=0, prob_shrinkage_alpha=None, min_mo
                     "model_prob":          round(model_prob,  4),
                     "sized_prob":          round(sized_prob,  4),
                     "fair_prob":           round(fair_prob,   4),
-                    "edge_pct":            round(edge_shrunk * 100, 2),
-                    "edge_pct_raw":        round(edge_raw    * 100, 2),
-                    "shrinkage_alpha":     alpha,
-                    "ev_pct":              round(ev_pct(sized_prob, best_odds), 2),
+                    "edge_pct":            ev["edge_pct"],
+                    "edge_pct_raw":        ev["edge_pct_raw"],
+                    "shrinkage_alpha":     ev["shrinkage_alpha"],
+                    "ev_pct":              ev["ev_pct"],
                     "bet_pct":             round(bet_pct, 4),
                     "bet_usd":             round(bet_usd, 2),
                     "confidence":          confidence_label(edge_shrunk, bet_pct),

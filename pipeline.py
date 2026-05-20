@@ -54,6 +54,10 @@ def mode_track():
 def mode_results(days_from=3):
     from data.results import fetch_and_store_outcomes
     fetch_and_store_outcomes(days_from=days_from)
+    try:
+        mode_grade_paper()
+    except Exception as e:
+        logger.warning(f"Paper log grade after results skipped (non-fatal): {e}")
 
 
 def mode_historical(days_back=30):
@@ -107,6 +111,31 @@ def mode_predict(bankroll, min_signals):
 
     logger.info(f"Slate written → {out_path}")
 
+    try:
+        from data.paper_log import append_slate, grade_pending_picks
+        from datetime import datetime, timezone
+
+        n = append_slate(slate, slate_generated_at=datetime.now(timezone.utc).isoformat())
+        logger.info(f"Paper log: {n} new pick(s) appended.")
+        stats = grade_pending_picks()
+        if stats.get("graded"):
+            logger.info(f"Paper log: graded {stats['graded']} pick(s) with available results.")
+    except Exception as e:
+        logger.warning(f"Paper log update skipped (non-fatal): {e}")
+
+
+def mode_grade_paper():
+    import json
+    from data.paper_log import grade_pending_picks, paper_log_summary
+
+    stats = grade_pending_picks()
+    summary = paper_log_summary()
+    Path(OUTPUT_DIR).mkdir(parents=True, exist_ok=True)
+    out = {**stats, **summary}
+    with open(Path(OUTPUT_DIR) / "paper_log_summary.json", "w") as f:
+        json.dump(out, f, indent=2, default=str)
+    logger.info("Paper log summary: %s", summary)
+
 
 def mode_backtest(bankroll, sport_filter, market_filter):
     from backtest.backtest import run_backtest
@@ -142,7 +171,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--mode", required=True,
                    choices=["scrape", "track", "results", "predict",
-                            "backtest", "patterns", "historical"])
+                            "backtest", "patterns", "historical", "grade-paper"])
     p.add_argument("--bankroll",    type=float, default=10000.0)
     p.add_argument("--min-signals", type=int,   default=0)
     p.add_argument("--sport",       default=None, choices=list(SPORTS.keys()))
@@ -157,6 +186,7 @@ def main():
     elif args.mode == "backtest":   mode_backtest(args.bankroll, args.sport, args.market)
     elif args.mode == "patterns":   mode_patterns()
     elif args.mode == "historical": mode_historical(days_back=args.days)
+    elif args.mode == "grade-paper": mode_grade_paper()
 
 
 if __name__ == "__main__":

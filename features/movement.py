@@ -38,6 +38,26 @@ def get_latest(snapshots):
     return snapshots[-1] if snapshots else None
 
 
+def get_closing_snapshot(snapshots, max_hours_before_start=0.5):
+    """
+    Snapshot closest to game start but still pre-game (for true CLV vs close).
+    Prefer the latest snap with 0 < hours_to_game <= max_hours_before_start;
+    else the last snap with hours_to_game > 0; else the final snapshot.
+    """
+    if not snapshots:
+        return None
+    pre_game = []
+    for s in snapshots:
+        htg = s.get("hours_to_game")
+        if htg is not None and htg > 0:
+            pre_game.append(s)
+    if not pre_game:
+        return get_latest(snapshots)
+    window = [s for s in pre_game if s.get("hours_to_game", 999) <= max_hours_before_start]
+    pool = window if window else pre_game
+    return min(pool, key=lambda s: s.get("hours_to_game", 999))
+
+
 def _get_price(snap, market, side, book):
     if market == "h2h":
         return snap.get("h2h", {}).get(side, {}).get(book)
