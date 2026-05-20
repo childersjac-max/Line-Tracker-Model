@@ -1,0 +1,108 @@
+{
+  "event_id": "cce976ea22886df248e92176cb5f8f26",
+  "sport_key": "baseball_mlb",
+  "home_team": "New York Yankees",
+  "away_team": "Toronto Blue Jays",
+  "commence_time": "2026-05-21T23:06:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-20_19-35-15",
+      "hours_to_game": 27.496336264444444,
+      "h2h": {
+        "New York Yankees": {
+          "fanduel": -162,
+          "sport888": -167,
+          "unibet_fr": -182,
+          "fanatics": -155,
+          "onexbet": -150,
+          "williamhill": -162
+        },
+        "Toronto Blue Jays": {
+          "fanduel": 136,
+          "sport888": 135,
+          "unibet_fr": 120,
+          "fanatics": 130,
+          "onexbet": 138,
+          "williamhill": 130
+        }
+      },
+      "spreads": {
+        "New York Yankees": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 125
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 120
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 120
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 127
+          }
+        },
+        "Toronto Blue Jays": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -150
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -150
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -145
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -139
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 102
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 107
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -124
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -116
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
