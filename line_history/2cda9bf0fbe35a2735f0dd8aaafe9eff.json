@@ -1901,6 +1901,87 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-21_23-11-34",
+      "hours_to_game": 3425.792387056389,
+      "h2h": {
+        "Minnesota Vikings": {
+          "draftkings": -120,
+          "williamhill_us": -105
+        },
+        "New Orleans Saints": {
+          "draftkings": 100,
+          "williamhill_us": -125
+        }
+      },
+      "spreads": {
+        "Minnesota Vikings": {
+          "draftkings": {
+            "line": -1.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -120
+          },
+          "betus": {
+            "line": -1.5,
+            "price": -105
+          }
+        },
+        "New Orleans Saints": {
+          "draftkings": {
+            "line": 1.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": -110
+          },
+          "betus": {
+            "line": 1.5,
+            "price": -115
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 44.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 43.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 44.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 44.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 43.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 44.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]
