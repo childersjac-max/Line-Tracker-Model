@@ -315,6 +315,89 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-21_18-06-32",
+      "hours_to_game": 2741.376646346111,
+      "h2h": {
+        "Oklahoma State Cowboys": {
+          "fanduel": 640,
+          "betsson": 596,
+          "nordicbet": 596
+        },
+        "Oregon Ducks": {
+          "fanduel": -1000,
+          "betsson": -1111,
+          "nordicbet": -1111
+        }
+      },
+      "spreads": {
+        "Oklahoma State Cowboys": {
+          "fanduel": {
+            "line": 17.5,
+            "price": -110
+          },
+          "betsson": {
+            "line": 19.5,
+            "price": -132
+          },
+          "nordicbet": {
+            "line": 19.5,
+            "price": -132
+          }
+        },
+        "Oregon Ducks": {
+          "fanduel": {
+            "line": -17.5,
+            "price": -110
+          },
+          "betsson": {
+            "line": -19.5,
+            "price": 101
+          },
+          "nordicbet": {
+            "line": -19.5,
+            "price": 101
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 58.5,
+            "price": -110
+          },
+          "betsson": {
+            "line": 59.0,
+            "price": -103
+          },
+          "nordicbet": {
+            "line": 59.0,
+            "price": -103
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 58.5,
+            "price": -110
+          },
+          "betsson": {
+            "line": 59.0,
+            "price": -125
+          },
+          "nordicbet": {
+            "line": 59.0,
+            "price": -125
+          }
+        }
+      },
       "splits": {}
     }
   ]

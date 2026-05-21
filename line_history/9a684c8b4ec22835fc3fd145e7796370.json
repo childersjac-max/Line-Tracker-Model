@@ -1,0 +1,50 @@
+{
+  "event_id": "9a684c8b4ec22835fc3fd145e7796370",
+  "sport_key": "baseball_mlb",
+  "home_team": "Arizona Diamondbacks",
+  "away_team": "Colorado Rockies",
+  "commence_time": "2026-05-23T01:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-21_18-06-32",
+      "hours_to_game": 31.560049687222225,
+      "h2h": {
+        "Arizona Diamondbacks": {
+          "fanduel": -180
+        },
+        "Colorado Rockies": {
+          "fanduel": 152
+        }
+      },
+      "spreads": {
+        "Arizona Diamondbacks": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 122
+          }
+        },
+        "Colorado Rockies": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -146
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

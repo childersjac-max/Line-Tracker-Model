@@ -1,0 +1,108 @@
+{
+  "event_id": "ea533201c1219a43e8c91415af4065b2",
+  "sport_key": "baseball_mlb",
+  "home_team": "Philadelphia Phillies",
+  "away_team": "Cleveland Guardians",
+  "commence_time": "2026-05-22T22:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-21_18-06-32",
+      "hours_to_game": 28.56005013888889,
+      "h2h": {
+        "Cleveland Guardians": {
+          "fanduel": 154,
+          "betonlineag": 152,
+          "fanatics": 150,
+          "lowvig": 152,
+          "sport888": 150,
+          "unibet_fr": 135
+        },
+        "Philadelphia Phillies": {
+          "fanduel": -184,
+          "betonlineag": -168,
+          "fanatics": -180,
+          "lowvig": -168,
+          "sport888": -188,
+          "unibet_fr": -208
+        }
+      },
+      "spreads": {
+        "Cleveland Guardians": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -156
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -120
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -154
+          }
+        },
+        "Philadelphia Phillies": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 130
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 125
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.0,
+            "price": -112
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": -105
+          },
+          "fanatics": {
+            "line": 7.0,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": -102
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 110
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.0,
+            "price": -108
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": -115
+          },
+          "fanatics": {
+            "line": 7.0,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": -113
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -137
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

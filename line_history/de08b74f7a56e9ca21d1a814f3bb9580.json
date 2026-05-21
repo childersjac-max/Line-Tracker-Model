@@ -1,0 +1,108 @@
+{
+  "event_id": "de08b74f7a56e9ca21d1a814f3bb9580",
+  "sport_key": "baseball_mlb",
+  "home_team": "Cincinnati Reds",
+  "away_team": "St. Louis Cardinals",
+  "commence_time": "2026-05-22T22:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-21_18-06-32",
+      "hours_to_game": 28.560050214444445,
+      "h2h": {
+        "Cincinnati Reds": {
+          "fanduel": -112,
+          "lowvig": -105,
+          "betonlineag": -105,
+          "fanatics": -110,
+          "sport888": -118,
+          "unibet_fr": -127
+        },
+        "St. Louis Cardinals": {
+          "fanduel": -104,
+          "lowvig": -105,
+          "betonlineag": -105,
+          "fanatics": -110,
+          "sport888": -110,
+          "unibet_fr": -119
+        }
+      },
+      "spreads": {
+        "Cincinnati Reds": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -182
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -170
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          }
+        },
+        "St. Louis Cardinals": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 150
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 140
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 145
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 9.5,
+            "price": -118
+          },
+          "betonlineag": {
+            "line": 9.5,
+            "price": -120
+          },
+          "fanatics": {
+            "line": 9.5,
+            "price": -115
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 9.5,
+            "price": 103
+          },
+          "betonlineag": {
+            "line": 9.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 9.5,
+            "price": -105
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -118
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

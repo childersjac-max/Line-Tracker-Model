@@ -1,0 +1,50 @@
+{
+  "event_id": "0fec3ff922e35049f5bbc3e899ce1cef",
+  "sport_key": "baseball_mlb",
+  "home_team": "Milwaukee Brewers",
+  "away_team": "Los Angeles Dodgers",
+  "commence_time": "2026-05-22T23:41:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-21_18-06-32",
+      "hours_to_game": 29.56004973472222,
+      "h2h": {
+        "Los Angeles Dodgers": {
+          "fanduel": -116
+        },
+        "Milwaukee Brewers": {
+          "fanduel": -102
+        }
+      },
+      "spreads": {
+        "Los Angeles Dodgers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 142
+          }
+        },
+        "Milwaukee Brewers": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -172
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
