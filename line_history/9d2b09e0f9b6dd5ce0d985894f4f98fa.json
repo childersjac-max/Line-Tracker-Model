@@ -1787,6 +1787,87 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-21_20-20-14",
+      "hours_to_game": 3095.731760735278,
+      "h2h": {
+        "Arizona Cardinals": {
+          "draftkings": 470,
+          "williamhill_us": 400
+        },
+        "San Francisco 49ers": {
+          "draftkings": -650,
+          "williamhill_us": -600
+        }
+      },
+      "spreads": {
+        "Arizona Cardinals": {
+          "draftkings": {
+            "line": 11.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 11.0,
+            "price": -115
+          },
+          "betus": {
+            "line": 11.5,
+            "price": -110
+          }
+        },
+        "San Francisco 49ers": {
+          "draftkings": {
+            "line": -11.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": -11.0,
+            "price": -115
+          },
+          "betus": {
+            "line": -11.5,
+            "price": -110
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 47.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 46.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 46.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 47.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 46.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]
