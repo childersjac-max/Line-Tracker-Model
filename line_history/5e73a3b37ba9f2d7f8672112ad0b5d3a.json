@@ -1,0 +1,94 @@
+{
+  "event_id": "5e73a3b37ba9f2d7f8672112ad0b5d3a",
+  "sport_key": "baseball_mlb",
+  "home_team": "Chicago Cubs",
+  "away_team": "Houston Astros",
+  "commence_time": "2026-05-23T18:21:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-22_19-49-34",
+      "hours_to_game": 22.50829335527778,
+      "h2h": {
+        "Chicago Cubs": {
+          "fanduel": -142,
+          "betonlineag": -140,
+          "lowvig": -140,
+          "fanatics": -145,
+          "sport888": -150,
+          "unibet_fr": -159,
+          "winamax_de": -147,
+          "winamax_fr": -161,
+          "williamhill": -150,
+          "gtbets": -140,
+          "onexbet": -139
+        },
+        "Houston Astros": {
+          "fanduel": 120,
+          "betonlineag": 127,
+          "lowvig": 127,
+          "fanatics": 120,
+          "sport888": 120,
+          "unibet_fr": 110,
+          "winamax_de": 115,
+          "winamax_fr": 105,
+          "williamhill": 120,
+          "gtbets": 130,
+          "onexbet": 127
+        }
+      },
+      "spreads": {
+        "Chicago Cubs": {
+          "fanatics": {
+            "line": -1.5,
+            "price": 135
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          }
+        },
+        "Houston Astros": {
+          "fanatics": {
+            "line": 1.5,
+            "price": -165
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanatics": {
+            "line": 7.5,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": -115
+          }
+        },
+        "Under": {
+          "fanatics": {
+            "line": 7.5,
+            "price": -105
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": -105
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
