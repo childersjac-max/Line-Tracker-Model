@@ -511,6 +511,277 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-22_01-29-52",
+      "hours_to_game": 16.83672155388889,
+      "h2h": {
+        "Chicago Cubs": {
+          "fanduel": -142,
+          "fanatics": -145,
+          "sport888": -150,
+          "unibet_fr": -154,
+          "lowvig": -135,
+          "betonlineag": -135,
+          "onexbet": -137,
+          "mybookieag": -142,
+          "matchbook": -145,
+          "winamax_fr": -156,
+          "winamax_de": -147,
+          "williamhill": -150,
+          "gtbets": -135,
+          "draftkings": -144,
+          "williamhill_us": -140,
+          "betus": -135,
+          "betmgm": -145,
+          "marathonbet": -147,
+          "bovada": -147,
+          "pinnacle": -141,
+          "unibet_nl": -143,
+          "betrivers": -148,
+          "unibet_se": -143,
+          "leovegas_se": -148,
+          "coolbet": -147
+        },
+        "Houston Astros": {
+          "fanduel": 120,
+          "fanatics": 120,
+          "sport888": 120,
+          "unibet_fr": 110,
+          "lowvig": 122,
+          "betonlineag": 122,
+          "onexbet": 126,
+          "mybookieag": 120,
+          "matchbook": 126,
+          "winamax_fr": 110,
+          "winamax_de": 115,
+          "williamhill": 120,
+          "gtbets": 125,
+          "draftkings": 119,
+          "williamhill_us": 118,
+          "betus": 122,
+          "betmgm": 118,
+          "marathonbet": 119,
+          "bovada": 123,
+          "pinnacle": 128,
+          "unibet_nl": 123,
+          "betrivers": 120,
+          "unibet_se": 123,
+          "leovegas_se": 120,
+          "coolbet": 120
+        }
+      },
+      "spreads": {
+        "Chicago Cubs": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 158
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 145
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 150
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 159
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 140
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 149
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 150
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 150
+          },
+          "unibet_nl": {
+            "line": -1.5,
+            "price": 155
+          },
+          "betrivers": {
+            "line": -1.5,
+            "price": 155
+          },
+          "unibet_se": {
+            "line": -1.5,
+            "price": 155
+          },
+          "leovegas_se": {
+            "line": -1.5,
+            "price": 155
+          },
+          "coolbet": {
+            "line": -1.5,
+            "price": 152
+          }
+        },
+        "Houston Astros": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -192
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -175
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -174
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -173
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -181
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -178
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -185
+          },
+          "unibet_nl": {
+            "line": 1.5,
+            "price": -200
+          },
+          "betrivers": {
+            "line": 1.5,
+            "price": -200
+          },
+          "unibet_se": {
+            "line": 1.5,
+            "price": -200
+          },
+          "leovegas_se": {
+            "line": 1.5,
+            "price": -200
+          },
+          "coolbet": {
+            "line": 1.5,
+            "price": -189
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 7.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 110
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 118
+          },
+          "mybookieag": {
+            "line": 7.0,
+            "price": -113
+          },
+          "draftkings": {
+            "line": 7.0,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 7.0,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 7.0,
+            "price": -110
+          },
+          "betrivers": {
+            "line": 7.5,
+            "price": 100
+          },
+          "pmu_fr": {
+            "line": 7.5,
+            "price": -114
+          },
+          "coolbet": {
+            "line": 7.0,
+            "price": -115
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -122
+          },
+          "fanatics": {
+            "line": 7.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -137
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -128
+          },
+          "mybookieag": {
+            "line": 7.0,
+            "price": -108
+          },
+          "draftkings": {
+            "line": 7.0,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 7.0,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 7.0,
+            "price": -110
+          },
+          "betrivers": {
+            "line": 7.5,
+            "price": -125
+          },
+          "pmu_fr": {
+            "line": 7.5,
+            "price": -143
+          },
+          "coolbet": {
+            "line": 7.0,
+            "price": -105
+          }
+        }
+      },
       "splits": {}
     }
   ]
