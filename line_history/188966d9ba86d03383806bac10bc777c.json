@@ -86,6 +86,95 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-22_22-34-49",
+      "hours_to_game": 24.671229815833332,
+      "h2h": {
+        "Cincinnati Reds": {
+          "fanduel": -106,
+          "unibet_fr": -122,
+          "sport888": -110,
+          "winamax_de": -111,
+          "winamax_fr": -125,
+          "onexbet": -104
+        },
+        "St. Louis Cardinals": {
+          "fanduel": -110,
+          "unibet_fr": -122,
+          "sport888": -110,
+          "winamax_de": -111,
+          "winamax_fr": -125,
+          "onexbet": -104
+        }
+      },
+      "spreads": {
+        "Cincinnati Reds": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -178
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -159
+          }
+        },
+        "St. Louis Cardinals": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 146
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 145
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 146
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -110
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -104
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -118
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -104
+          }
+        }
+      },
       "splits": {}
     }
   ]

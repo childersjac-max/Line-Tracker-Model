@@ -82,6 +82,113 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-22_22-34-49",
+      "hours_to_game": 21.58789689972222,
+      "h2h": {
+        "Atlanta Braves": {
+          "fanduel": -184,
+          "fanatics": -190,
+          "unibet_fr": -204,
+          "sport888": -188,
+          "onexbet": -164,
+          "winamax_fr": -200,
+          "winamax_de": -192
+        },
+        "Washington Nationals": {
+          "fanduel": 154,
+          "fanatics": 155,
+          "unibet_fr": 140,
+          "sport888": 150,
+          "onexbet": 151,
+          "winamax_fr": 140,
+          "winamax_de": 150
+        }
+      },
+      "spreads": {
+        "Atlanta Braves": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 114
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 110
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 110
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 112
+          }
+        },
+        "Washington Nationals": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -137
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -130
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -137
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -121
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -105
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -137
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -121
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -115
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 110
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 112
+          }
+        }
+      },
       "splits": {}
     }
   ]

@@ -106,6 +106,117 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-22_22-34-49",
+      "hours_to_game": 18.587898209166667,
+      "h2h": {
+        "Cincinnati Reds": {
+          "fanduel": -108,
+          "unibet_fr": -123,
+          "onexbet": -116,
+          "williamhill": -125,
+          "winamax_fr": -122,
+          "winamax_de": -116,
+          "sport888": -110,
+          "coolbet": -110,
+          "betfair_ex_eu": -10000
+        },
+        "St. Louis Cardinals": {
+          "fanduel": -108,
+          "unibet_fr": -115,
+          "onexbet": 107,
+          "williamhill": 100,
+          "winamax_fr": -114,
+          "winamax_de": -109,
+          "sport888": -110,
+          "coolbet": -110,
+          "betfair_ex_eu": -10000
+        }
+      },
+      "spreads": {
+        "Cincinnati Reds": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -172
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -172
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "coolbet": {
+            "line": 1.5,
+            "price": -175
+          }
+        },
+        "St. Louis Cardinals": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 142
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 158
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 145
+          },
+          "coolbet": {
+            "line": -1.5,
+            "price": 142
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -104
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": 100
+          },
+          "coolbet": {
+            "line": 9.5,
+            "price": 100
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -122
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -104
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -125
+          },
+          "coolbet": {
+            "line": 9.5,
+            "price": -122
+          }
+        }
+      },
       "splits": {}
     }
   ]

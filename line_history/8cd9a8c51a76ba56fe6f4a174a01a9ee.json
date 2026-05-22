@@ -1,0 +1,92 @@
+{
+  "event_id": "8cd9a8c51a76ba56fe6f4a174a01a9ee",
+  "sport_key": "baseball_mlb",
+  "home_team": "Miami Marlins",
+  "away_team": "New York Mets",
+  "commence_time": "2026-05-23T20:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-22_22-34-49",
+      "hours_to_game": 21.587896556666667,
+      "h2h": {
+        "Miami Marlins": {
+          "fanduel": -104,
+          "fanatics": -110,
+          "sport888": -110,
+          "unibet_fr": -115,
+          "winamax_de": -109,
+          "winamax_fr": -114
+        },
+        "New York Mets": {
+          "fanduel": -112,
+          "fanatics": -110,
+          "sport888": -118,
+          "unibet_fr": -123,
+          "winamax_de": -116,
+          "winamax_fr": -122
+        }
+      },
+      "spreads": {
+        "Miami Marlins": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -178
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -180
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          }
+        },
+        "New York Mets": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 146
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 150
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 150
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -115
+          },
+          "fanatics": {
+            "line": 7.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -118
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -105
+          },
+          "fanatics": {
+            "line": 7.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
