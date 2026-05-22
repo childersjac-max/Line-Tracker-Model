@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-22T15:36:22.385690+00:00",
+  "timestamp": "2026-05-22T17:54:51.673547+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1862,6 +1862,16 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Matt Shaw",
+        "team": "",
+        "position": "RF",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3845,6 +3855,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Logan Webb",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jung Hoo Lee",
         "team": "",
         "position": "RF",
@@ -3862,16 +3882,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Logan Webb",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -4005,16 +4015,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Victor Robles",
-        "team": "",
-        "position": "RF",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Logan Evans",
         "team": "",
         "position": "SP",
@@ -4048,9 +4048,9 @@
         "player_name": "Nathan Church",
         "team": "",
         "position": "LF",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -4970,8 +4970,8 @@
         "player_name": "Cale Makar",
         "team": "",
         "position": "D",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -13389,6 +13389,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Cam Ward",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "James Williams Sr.",
         "team": "",
         "position": "LB",
@@ -13440,16 +13450,6 @@
       },
       {
         "player_name": "Will Levis",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Cam Ward",
         "team": "",
         "position": "QB",
         "status": "active",
