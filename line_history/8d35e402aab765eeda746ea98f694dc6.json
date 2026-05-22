@@ -1,0 +1,88 @@
+{
+  "event_id": "8d35e402aab765eeda746ea98f694dc6",
+  "sport_key": "baseball_mlb",
+  "home_team": "Atlanta Braves",
+  "away_team": "Washington Nationals",
+  "commence_time": "2026-05-23T20:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-22_21-13-22",
+      "hours_to_game": 22.945008830833334,
+      "h2h": {
+        "Atlanta Braves": {
+          "fanduel": -184,
+          "fanatics": -190,
+          "unibet_fr": -200,
+          "sport888": -188
+        },
+        "Washington Nationals": {
+          "fanduel": 154,
+          "fanatics": 155,
+          "unibet_fr": 135,
+          "sport888": 150
+        }
+      },
+      "spreads": {
+        "Atlanta Braves": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 114
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 110
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 110
+          }
+        },
+        "Washington Nationals": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -137
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -130
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -137
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -105
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -137
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.0,
+            "price": -115
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 110
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

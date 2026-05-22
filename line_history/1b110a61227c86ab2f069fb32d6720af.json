@@ -116,6 +116,125 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-22_21-13-22",
+      "hours_to_game": 28.44500836111111,
+      "h2h": {
+        "Athletics": {
+          "fanduel": -108,
+          "betonlineag": 104,
+          "lowvig": 104,
+          "sport888": -110,
+          "unibet_fr": -122,
+          "winamax_fr": -122,
+          "winamax_de": -111,
+          "gtbets": 110,
+          "onexbet": -104
+        },
+        "San Diego Padres": {
+          "fanduel": -108,
+          "betonlineag": -115,
+          "lowvig": -115,
+          "sport888": -110,
+          "unibet_fr": -123,
+          "winamax_fr": -125,
+          "winamax_de": -114,
+          "gtbets": -120,
+          "onexbet": -104
+        }
+      },
+      "spreads": {
+        "Athletics": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 152
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 150
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 158
+          }
+        },
+        "San Diego Padres": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -184
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -172
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -102
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -133
+          },
+          "gtbets": {
+            "line": 8.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -116
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -113
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 105
+          },
+          "gtbets": {
+            "line": 8.0,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 107
+          }
+        }
+      },
       "splits": {}
     }
   ]
