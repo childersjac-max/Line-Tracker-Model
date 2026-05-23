@@ -1,0 +1,124 @@
+{
+  "event_id": "bcb23e6708172d9bcdc2a18e01b320ce",
+  "sport_key": "baseball_mlb",
+  "home_team": "San Francisco Giants",
+  "away_team": "Chicago White Sox",
+  "commence_time": "2026-05-24T20:06:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-23_18-34-27",
+      "hours_to_game": 25.510046608333337,
+      "h2h": {
+        "Chicago White Sox": {
+          "fanduel": -104,
+          "fanatics": -115,
+          "lowvig": -110,
+          "sport888": -110,
+          "betonlineag": -110,
+          "onexbet": -104
+        },
+        "San Francisco Giants": {
+          "fanduel": -112,
+          "fanatics": -105,
+          "lowvig": 100,
+          "sport888": -118,
+          "betonlineag": 100,
+          "onexbet": -104
+        }
+      },
+      "spreads": {
+        "Chicago White Sox": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 162
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 155
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 158
+          }
+        },
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -196
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -190
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -172
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": 107
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -133
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": 105
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -126
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": -123
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 105
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 116
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "event_id": "fb835eef241cc0456eb7fed048643f00",
+  "sport_key": "baseball_mlb",
+  "home_team": "Chicago Cubs",
+  "away_team": "Houston Astros",
+  "commence_time": "2026-05-24T18:21:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-23_18-34-27",
+      "hours_to_game": 23.760046693055557,
+      "h2h": {
+        "Chicago Cubs": {
+          "fanduel": -162,
+          "lowvig": -160,
+          "sport888": -167,
+          "betonlineag": -160,
+          "unibet_fr": -179,
+          "fanatics": -165,
+          "onexbet": -150
+        },
+        "Houston Astros": {
+          "fanduel": 136,
+          "lowvig": 145,
+          "sport888": 135,
+          "betonlineag": 145,
+          "unibet_fr": 120,
+          "fanatics": 135,
+          "onexbet": 138
+        }
+      },
+      "spreads": {
+        "Chicago Cubs": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 132
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 135
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 120
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 127
+          }
+        },
+        "Houston Astros": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -160
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -167
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -145
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -139
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -133
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -116
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 105
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 107
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
