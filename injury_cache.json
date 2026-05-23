@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-23T18:35:14.720511+00:00",
+  "timestamp": "2026-05-23T20:08:03.467130+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1038,6 +1038,16 @@
         "position": "G",
         "status": "out",
         "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Dylan Harper",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2538,6 +2548,16 @@
         "player_name": "Josue Briceno",
         "team": "",
         "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "",
+        "position": "DH",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -5749,9 +5769,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Malik Verdon",
+        "player_name": "Brandon Dorlus",
         "team": "",
-        "position": "S",
+        "position": "DT",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -5759,9 +5779,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Brandon Dorlus",
+        "player_name": "Malik Verdon",
         "team": "",
-        "position": "DT",
+        "position": "S",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -6749,6 +6769,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Dayo Odeyingbo",
+        "team": "",
+        "position": "DE",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Kyler Gordon",
         "team": "",
         "position": "CB",
@@ -6980,16 +7010,6 @@
       },
       {
         "player_name": "Rome Odunze",
-        "team": "",
-        "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Luther Burden III",
         "team": "",
         "position": "WR",
         "status": "active",

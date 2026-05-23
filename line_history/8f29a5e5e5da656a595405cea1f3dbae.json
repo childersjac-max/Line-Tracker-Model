@@ -122,6 +122,107 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-23_20-07-18",
+      "hours_to_game": 21.46339862472222,
+      "h2h": {
+        "New York Yankees": {
+          "fanduel": -132,
+          "sport888": -137,
+          "unibet_fr": -145,
+          "williamhill": -138,
+          "onexbet": -127,
+          "winamax_fr": -143,
+          "winamax_de": -135,
+          "gtbets": -118
+        },
+        "Tampa Bay Rays": {
+          "fanduel": 112,
+          "sport888": 110,
+          "unibet_fr": 100,
+          "williamhill": 110,
+          "onexbet": 117,
+          "winamax_fr": 100,
+          "winamax_de": 105,
+          "gtbets": 108
+        }
+      },
+      "spreads": {
+        "New York Yankees": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 160
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 158
+          }
+        },
+        "Tampa Bay Rays": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -194
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -173
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": 102
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 108
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": -110
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -124
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -117
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": -110
+          }
+        }
+      },
       "splits": {}
     }
   ]
