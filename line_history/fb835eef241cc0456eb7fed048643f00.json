@@ -344,6 +344,135 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-23_22-27-00",
+      "hours_to_game": 19.88409422111111,
+      "h2h": {
+        "Chicago Cubs": {
+          "fanduel": -174,
+          "lowvig": -160,
+          "sport888": -175,
+          "betonlineag": -160,
+          "unibet_fr": -185,
+          "fanatics": -165,
+          "onexbet": -156,
+          "winamax_fr": -185,
+          "winamax_de": -172,
+          "williamhill_us": -165,
+          "gtbets": -160,
+          "draftkings": -168,
+          "betmgm": -165,
+          "betus": -160,
+          "williamhill": -175,
+          "bovada": -168,
+          "marathonbet": -169,
+          "pinnacle": -162
+        },
+        "Houston Astros": {
+          "fanduel": 146,
+          "lowvig": 145,
+          "sport888": 140,
+          "betonlineag": 145,
+          "unibet_fr": 125,
+          "fanatics": 135,
+          "onexbet": 143,
+          "winamax_fr": 130,
+          "winamax_de": 135,
+          "williamhill_us": 140,
+          "gtbets": 145,
+          "draftkings": 139,
+          "betmgm": 140,
+          "betus": 142,
+          "williamhill": 138,
+          "bovada": 140,
+          "marathonbet": 136,
+          "pinnacle": 145
+        }
+      },
+      "spreads": {
+        "Chicago Cubs": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 128
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 125
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 120
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 136
+          }
+        },
+        "Houston Astros": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -154
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -154
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -145
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -148
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -118
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -109
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -110
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 100
+          }
+        }
+      },
       "splits": {}
     }
   ]
