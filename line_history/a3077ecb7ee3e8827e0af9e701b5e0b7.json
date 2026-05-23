@@ -1,0 +1,112 @@
+{
+  "event_id": "a3077ecb7ee3e8827e0af9e701b5e0b7",
+  "sport_key": "baseball_mlb",
+  "home_team": "Baltimore Orioles",
+  "away_team": "Detroit Tigers",
+  "commence_time": "2026-05-24T22:06:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-23_23-31-42",
+      "hours_to_game": 22.556546363055556,
+      "h2h": {
+        "Baltimore Orioles": {
+          "fanduel": -118,
+          "betfair_ex_eu": -10000,
+          "winamax_fr": -132,
+          "winamax_de": -125,
+          "onexbet": -116,
+          "unibet_fr": -133,
+          "coolbet": -122,
+          "sport888": -125
+        },
+        "Detroit Tigers": {
+          "fanduel": 100,
+          "betfair_ex_eu": 108,
+          "winamax_fr": -106,
+          "winamax_de": 100,
+          "onexbet": 107,
+          "unibet_fr": -108,
+          "coolbet": 100,
+          "sport888": 100
+        }
+      },
+      "spreads": {
+        "Baltimore Orioles": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -205
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 161
+          },
+          "coolbet": {
+            "line": 1.5,
+            "price": -200
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -213
+          }
+        },
+        "Detroit Tigers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 168
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -176
+          },
+          "coolbet": {
+            "line": -1.5,
+            "price": 160
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 165
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -126
+          },
+          "coolbet": {
+            "line": 8.0,
+            "price": -118
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 116
+          },
+          "coolbet": {
+            "line": 8.0,
+            "price": -104
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
