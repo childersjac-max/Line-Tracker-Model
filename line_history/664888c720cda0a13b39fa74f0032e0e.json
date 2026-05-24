@@ -1,0 +1,50 @@
+{
+  "event_id": "664888c720cda0a13b39fa74f0032e0e",
+  "sport_key": "baseball_mlb",
+  "home_team": "Los Angeles Dodgers",
+  "away_team": "Colorado Rockies",
+  "commence_time": "2026-05-26T01:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-24_18-38-48",
+      "hours_to_game": 30.52102939111111,
+      "h2h": {
+        "Colorado Rockies": {
+          "fanduel": 235
+        },
+        "Los Angeles Dodgers": {
+          "fanduel": -290
+        }
+      },
+      "spreads": {
+        "Colorado Rockies": {
+          "fanduel": {
+            "line": 1.5,
+            "price": 100
+          }
+        },
+        "Los Angeles Dodgers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": -120
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "event_id": "74ffd45f125fe46746cf345bf6c2758b",
+  "sport_key": "baseball_mlb",
+  "home_team": "Cleveland Guardians",
+  "away_team": "Washington Nationals",
+  "commence_time": "2026-05-25T22:11:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-24_18-38-48",
+      "hours_to_game": 27.521029657222222,
+      "h2h": {
+        "Cleveland Guardians": {
+          "fanduel": -174,
+          "lowvig": -190,
+          "betonlineag": -190,
+          "fanatics": -195,
+          "unibet_fr": -204
+        },
+        "Washington Nationals": {
+          "fanduel": 146,
+          "lowvig": 171,
+          "betonlineag": 171,
+          "fanatics": 160,
+          "unibet_fr": 130
+        }
+      },
+      "spreads": {
+        "Cleveland Guardians": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 125
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 120
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 120
+          }
+        },
+        "Washington Nationals": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -150
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -150
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -145
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -113
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          },
+          "lowvig": {
+            "line": 8.0,
+            "price": -102
+          },
+          "betonlineag": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
