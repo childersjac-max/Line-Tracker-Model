@@ -603,6 +603,265 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-25_00-01-30",
+      "hours_to_game": 25.14476906111111,
+      "h2h": {
+        "Colorado Rockies": {
+          "fanduel": 245,
+          "sport888": 225,
+          "unibet_fr": 200,
+          "winamax_de": 225,
+          "winamax_fr": 200,
+          "onexbet": 246,
+          "draftkings": 229,
+          "fanatics": 225,
+          "williamhill_us": 228,
+          "betsson": 226,
+          "nordicbet": 226,
+          "williamhill": 230,
+          "leovegas_se": 240,
+          "unibet_se": 240,
+          "unibet_nl": 240,
+          "betrivers": 240,
+          "marathonbet": 230,
+          "betonlineag": 236,
+          "lowvig": 236
+        },
+        "Los Angeles Dodgers": {
+          "fanduel": -300,
+          "sport888": -300,
+          "unibet_fr": -333,
+          "winamax_de": -294,
+          "winamax_fr": -333,
+          "onexbet": -273,
+          "draftkings": -286,
+          "fanatics": -280,
+          "williamhill_us": -285,
+          "betsson": -294,
+          "nordicbet": -294,
+          "williamhill": -300,
+          "leovegas_se": -315,
+          "unibet_se": -295,
+          "unibet_nl": -295,
+          "betrivers": -335,
+          "marathonbet": -300,
+          "betonlineag": -265,
+          "lowvig": -265
+        }
+      },
+      "spreads": {
+        "Colorado Rockies": {
+          "fanduel": {
+            "line": 1.5,
+            "price": 108
+          },
+          "sport888": {
+            "line": 2.5,
+            "price": -137
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": 112
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": 113
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": 110
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": 110
+          },
+          "betsson": {
+            "line": 1.5,
+            "price": 102
+          },
+          "nordicbet": {
+            "line": 1.5,
+            "price": 102
+          },
+          "leovegas_se": {
+            "line": 1.5,
+            "price": 102
+          },
+          "unibet_se": {
+            "line": 1.5,
+            "price": 104
+          },
+          "unibet_nl": {
+            "line": 1.5,
+            "price": 104
+          },
+          "betrivers": {
+            "line": 1.5,
+            "price": 104
+          }
+        },
+        "Los Angeles Dodgers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": -130
+          },
+          "sport888": {
+            "line": -2.5,
+            "price": 110
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": -121
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": -136
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": -130
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": -130
+          },
+          "betsson": {
+            "line": -1.5,
+            "price": -132
+          },
+          "nordicbet": {
+            "line": -1.5,
+            "price": -132
+          },
+          "leovegas_se": {
+            "line": -1.5,
+            "price": -129
+          },
+          "unibet_se": {
+            "line": -1.5,
+            "price": -129
+          },
+          "unibet_nl": {
+            "line": -1.5,
+            "price": -129
+          },
+          "betrivers": {
+            "line": -1.5,
+            "price": -129
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -113
+          },
+          "draftkings": {
+            "line": 9.0,
+            "price": 102
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": 100
+          },
+          "williamhill_us": {
+            "line": 9.0,
+            "price": 100
+          },
+          "betsson": {
+            "line": 9.0,
+            "price": -105
+          },
+          "nordicbet": {
+            "line": 9.0,
+            "price": -105
+          },
+          "pmu_fr": {
+            "line": 9.0,
+            "price": -118
+          },
+          "betrivers": {
+            "line": 9.0,
+            "price": -103
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": 103
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 104
+          },
+          "draftkings": {
+            "line": 9.0,
+            "price": -122
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -120
+          },
+          "williamhill_us": {
+            "line": 9.0,
+            "price": -120
+          },
+          "betsson": {
+            "line": 9.0,
+            "price": -122
+          },
+          "nordicbet": {
+            "line": 9.0,
+            "price": -122
+          },
+          "pmu_fr": {
+            "line": 9.0,
+            "price": -141
+          },
+          "betrivers": {
+            "line": 9.0,
+            "price": -122
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": -118
+          }
+        }
+      },
       "splits": {}
     }
   ]
