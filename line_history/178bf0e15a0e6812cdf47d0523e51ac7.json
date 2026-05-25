@@ -1,0 +1,92 @@
+{
+  "event_id": "178bf0e15a0e6812cdf47d0523e51ac7",
+  "sport_key": "baseball_mlb",
+  "home_team": "San Francisco Giants",
+  "away_team": "Arizona Diamondbacks",
+  "commence_time": "2026-05-27T01:46:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-05-25_21-11-02",
+      "hours_to_game": 28.56700625277778,
+      "h2h": {
+        "Arizona Diamondbacks": {
+          "fanduel": -106,
+          "sport888": -110,
+          "unibet_fr": -122,
+          "onexbet": -104,
+          "winamax_de": -111,
+          "winamax_fr": -125
+        },
+        "San Francisco Giants": {
+          "fanduel": -110,
+          "sport888": -110,
+          "unibet_fr": -122,
+          "onexbet": -104,
+          "winamax_de": -111,
+          "winamax_fr": -125
+        }
+      },
+      "spreads": {
+        "Arizona Diamondbacks": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 158
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 158
+          }
+        },
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -192
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -172
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -116
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 107
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}

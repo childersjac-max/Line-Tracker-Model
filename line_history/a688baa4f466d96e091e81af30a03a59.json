@@ -112,6 +112,155 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-25_21-11-02",
+      "hours_to_game": 28.483673205000002,
+      "h2h": {
+        "Athletics": {
+          "fanduel": 100,
+          "lowvig": -105,
+          "sport888": -110,
+          "betonlineag": -105,
+          "unibet_fr": -114,
+          "gtbets": -105,
+          "onexbet": 104,
+          "williamhill_us": -110,
+          "fanatics": -110,
+          "winamax_de": -104,
+          "winamax_fr": -116,
+          "williamhill": 100
+        },
+        "Seattle Mariners": {
+          "fanduel": -118,
+          "lowvig": -105,
+          "sport888": -118,
+          "betonlineag": -105,
+          "unibet_fr": -132,
+          "gtbets": -105,
+          "onexbet": -113,
+          "williamhill_us": -110,
+          "fanatics": -110,
+          "winamax_de": -119,
+          "winamax_fr": -132,
+          "williamhill": -125
+        }
+      },
+      "spreads": {
+        "Athletics": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -164
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -167
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -150
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -175
+          }
+        },
+        "Seattle Mariners": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 136
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 135
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 138
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 145
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": -118
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -110
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": -120
+          },
+          "gtbets": {
+            "line": 9.0,
+            "price": -120
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -104
+          },
+          "williamhill_us": {
+            "line": 9.0,
+            "price": -120
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": -120
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 9.0,
+            "price": 103
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -118
+          },
+          "betonlineag": {
+            "line": 9.0,
+            "price": 100
+          },
+          "gtbets": {
+            "line": 9.0,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -104
+          },
+          "williamhill_us": {
+            "line": 9.0,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 9.0,
+            "price": 100
+          }
+        }
+      },
       "splits": {}
     }
   ]
