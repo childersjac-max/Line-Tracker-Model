@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-25T12:50:25.762330+00:00",
+  "timestamp": "2026-05-25T15:53:56.365862+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1575,22 +1575,22 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Heston Kjerstad",
-        "team": "",
-        "position": "LF",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Coby Mayo",
         "team": "",
         "position": "3B",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Heston Kjerstad",
+        "team": "",
+        "position": "LF",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -3305,6 +3305,26 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Francisco Lindor",
+        "team": "",
+        "position": "SS",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Jorge Polanco",
+        "team": "",
+        "position": "1B",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Juan Soto",
         "team": "",
         "position": "LF",
@@ -3356,26 +3376,6 @@
       },
       {
         "player_name": "Jared Young",
-        "team": "",
-        "position": "1B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Francisco Lindor",
-        "team": "",
-        "position": "SS",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Jorge Polanco",
         "team": "",
         "position": "1B",
         "status": "10-day-il",
@@ -3941,6 +3941,16 @@
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Spencer Packard",
+        "team": "",
+        "position": "OF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -4595,6 +4605,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Tyler Stuart",
+        "team": "",
+        "position": "SP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jake Irvin",
         "team": "",
         "position": "SP",
@@ -4662,16 +4682,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Tyler Stuart",
-        "team": "",
-        "position": "SP",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -5630,6 +5640,16 @@
         "player_name": "Pontus Holmberg",
         "team": "",
         "position": "RW",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Max Domi",
+        "team": "",
+        "position": "C",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
