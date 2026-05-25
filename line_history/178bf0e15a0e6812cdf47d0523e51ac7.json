@@ -86,6 +86,105 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-05-25_22-35-10",
+      "hours_to_game": 27.164470066944446,
+      "h2h": {
+        "Arizona Diamondbacks": {
+          "fanduel": -106,
+          "sport888": -110,
+          "unibet_fr": -122,
+          "onexbet": -104,
+          "winamax_de": -111,
+          "winamax_fr": -125,
+          "gtbets": -108
+        },
+        "San Francisco Giants": {
+          "fanduel": -110,
+          "sport888": -110,
+          "unibet_fr": -122,
+          "onexbet": -104,
+          "winamax_de": -111,
+          "winamax_fr": -125,
+          "gtbets": -102
+        }
+      },
+      "spreads": {
+        "Arizona Diamondbacks": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 158
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 158
+          }
+        },
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -192
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -172
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -116
+          },
+          "gtbets": {
+            "line": 8.0,
+            "price": 100
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 107
+          },
+          "gtbets": {
+            "line": 8.0,
+            "price": -120
+          }
+        }
+      },
       "splits": {}
     }
   ]
