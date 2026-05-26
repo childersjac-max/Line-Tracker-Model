@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-25T22:35:57.572073+00:00",
+  "timestamp": "2026-05-26T00:08:47.460883+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -256,8 +256,8 @@
         "player_name": "Dennis Schroder",
         "team": "",
         "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -1435,13 +1435,13 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Gunnar Hoglund",
+        "player_name": "Max Muncy",
         "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
+        "position": "3B",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
         "is_major": 0.0,
-        "is_key_pos": true,
+        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -1455,13 +1455,13 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Max Muncy",
+        "player_name": "Gunnar Hoglund",
         "team": "",
-        "position": "3B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
         "is_major": 0.0,
-        "is_key_pos": false,
+        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2885,6 +2885,26 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Edwin Diaz",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Tommy Edman",
+        "team": "",
+        "position": "2B",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Max Muncy",
         "team": "",
         "position": "3B",
@@ -2910,16 +2930,6 @@
         "position": "RP",
         "status": "15-day-il",
         "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Tommy Edman",
-        "team": "",
-        "position": "2B",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -2960,16 +2970,6 @@
         "position": "RP",
         "status": "15-day-il",
         "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Edwin Diaz",
-        "team": "",
-        "position": "RP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -3305,6 +3305,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Tyrone Taylor",
+        "team": "",
+        "position": "CF",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "A.J. Minter",
         "team": "",
         "position": "RP",
@@ -3502,16 +3512,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Robert Stock",
-        "team": "",
-        "position": "RP",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3945,16 +3945,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Spencer Packard",
-        "team": "",
-        "position": "OF",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Gabe Speier",
         "team": "",
         "position": "RP",
@@ -3965,9 +3955,9 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Brendan Donovan",
+        "player_name": "Cal Raleigh",
         "team": "",
-        "position": "3B",
+        "position": "C",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -3975,9 +3965,19 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Cal Raleigh",
+        "player_name": "Spencer Packard",
         "team": "",
-        "position": "C",
+        "position": "OF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Brendan Donovan",
+        "team": "",
+        "position": "3B",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -4405,6 +4405,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Shane Bieber",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Addison Barger",
         "team": "",
         "position": "RF",
@@ -4472,16 +4482,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Shane Bieber",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -8139,6 +8139,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Caleb Lohner",
+        "team": "",
+        "position": "TE",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Michael Woods II",
         "team": "",
         "position": "WR",
@@ -8376,16 +8386,6 @@
         "injury_type": "questionable",
         "is_major": 0.5,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Lucas Krull",
-        "team": "",
-        "position": "TE",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
