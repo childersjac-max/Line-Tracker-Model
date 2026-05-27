@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-27T04:01:24.315907+00:00",
+  "timestamp": "2026-05-27T08:26:10.192658+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1264,6 +1264,16 @@
       }
     ],
     "baseball_mlb": [
+      {
+        "player_name": "Nolan Arenado",
+        "team": "",
+        "position": "3B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
       {
         "player_name": "Pavin Smith",
         "team": "",
@@ -2891,6 +2901,16 @@
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Enrique Hernandez",
+        "team": "",
+        "position": "1B",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
