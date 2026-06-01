@@ -355,6 +355,281 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-01_23-51-35",
+      "hours_to_game": 23.2244776075,
+      "h2h": {
+        "Cleveland Guardians": {
+          "fanduel": 180,
+          "betonlineag": 184,
+          "lowvig": 184,
+          "gtbets": 185,
+          "fanatics": 175,
+          "sport888": 175,
+          "unibet_fr": 160,
+          "winamax_fr": 160,
+          "winamax_de": 175,
+          "williamhill": 175,
+          "onexbet": 185,
+          "williamhill_us": 180,
+          "betus": 178,
+          "draftkings": 179,
+          "nordicbet": 168,
+          "betsson": 168,
+          "betmgm": 180,
+          "mybookieag": 180,
+          "coolbet": 178
+        },
+        "New York Yankees": {
+          "fanduel": -215,
+          "betonlineag": -205,
+          "lowvig": -205,
+          "gtbets": -205,
+          "fanatics": -215,
+          "sport888": -222,
+          "unibet_fr": -244,
+          "winamax_fr": -238,
+          "winamax_de": -222,
+          "williamhill": -225,
+          "onexbet": -202,
+          "williamhill_us": -220,
+          "betus": -205,
+          "draftkings": -219,
+          "nordicbet": -213,
+          "betsson": -213,
+          "betmgm": -220,
+          "mybookieag": -216,
+          "coolbet": -222
+        }
+      },
+      "spreads": {
+        "Cleveland Guardians": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -122
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -125
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -119
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -125
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -122
+          },
+          "nordicbet": {
+            "line": 1.5,
+            "price": -125
+          },
+          "betsson": {
+            "line": 1.5,
+            "price": -125
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -120
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -120
+          },
+          "coolbet": {
+            "line": 1.5,
+            "price": -122
+          }
+        },
+        "New York Yankees": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 102
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 105
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 109
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 105
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 102
+          },
+          "nordicbet": {
+            "line": -1.5,
+            "price": -103
+          },
+          "betsson": {
+            "line": -1.5,
+            "price": -103
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 100
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": -102
+          },
+          "coolbet": {
+            "line": -1.5,
+            "price": 100
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -112
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": 103
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 7.5,
+            "price": -105
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -110
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 100
+          },
+          "williamhill_us": {
+            "line": 7.5,
+            "price": -105
+          },
+          "betus": {
+            "line": 7.5,
+            "price": 100
+          },
+          "draftkings": {
+            "line": 7.5,
+            "price": -104
+          },
+          "nordicbet": {
+            "line": 7.5,
+            "price": -114
+          },
+          "betsson": {
+            "line": 7.5,
+            "price": -114
+          },
+          "betmgm": {
+            "line": 7.5,
+            "price": -102
+          },
+          "mybookieag": {
+            "line": 7.5,
+            "price": -103
+          },
+          "coolbet": {
+            "line": 7.5,
+            "price": -104
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -108
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": -118
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": -120
+          },
+          "fanatics": {
+            "line": 7.5,
+            "price": -115
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -118
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -109
+          },
+          "williamhill_us": {
+            "line": 7.5,
+            "price": -115
+          },
+          "betus": {
+            "line": 7.5,
+            "price": -120
+          },
+          "draftkings": {
+            "line": 7.5,
+            "price": -116
+          },
+          "nordicbet": {
+            "line": 7.5,
+            "price": -114
+          },
+          "betsson": {
+            "line": 7.5,
+            "price": -114
+          },
+          "betmgm": {
+            "line": 7.5,
+            "price": -118
+          },
+          "mybookieag": {
+            "line": 7.5,
+            "price": -118
+          },
+          "coolbet": {
+            "line": 7.5,
+            "price": -118
+          }
+        }
+      },
       "splits": {}
     }
   ]
