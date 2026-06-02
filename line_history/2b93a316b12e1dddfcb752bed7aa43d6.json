@@ -43,6 +43,117 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-02_22-35-15",
+      "hours_to_game": 25.06513721055556,
+      "h2h": {
+        "Milwaukee Brewers": {
+          "draftkings": -156,
+          "unibet_fr": -175,
+          "betclic_fr": -161,
+          "sport888": -161,
+          "onexbet": -150,
+          "winamax_fr": -179,
+          "winamax_de": -161,
+          "fanatics": -155,
+          "williamhill_us": -160
+        },
+        "San Francisco Giants": {
+          "draftkings": 129,
+          "unibet_fr": 115,
+          "betclic_fr": 126,
+          "sport888": 130,
+          "onexbet": 138,
+          "winamax_fr": 115,
+          "winamax_de": 125,
+          "fanatics": 130,
+          "williamhill_us": 135
+        }
+      },
+      "spreads": {
+        "Milwaukee Brewers": {
+          "sport888": {
+            "line": -1.5,
+            "price": 120
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 138
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 130
+          }
+        },
+        "San Francisco Giants": {
+          "sport888": {
+            "line": 1.5,
+            "price": -150
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -150
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -155
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "draftkings": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -116
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": 8.0,
+            "price": -105
+          }
+        },
+        "Under": {
+          "draftkings": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 107
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": 8.0,
+            "price": -115
+          }
+        }
+      },
       "splits": {}
     }
   ]

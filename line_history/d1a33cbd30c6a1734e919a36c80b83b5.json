@@ -220,6 +220,273 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-02_22-35-15",
+      "hours_to_game": 18.58180510388889,
+      "h2h": {
+        "Detroit Tigers": {
+          "fanduel": 124,
+          "fanatics": 125,
+          "gtbets": 135,
+          "betonlineag": 133,
+          "lowvig": 133,
+          "mybookieag": 129,
+          "unibet_fr": 115,
+          "nordicbet": 122,
+          "betsson": 122,
+          "betclic_fr": 124,
+          "sport888": 125,
+          "onexbet": 138,
+          "winamax_de": 125,
+          "winamax_fr": 115,
+          "williamhill": 130,
+          "draftkings": 129,
+          "williamhill_us": 130,
+          "bovada": 123,
+          "betmgm": 125
+        },
+        "Tampa Bay Rays": {
+          "fanduel": -146,
+          "fanatics": -150,
+          "gtbets": -147,
+          "betonlineag": -147,
+          "lowvig": -147,
+          "mybookieag": -152,
+          "unibet_fr": -169,
+          "nordicbet": -152,
+          "betsson": -152,
+          "betclic_fr": -159,
+          "sport888": -154,
+          "onexbet": -150,
+          "winamax_de": -156,
+          "winamax_fr": -167,
+          "williamhill": -162,
+          "draftkings": -156,
+          "williamhill_us": -155,
+          "bovada": -147,
+          "betmgm": -155
+        }
+      },
+      "spreads": {
+        "Detroit Tigers": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -172
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -165
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -164
+          },
+          "nordicbet": {
+            "line": 1.5,
+            "price": -172
+          },
+          "betsson": {
+            "line": 1.5,
+            "price": -172
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -175
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -145
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -175
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -178
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -170
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -180
+          }
+        },
+        "Tampa Bay Rays": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 142
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 135
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 133
+          },
+          "nordicbet": {
+            "line": -1.5,
+            "price": 132
+          },
+          "betsson": {
+            "line": -1.5,
+            "price": 132
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 140
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 133
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 144
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 150
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 145
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 145
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -122
+          },
+          "fanatics": {
+            "line": 7.5,
+            "price": -120
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": -120
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": -118
+          },
+          "mybookieag": {
+            "line": 7.5,
+            "price": -119
+          },
+          "nordicbet": {
+            "line": 7.5,
+            "price": -132
+          },
+          "betsson": {
+            "line": 7.5,
+            "price": -132
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -117
+          },
+          "draftkings": {
+            "line": 8.0,
+            "price": -102
+          },
+          "williamhill_us": {
+            "line": 7.5,
+            "price": -120
+          },
+          "bovada": {
+            "line": 7.5,
+            "price": -120
+          },
+          "betmgm": {
+            "line": 7.5,
+            "price": -120
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 7.5,
+            "price": 100
+          },
+          "gtbets": {
+            "line": 7.5,
+            "price": 100
+          },
+          "betonlineag": {
+            "line": 7.5,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 7.5,
+            "price": 103
+          },
+          "mybookieag": {
+            "line": 7.5,
+            "price": -103
+          },
+          "nordicbet": {
+            "line": 7.5,
+            "price": 102
+          },
+          "betsson": {
+            "line": 7.5,
+            "price": 102
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 108
+          },
+          "draftkings": {
+            "line": 8.0,
+            "price": -118
+          },
+          "williamhill_us": {
+            "line": 7.5,
+            "price": 100
+          },
+          "bovada": {
+            "line": 7.5,
+            "price": 100
+          },
+          "betmgm": {
+            "line": 7.5,
+            "price": 100
+          }
+        }
+      },
       "splits": {}
     }
   ]
