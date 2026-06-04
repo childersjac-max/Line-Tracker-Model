@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T22:12:43.762653+00:00",
+  "timestamp": "2026-06-04T00:15:08.508455+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -883,16 +883,6 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Mitchell Robinson",
-        "team": "",
-        "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
         "player_name": "Jalen Williams",
         "team": "",
         "position": "G",
@@ -1275,6 +1265,16 @@
     ],
     "baseball_mlb": [
       {
+        "player_name": "Corbin Burnes",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Ketel Marte",
         "team": "",
         "position": "2B",
@@ -1356,16 +1356,6 @@
       },
       {
         "player_name": "Blake Walston",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Corbin Burnes",
         "team": "",
         "position": "SP",
         "status": "60-day-il",
@@ -2845,9 +2835,9 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Sam Bachman",
+        "player_name": "Zach Neto",
         "team": "",
-        "position": "RP",
+        "position": "SS",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -2855,9 +2845,19 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Zach Neto",
+        "player_name": "Travis d'Arnaud",
         "team": "",
-        "position": "SS",
+        "position": "C",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Sam Bachman",
+        "team": "",
+        "position": "RP",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -2898,16 +2898,6 @@
         "player_name": "Yoan Moncada",
         "team": "",
         "position": "3B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Travis d'Arnaud",
-        "team": "",
-        "position": "C",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -3195,6 +3185,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Logan Henderson",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Rob Zastryzny",
         "team": "",
         "position": "RP",
@@ -3252,16 +3252,6 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Logan Henderson",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -7929,6 +7919,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Jaden Smith",
+        "team": "",
+        "position": "WR",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Malik Davis",
         "team": "",
         "position": "RB",
@@ -8160,16 +8160,6 @@
       },
       {
         "player_name": "Derion Kendrick",
-        "team": "",
-        "position": "CB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Corey Ballentine",
         "team": "",
         "position": "CB",
         "status": "active",
@@ -9179,9 +9169,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Anthony Gould",
+        "player_name": "Will Mallory",
         "team": "",
-        "position": "WR",
+        "position": "TE",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -9189,9 +9179,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Will Mallory",
+        "player_name": "Anthony Gould",
         "team": "",
-        "position": "TE",
+        "position": "WR",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -11679,6 +11669,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Roy Robertson-Harris",
+        "team": "",
+        "position": "DT",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Braxton Berrios",
         "team": "",
         "position": "WR",
@@ -11725,16 +11725,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Roy Robertson-Harris",
-        "team": "",
-        "position": "DT",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -12679,6 +12669,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Mac Jones",
+        "team": "",
+        "position": "QB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Brandon Aiyuk",
         "team": "",
         "position": "WR",
@@ -12765,16 +12765,6 @@
         "status": "questionable",
         "injury_type": "questionable",
         "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Mac Jones",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
