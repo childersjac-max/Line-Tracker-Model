@@ -106,6 +106,133 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-05_21-08-46",
+      "hours_to_game": 29.022165064444444,
+      "h2h": {
+        "Los Angeles Angels": {
+          "fanduel": 270,
+          "sport888": 260,
+          "betclic_fr": 255,
+          "unibet_fr": 230,
+          "bovada": 270,
+          "onexbet": 272,
+          "winamax_fr": 230,
+          "winamax_de": 260,
+          "fanatics": 265
+        },
+        "Los Angeles Dodgers": {
+          "fanduel": -335,
+          "sport888": -345,
+          "betclic_fr": -357,
+          "unibet_fr": -400,
+          "bovada": -345,
+          "onexbet": -303,
+          "winamax_fr": -400,
+          "winamax_de": -345,
+          "fanatics": -340
+        }
+      },
+      "spreads": {
+        "Los Angeles Angels": {
+          "fanduel": {
+            "line": 1.5,
+            "price": 125
+          },
+          "sport888": {
+            "line": 2.5,
+            "price": -118
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": 130
+          },
+          "onexbet": {
+            "line": 2.5,
+            "price": -108
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": 135
+          }
+        },
+        "Los Angeles Dodgers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": -150
+          },
+          "sport888": {
+            "line": -2.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": -150
+          },
+          "onexbet": {
+            "line": -2.5,
+            "price": -101
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": -165
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "bovada": {
+            "line": 8.5,
+            "price": -120
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -113
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": 100
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "bovada": {
+            "line": 8.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 104
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -120
+          }
+        }
+      },
       "splits": {}
     }
   ]
