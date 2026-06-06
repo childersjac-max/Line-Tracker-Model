@@ -267,6 +267,157 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-06_22-37-04",
+      "hours_to_game": 25.716154519999996,
+      "h2h": {
+        "Chicago Cubs": {
+          "fanduel": -116,
+          "lowvig": -110,
+          "betonlineag": -110,
+          "gtbets": -110,
+          "sport888": -125,
+          "unibet_fr": -132,
+          "betclic_fr": -122,
+          "fanatics": -125,
+          "winamax_fr": -132,
+          "winamax_de": -119,
+          "onexbet": -116,
+          "bovada": -117,
+          "williamhill_us": -115,
+          "draftkings": -118,
+          "pinnacle": -116,
+          "betmgm": -118,
+          "tipico_de": -120
+        },
+        "San Francisco Giants": {
+          "fanduel": -102,
+          "lowvig": 100,
+          "betonlineag": 100,
+          "gtbets": 100,
+          "sport888": 100,
+          "unibet_fr": -114,
+          "betclic_fr": -105,
+          "fanatics": 105,
+          "winamax_fr": -116,
+          "winamax_de": -104,
+          "onexbet": 107,
+          "bovada": -103,
+          "williamhill_us": -105,
+          "draftkings": -102,
+          "pinnacle": 105,
+          "betmgm": -102,
+          "tipico_de": -105
+        }
+      },
+      "spreads": {
+        "Chicago Cubs": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -205
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -213
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 165
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 161
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -200
+          }
+        },
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 168
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 165
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -200
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -176
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 170
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -105
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -116
+          },
+          "bovada": {
+            "line": 8.0,
+            "price": -105
+          },
+          "tipico_de": {
+            "line": 7.5,
+            "price": -133
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.0,
+            "price": -115
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 107
+          },
+          "bovada": {
+            "line": 8.0,
+            "price": -115
+          },
+          "tipico_de": {
+            "line": 7.5,
+            "price": -103
+          }
+        }
+      },
       "splits": {}
     }
   ]
