@@ -182,6 +182,265 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-06_21-07-37",
+      "hours_to_game": 22.12318914361111,
+      "h2h": {
+        "Arizona Diamondbacks": {
+          "fanduel": -132,
+          "lowvig": -127,
+          "betonlineag": -127,
+          "gtbets": -127,
+          "betclic_fr": -139,
+          "unibet_fr": -147,
+          "sport888": -137,
+          "fanatics": -130,
+          "winamax_fr": -147,
+          "winamax_de": -139,
+          "mybookieag": -133,
+          "onexbet": -129,
+          "williamhill_us": -130,
+          "bovada": -133,
+          "betmgm": -135,
+          "draftkings": -136,
+          "pinnacle": -131,
+          "marathonbet": -139,
+          "betus": -127
+        },
+        "Washington Nationals": {
+          "fanduel": 112,
+          "lowvig": 115,
+          "betonlineag": 115,
+          "gtbets": 117,
+          "betclic_fr": 109,
+          "unibet_fr": 100,
+          "sport888": 110,
+          "fanatics": 110,
+          "winamax_fr": 100,
+          "winamax_de": 110,
+          "mybookieag": 113,
+          "onexbet": 119,
+          "williamhill_us": 110,
+          "bovada": 111,
+          "betmgm": 110,
+          "draftkings": 113,
+          "pinnacle": 119,
+          "marathonbet": 112,
+          "betus": 116
+        }
+      },
+      "spreads": {
+        "Arizona Diamondbacks": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 164
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 150
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 146
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 159
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 150
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 165
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 150
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 149
+          },
+          "pinnacle": {
+            "line": -1.5,
+            "price": 157
+          }
+        },
+        "Washington Nationals": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -200
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -180
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -181
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -174
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -178
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -195
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -185
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -181
+          },
+          "pinnacle": {
+            "line": 1.5,
+            "price": -179
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": -102
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": -105
+          },
+          "gtbets": {
+            "line": 8.5,
+            "price": -105
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -105
+          },
+          "mybookieag": {
+            "line": 8.5,
+            "price": -103
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 101
+          },
+          "williamhill_us": {
+            "line": 8.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": 8.5,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 8.5,
+            "price": -105
+          },
+          "draftkings": {
+            "line": 8.5,
+            "price": -105
+          },
+          "pinnacle": {
+            "line": 8.5,
+            "price": -101
+          },
+          "betus": {
+            "line": 8.5,
+            "price": -105
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -110
+          },
+          "lowvig": {
+            "line": 8.5,
+            "price": -113
+          },
+          "betonlineag": {
+            "line": 8.5,
+            "price": -115
+          },
+          "gtbets": {
+            "line": 8.5,
+            "price": -115
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -110
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -115
+          },
+          "mybookieag": {
+            "line": 8.5,
+            "price": -118
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -110
+          },
+          "williamhill_us": {
+            "line": 8.5,
+            "price": -110
+          },
+          "bovada": {
+            "line": 8.5,
+            "price": -110
+          },
+          "betmgm": {
+            "line": 8.5,
+            "price": -115
+          },
+          "draftkings": {
+            "line": 8.5,
+            "price": -115
+          },
+          "pinnacle": {
+            "line": 8.5,
+            "price": -114
+          },
+          "betus": {
+            "line": 8.5,
+            "price": -115
+          }
+        }
+      },
       "splits": {}
     }
   ]
