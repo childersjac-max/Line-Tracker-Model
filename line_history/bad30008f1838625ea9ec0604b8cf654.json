@@ -534,6 +534,261 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-06_00-08-19",
+      "hours_to_game": 18.194731305277777,
+      "h2h": {
+        "Chicago Cubs": {
+          "fanduel": -138,
+          "betonlineag": -140,
+          "gtbets": -140,
+          "lowvig": -140,
+          "sport888": -141,
+          "unibet_fr": -156,
+          "fanatics": -145,
+          "betclic_fr": -147,
+          "mybookieag": -140,
+          "onexbet": -139,
+          "williamhill": -150,
+          "bovada": -140,
+          "draftkings": -143,
+          "williamhill_us": -140,
+          "winamax_fr": -156,
+          "winamax_de": -147,
+          "betmgm": -145,
+          "tipico_de": -149,
+          "nordicbet": -139,
+          "betsson": -139,
+          "betus": -140
+        },
+        "San Francisco Giants": {
+          "fanduel": 118,
+          "betonlineag": 127,
+          "gtbets": 130,
+          "lowvig": 127,
+          "sport888": 115,
+          "unibet_fr": 110,
+          "fanatics": 120,
+          "betclic_fr": 114,
+          "mybookieag": 119,
+          "onexbet": 127,
+          "williamhill": 120,
+          "bovada": 117,
+          "draftkings": 119,
+          "williamhill_us": 118,
+          "winamax_fr": 105,
+          "winamax_de": 115,
+          "betmgm": 120,
+          "tipico_de": 115,
+          "nordicbet": 112,
+          "betsson": 112,
+          "betus": 126
+        }
+      },
+      "spreads": {
+        "Chicago Cubs": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 155
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 145
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 145
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 144
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 144
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 155
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 149
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 150
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 145
+          },
+          "nordicbet": {
+            "line": -1.5,
+            "price": 142
+          },
+          "betsson": {
+            "line": -1.5,
+            "price": 142
+          }
+        },
+        "San Francisco Giants": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -188
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -175
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -178
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -156
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -180
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -181
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -178
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -180
+          },
+          "nordicbet": {
+            "line": 1.5,
+            "price": -185
+          },
+          "betsson": {
+            "line": 1.5,
+            "price": -185
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 8.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": 100
+          },
+          "mybookieag": {
+            "line": 8.0,
+            "price": -119
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": 103
+          },
+          "bovada": {
+            "line": 8.5,
+            "price": 105
+          },
+          "draftkings": {
+            "line": 8.5,
+            "price": -105
+          },
+          "williamhill_us": {
+            "line": 8.5,
+            "price": -105
+          },
+          "betmgm": {
+            "line": 8.5,
+            "price": -105
+          },
+          "tipico_de": {
+            "line": 8.5,
+            "price": -103
+          },
+          "nordicbet": {
+            "line": 8.5,
+            "price": -108
+          },
+          "betsson": {
+            "line": 8.5,
+            "price": -108
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 8.5,
+            "price": -122
+          },
+          "sport888": {
+            "line": 8.5,
+            "price": -125
+          },
+          "fanatics": {
+            "line": 8.5,
+            "price": -120
+          },
+          "mybookieag": {
+            "line": 8.0,
+            "price": -103
+          },
+          "onexbet": {
+            "line": 8.5,
+            "price": -112
+          },
+          "bovada": {
+            "line": 8.5,
+            "price": -125
+          },
+          "draftkings": {
+            "line": 8.5,
+            "price": -115
+          },
+          "williamhill_us": {
+            "line": 8.5,
+            "price": -115
+          },
+          "betmgm": {
+            "line": 8.5,
+            "price": -115
+          },
+          "tipico_de": {
+            "line": 8.5,
+            "price": -133
+          },
+          "nordicbet": {
+            "line": 8.5,
+            "price": -120
+          },
+          "betsson": {
+            "line": 8.5,
+            "price": -120
+          }
+        }
+      },
       "splits": {}
     }
   ]

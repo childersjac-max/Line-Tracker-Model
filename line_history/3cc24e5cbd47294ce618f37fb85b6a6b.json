@@ -554,6 +554,293 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-06_00-08-19",
+      "hours_to_game": 19.944730664722222,
+      "h2h": {
+        "Chicago White Sox": {
+          "fanduel": 112,
+          "betonlineag": 112,
+          "gtbets": 113,
+          "lowvig": 112,
+          "unibet_fr": 100,
+          "sport888": 110,
+          "williamhill": 110,
+          "fanatics": 110,
+          "betclic_fr": 109,
+          "onexbet": 117,
+          "williamhill_us": 110,
+          "bovada": 111,
+          "winamax_fr": 100,
+          "winamax_de": 110,
+          "mybookieag": 113,
+          "betmgm": 110,
+          "tipico_de": 105,
+          "nordicbet": 107,
+          "betsson": 107,
+          "betus": 117,
+          "draftkings": 113
+        },
+        "Philadelphia Phillies": {
+          "fanduel": -132,
+          "betonlineag": -123,
+          "gtbets": -123,
+          "lowvig": -123,
+          "unibet_fr": -147,
+          "sport888": -137,
+          "williamhill": -138,
+          "fanatics": -130,
+          "betclic_fr": -139,
+          "onexbet": -127,
+          "williamhill_us": -130,
+          "bovada": -133,
+          "winamax_fr": -147,
+          "winamax_de": -139,
+          "mybookieag": -133,
+          "betmgm": -135,
+          "tipico_de": -133,
+          "nordicbet": -132,
+          "betsson": -132,
+          "betus": -128,
+          "draftkings": -136
+        }
+      },
+      "spreads": {
+        "Chicago White Sox": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -176
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -188
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -175
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -164
+          },
+          "williamhill_us": {
+            "line": 1.5,
+            "price": -178
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -170
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -174
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -180
+          },
+          "nordicbet": {
+            "line": 1.5,
+            "price": -179
+          },
+          "betsson": {
+            "line": 1.5,
+            "price": -179
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -175
+          }
+        },
+        "Philadelphia Phillies": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 146
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 145
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 145
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 151
+          },
+          "williamhill_us": {
+            "line": -1.5,
+            "price": 150
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 145
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 141
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 145
+          },
+          "nordicbet": {
+            "line": -1.5,
+            "price": 136
+          },
+          "betsson": {
+            "line": -1.5,
+            "price": 136
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 144
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -120
+          },
+          "betonlineag": {
+            "line": 9.5,
+            "price": -120
+          },
+          "gtbets": {
+            "line": 9.5,
+            "price": -120
+          },
+          "lowvig": {
+            "line": 9.5,
+            "price": -118
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -125
+          },
+          "fanatics": {
+            "line": 10.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -109
+          },
+          "williamhill_us": {
+            "line": 9.5,
+            "price": -120
+          },
+          "bovada": {
+            "line": 9.5,
+            "price": -120
+          },
+          "mybookieag": {
+            "line": 9.5,
+            "price": -118
+          },
+          "betmgm": {
+            "line": 10.0,
+            "price": -102
+          },
+          "tipico_de": {
+            "line": 9.5,
+            "price": -125
+          },
+          "nordicbet": {
+            "line": 10.0,
+            "price": -105
+          },
+          "betsson": {
+            "line": 10.0,
+            "price": -105
+          },
+          "betus": {
+            "line": 9.5,
+            "price": -120
+          },
+          "draftkings": {
+            "line": 10.0,
+            "price": -106
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -102
+          },
+          "betonlineag": {
+            "line": 9.5,
+            "price": 100
+          },
+          "gtbets": {
+            "line": 9.5,
+            "price": 100
+          },
+          "lowvig": {
+            "line": 9.5,
+            "price": 103
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 10.0,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": 101
+          },
+          "williamhill_us": {
+            "line": 9.5,
+            "price": 100
+          },
+          "bovada": {
+            "line": 9.5,
+            "price": 100
+          },
+          "mybookieag": {
+            "line": 9.5,
+            "price": -104
+          },
+          "betmgm": {
+            "line": 10.0,
+            "price": -118
+          },
+          "tipico_de": {
+            "line": 9.5,
+            "price": -111
+          },
+          "nordicbet": {
+            "line": 10.0,
+            "price": -122
+          },
+          "betsson": {
+            "line": 10.0,
+            "price": -122
+          },
+          "betus": {
+            "line": 9.5,
+            "price": 100
+          },
+          "draftkings": {
+            "line": 10.0,
+            "price": -114
+          }
+        }
+      },
       "splits": {}
     }
   ]
