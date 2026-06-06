@@ -2268,6 +2268,439 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-06_11-54-52",
+      "hours_to_game": 6.337968744444445,
+      "h2h": {
+        "Cincinnati Reds": {
+          "fanduel": 108,
+          "lowvig": 108,
+          "fanatics": 105,
+          "betonlineag": 108,
+          "gtbets": 109,
+          "unibet_fr": 100,
+          "sport888": 105,
+          "betclic_fr": 102,
+          "mybookieag": 107,
+          "onexbet": 112,
+          "williamhill": 100,
+          "bovada": 107,
+          "draftkings": 105,
+          "winamax_fr": 100,
+          "winamax_de": 100,
+          "betmgm": 105,
+          "tipico_de": -103,
+          "betsson": 103,
+          "nordicbet": 103,
+          "marathonbet": 105,
+          "betus": 109,
+          "pinnacle": 111,
+          "coolbet": 105,
+          "unibet_nl": 107,
+          "leovegas_se": 105,
+          "betrivers": 104,
+          "unibet_se": 107,
+          "matchbook": 112,
+          "everygame": 108,
+          "betfair_ex_eu": 116
+        },
+        "St. Louis Cardinals": {
+          "fanduel": -126,
+          "lowvig": -119,
+          "fanatics": -125,
+          "betonlineag": -119,
+          "gtbets": -119,
+          "unibet_fr": -133,
+          "sport888": -133,
+          "betclic_fr": -130,
+          "mybookieag": -125,
+          "onexbet": -121,
+          "williamhill": -125,
+          "bovada": -128,
+          "draftkings": -126,
+          "winamax_fr": -132,
+          "winamax_de": -128,
+          "betmgm": -125,
+          "tipico_de": -125,
+          "betsson": -128,
+          "nordicbet": -128,
+          "marathonbet": -130,
+          "betus": -119,
+          "pinnacle": -123,
+          "coolbet": -128,
+          "unibet_nl": -125,
+          "leovegas_se": -127,
+          "betrivers": -129,
+          "unibet_se": -125,
+          "matchbook": -122,
+          "everygame": -118,
+          "betfair_ex_eu": -119
+        }
+      },
+      "spreads": {
+        "Cincinnati Reds": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -194
+          },
+          "lowvig": {
+            "line": 1.5,
+            "price": -180
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -180
+          },
+          "betonlineag": {
+            "line": 1.5,
+            "price": -180
+          },
+          "gtbets": {
+            "line": 1.5,
+            "price": -180
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -185
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -174
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -185
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -187
+          },
+          "betmgm": {
+            "line": 1.5,
+            "price": -185
+          },
+          "betsson": {
+            "line": 1.5,
+            "price": -189
+          },
+          "nordicbet": {
+            "line": 1.5,
+            "price": -189
+          },
+          "betus": {
+            "line": 1.5,
+            "price": -180
+          },
+          "pinnacle": {
+            "line": 1.5,
+            "price": -181
+          },
+          "coolbet": {
+            "line": 1.5,
+            "price": -189
+          },
+          "unibet_nl": {
+            "line": 1.0,
+            "price": -143
+          },
+          "leovegas_se": {
+            "line": 1.0,
+            "price": -148
+          },
+          "betrivers": {
+            "line": 1.5,
+            "price": -205
+          },
+          "unibet_se": {
+            "line": 1.0,
+            "price": -143
+          },
+          "matchbook": {
+            "line": 1.5,
+            "price": -172
+          },
+          "everygame": {
+            "line": 1.5,
+            "price": -180
+          }
+        },
+        "St. Louis Cardinals": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 160
+          },
+          "lowvig": {
+            "line": -1.5,
+            "price": 158
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 150
+          },
+          "betonlineag": {
+            "line": -1.5,
+            "price": 157
+          },
+          "gtbets": {
+            "line": -1.5,
+            "price": 157
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 149
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 159
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 160
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 153
+          },
+          "betmgm": {
+            "line": -1.5,
+            "price": 150
+          },
+          "betsson": {
+            "line": -1.5,
+            "price": 145
+          },
+          "nordicbet": {
+            "line": -1.5,
+            "price": 145
+          },
+          "betus": {
+            "line": -1.5,
+            "price": 156
+          },
+          "pinnacle": {
+            "line": -1.5,
+            "price": 159
+          },
+          "coolbet": {
+            "line": -1.5,
+            "price": 152
+          },
+          "unibet_nl": {
+            "line": -1.0,
+            "price": 118
+          },
+          "leovegas_se": {
+            "line": -1.0,
+            "price": 116
+          },
+          "betrivers": {
+            "line": -1.5,
+            "price": 163
+          },
+          "unibet_se": {
+            "line": -1.0,
+            "price": 118
+          },
+          "matchbook": {
+            "line": -1.5,
+            "price": 160
+          },
+          "everygame": {
+            "line": -1.5,
+            "price": 160
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -104
+          },
+          "lowvig": {
+            "line": 9.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 9.5,
+            "price": -105
+          },
+          "betonlineag": {
+            "line": 9.5,
+            "price": -103
+          },
+          "gtbets": {
+            "line": 9.5,
+            "price": -103
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -110
+          },
+          "mybookieag": {
+            "line": 9.5,
+            "price": -104
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -104
+          },
+          "bovada": {
+            "line": 9.5,
+            "price": 100
+          },
+          "draftkings": {
+            "line": 9.5,
+            "price": -105
+          },
+          "betmgm": {
+            "line": 9.5,
+            "price": -102
+          },
+          "tipico_de": {
+            "line": 9.5,
+            "price": -118
+          },
+          "betsson": {
+            "line": 9.5,
+            "price": -108
+          },
+          "nordicbet": {
+            "line": 9.5,
+            "price": -108
+          },
+          "betus": {
+            "line": 9.5,
+            "price": -105
+          },
+          "pinnacle": {
+            "line": 9.5,
+            "price": -105
+          },
+          "coolbet": {
+            "line": 9.5,
+            "price": -105
+          },
+          "betrivers": {
+            "line": 9.5,
+            "price": -108
+          },
+          "pmu_fr": {
+            "line": 9.5,
+            "price": -124
+          },
+          "matchbook": {
+            "line": 9.5,
+            "price": -103
+          },
+          "everygame": {
+            "line": 9.5,
+            "price": -105
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 9.5,
+            "price": -118
+          },
+          "lowvig": {
+            "line": 9.5,
+            "price": -115
+          },
+          "fanatics": {
+            "line": 9.5,
+            "price": -115
+          },
+          "betonlineag": {
+            "line": 9.5,
+            "price": -117
+          },
+          "gtbets": {
+            "line": 9.5,
+            "price": -117
+          },
+          "sport888": {
+            "line": 9.5,
+            "price": -118
+          },
+          "mybookieag": {
+            "line": 9.5,
+            "price": -117
+          },
+          "onexbet": {
+            "line": 9.5,
+            "price": -104
+          },
+          "bovada": {
+            "line": 9.5,
+            "price": -120
+          },
+          "draftkings": {
+            "line": 9.5,
+            "price": -114
+          },
+          "betmgm": {
+            "line": 9.5,
+            "price": -118
+          },
+          "tipico_de": {
+            "line": 9.5,
+            "price": -118
+          },
+          "betsson": {
+            "line": 9.5,
+            "price": -120
+          },
+          "nordicbet": {
+            "line": 9.5,
+            "price": -120
+          },
+          "betus": {
+            "line": 9.5,
+            "price": -115
+          },
+          "pinnacle": {
+            "line": 9.5,
+            "price": -109
+          },
+          "coolbet": {
+            "line": 9.5,
+            "price": -115
+          },
+          "betrivers": {
+            "line": 9.5,
+            "price": -115
+          },
+          "pmu_fr": {
+            "line": 9.5,
+            "price": -134
+          },
+          "matchbook": {
+            "line": 9.5,
+            "price": -109
+          },
+          "everygame": {
+            "line": 9.5,
+            "price": -115
+          }
+        }
+      },
       "splits": {}
     }
   ]
