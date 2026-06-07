@@ -1,0 +1,116 @@
+{
+  "event_id": "1c106a5918ccf59c350e476c157af1fe",
+  "sport_key": "baseball_mlb",
+  "home_team": "Athletics",
+  "away_team": "Milwaukee Brewers",
+  "commence_time": "2026-06-09T02:06:00Z",
+  "snapshots": [
+    {
+      "timestamp": "2026-06-07_18-05-49",
+      "hours_to_game": 31.988917417222222,
+      "h2h": {
+        "Athletics": {
+          "fanduel": 124,
+          "sport888": 120,
+          "unibet_fr": 110,
+          "betclic_fr": 117,
+          "williamhill": 110,
+          "onexbet": 126,
+          "winamax_de": 115,
+          "winamax_fr": 105,
+          "betonlineag": 134,
+          "lowvig": 134
+        },
+        "Milwaukee Brewers": {
+          "fanduel": -146,
+          "sport888": -150,
+          "unibet_fr": -164,
+          "betclic_fr": -149,
+          "williamhill": -138,
+          "onexbet": -137,
+          "winamax_de": -147,
+          "winamax_fr": -167,
+          "betonlineag": -148,
+          "lowvig": -148
+        }
+      },
+      "spreads": {
+        "Athletics": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -128
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -116
+          }
+        },
+        "Milwaukee Brewers": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 106
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 107
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 10.5,
+            "price": -122
+          },
+          "sport888": {
+            "line": 10.5,
+            "price": -125
+          },
+          "onexbet": {
+            "line": 10.5,
+            "price": -104
+          },
+          "betonlineag": {
+            "line": 10.5,
+            "price": -115
+          },
+          "lowvig": {
+            "line": 10.5,
+            "price": -113
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 10.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": 10.5,
+            "price": 100
+          },
+          "onexbet": {
+            "line": 10.5,
+            "price": -104
+          },
+          "betonlineag": {
+            "line": 10.5,
+            "price": -105
+          },
+          "lowvig": {
+            "line": 10.5,
+            "price": -102
+          }
+        }
+      },
+      "splits": {}
+    }
+  ]
+}
