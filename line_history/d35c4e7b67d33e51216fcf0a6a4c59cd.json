@@ -480,6 +480,275 @@
           }
         }
       },
+      "splits": {},
+      "injuries": {
+        "has_major_injury": 0.0,
+        "home_injury_score": 0.0,
+        "away_injury_score": 0.0,
+        "injured_players": []
+      }
+    },
+    {
+      "timestamp": "2026-06-07_00-06-16",
+      "hours_to_game": 20.06238647777778,
+      "h2h": {
+        "New York Mets": {
+          "fanduel": -104,
+          "sport888": -110,
+          "fanatics": -105,
+          "unibet_fr": -115,
+          "winamax_fr": -119,
+          "winamax_de": -109,
+          "betclic_fr": -109,
+          "onexbet": -101,
+          "bovada": -106,
+          "mybookieag": -104,
+          "draftkings": -105,
+          "tipico_de": -108,
+          "leovegas_se": -109,
+          "unibet_se": -108,
+          "marathonbet": -108,
+          "betrivers": -110,
+          "unibet_nl": -108,
+          "nordicbet": -109,
+          "betsson": -109,
+          "williamhill": -110
+        },
+        "San Diego Padres": {
+          "fanduel": -112,
+          "sport888": -118,
+          "fanatics": -115,
+          "unibet_fr": -125,
+          "winamax_fr": -128,
+          "winamax_de": -116,
+          "betclic_fr": -118,
+          "onexbet": -108,
+          "bovada": -114,
+          "mybookieag": -112,
+          "draftkings": -115,
+          "tipico_de": -120,
+          "leovegas_se": -112,
+          "unibet_se": -110,
+          "marathonbet": -115,
+          "betrivers": -113,
+          "unibet_nl": -110,
+          "nordicbet": -114,
+          "betsson": -114,
+          "williamhill": -110
+        }
+      },
+      "spreads": {
+        "New York Mets": {
+          "fanduel": {
+            "line": -1.5,
+            "price": 158
+          },
+          "sport888": {
+            "line": -1.5,
+            "price": 155
+          },
+          "fanatics": {
+            "line": -1.5,
+            "price": 155
+          },
+          "onexbet": {
+            "line": -1.5,
+            "price": 156
+          },
+          "bovada": {
+            "line": -1.5,
+            "price": 160
+          },
+          "mybookieag": {
+            "line": -1.5,
+            "price": 157
+          },
+          "draftkings": {
+            "line": -1.5,
+            "price": 163
+          },
+          "leovegas_se": {
+            "line": -1.5,
+            "price": 160
+          },
+          "unibet_se": {
+            "line": -1.5,
+            "price": 160
+          },
+          "betrivers": {
+            "line": -1.5,
+            "price": 160
+          },
+          "unibet_nl": {
+            "line": -1.5,
+            "price": 160
+          },
+          "nordicbet": {
+            "line": 1.5,
+            "price": -233
+          },
+          "betsson": {
+            "line": 1.5,
+            "price": -233
+          }
+        },
+        "San Diego Padres": {
+          "fanduel": {
+            "line": 1.5,
+            "price": -192
+          },
+          "sport888": {
+            "line": 1.5,
+            "price": -200
+          },
+          "fanatics": {
+            "line": 1.5,
+            "price": -190
+          },
+          "onexbet": {
+            "line": 1.5,
+            "price": -170
+          },
+          "bovada": {
+            "line": 1.5,
+            "price": -185
+          },
+          "mybookieag": {
+            "line": 1.5,
+            "price": -195
+          },
+          "draftkings": {
+            "line": 1.5,
+            "price": -199
+          },
+          "leovegas_se": {
+            "line": 1.5,
+            "price": -205
+          },
+          "unibet_se": {
+            "line": 1.5,
+            "price": -205
+          },
+          "betrivers": {
+            "line": 1.5,
+            "price": -205
+          },
+          "unibet_nl": {
+            "line": 1.5,
+            "price": -205
+          },
+          "nordicbet": {
+            "line": -1.5,
+            "price": 175
+          },
+          "betsson": {
+            "line": -1.5,
+            "price": 175
+          }
+        }
+      },
+      "totals": {
+        "Over": {
+          "fanduel": {
+            "line": 7.5,
+            "price": -122
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": -125
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -105
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": -113
+          },
+          "bovada": {
+            "line": 7.5,
+            "price": -120
+          },
+          "mybookieag": {
+            "line": 8.0,
+            "price": -103
+          },
+          "draftkings": {
+            "line": 8.0,
+            "price": -101
+          },
+          "tipico_de": {
+            "line": 7.5,
+            "price": -133
+          },
+          "pmu_fr": {
+            "line": 7.5,
+            "price": -137
+          },
+          "betrivers": {
+            "line": 7.5,
+            "price": -120
+          },
+          "nordicbet": {
+            "line": 8.0,
+            "price": -111
+          },
+          "betsson": {
+            "line": 8.0,
+            "price": -111
+          }
+        },
+        "Under": {
+          "fanduel": {
+            "line": 7.5,
+            "price": 100
+          },
+          "sport888": {
+            "line": 7.5,
+            "price": 100
+          },
+          "fanatics": {
+            "line": 8.0,
+            "price": -115
+          },
+          "onexbet": {
+            "line": 7.5,
+            "price": 104
+          },
+          "bovada": {
+            "line": 7.5,
+            "price": 100
+          },
+          "mybookieag": {
+            "line": 8.0,
+            "price": -119
+          },
+          "draftkings": {
+            "line": 8.0,
+            "price": -119
+          },
+          "tipico_de": {
+            "line": 7.5,
+            "price": -103
+          },
+          "pmu_fr": {
+            "line": 7.5,
+            "price": -121
+          },
+          "betrivers": {
+            "line": 7.5,
+            "price": -105
+          },
+          "nordicbet": {
+            "line": 8.0,
+            "price": -116
+          },
+          "betsson": {
+            "line": 8.0,
+            "price": -116
+          }
+        }
+      },
       "splits": {}
     }
   ]
