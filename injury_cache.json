@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-12T16:21:08.313038+00:00",
+  "timestamp": "2026-06-12T18:24:27.477704+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1465,6 +1465,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Drake Baldwin",
+        "team": "",
+        "position": "C",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Ronald Acuna Jr.",
         "team": "",
         "position": "RF",
@@ -1480,16 +1490,6 @@
         "position": "RP",
         "status": "15-day-il",
         "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Drake Baldwin",
-        "team": "",
-        "position": "C",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -3991,16 +3991,6 @@
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Xander Bogaerts",
-        "team": "",
-        "position": "SS",
-        "status": "paternity",
-        "injury_type": "Paternity",
-        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -9289,6 +9279,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Sauce Gardner",
+        "team": "",
+        "position": "CB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Daniel Scott",
+        "team": "",
+        "position": "S",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Ashton Dulin",
         "team": "",
         "position": "WR",
@@ -9330,16 +9340,6 @@
       },
       {
         "player_name": "Charvarius Ward",
-        "team": "",
-        "position": "CB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Sauce Gardner",
         "team": "",
         "position": "CB",
         "status": "questionable",
@@ -9529,13 +9529,13 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Akeem Davis-Gaither",
+        "player_name": "Brenton Strange",
         "team": "",
-        "position": "LB",
+        "position": "TE",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": false,
+        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -9779,13 +9779,23 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Nate Boerkircher",
+        "player_name": "Xavier Worthy",
         "team": "",
-        "position": "TE",
+        "position": "WR",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Josh Simmons",
+        "team": "",
+        "position": "OT",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": true,
+        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -9836,16 +9846,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Xavier Worthy",
-        "team": "",
-        "position": "WR",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -10022,16 +10022,6 @@
         "player_name": "Jack Cochrane",
         "team": "",
         "position": "LB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Mike Caliendo",
-        "team": "",
-        "position": "G",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
