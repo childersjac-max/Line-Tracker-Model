@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-13T21:47:29.342606+00:00",
+  "timestamp": "2026-06-13T23:08:21.067828+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1048,16 +1048,6 @@
         "position": "G",
         "status": "out",
         "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Luke Kornet",
-        "team": "",
-        "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2235,9 +2225,19 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Angel Martinez",
+        "player_name": "Gabriel Arias",
         "team": "",
-        "position": "LF",
+        "position": "SS",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Jose Ramirez",
+        "team": "",
+        "position": "3B",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -2245,12 +2245,12 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Gabriel Arias",
+        "player_name": "Angel Martinez",
         "team": "",
-        "position": "SS",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
+        "position": "LF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -2755,6 +2755,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Cole Ragans",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Kris Bubic",
         "team": "",
         "position": "SP",
@@ -2772,16 +2782,6 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Cole Ragans",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2935,16 +2935,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Nolan Schanuel",
-        "team": "",
-        "position": "1B",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Jack Kochanowicz",
         "team": "",
         "position": "SP",
@@ -3001,6 +2991,16 @@
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Miguel Rojas",
+        "team": "",
+        "position": "SS",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -4385,16 +4385,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Craig Kimbrel",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Jonny DeLuca",
         "team": "",
         "position": "RF",
@@ -4498,6 +4488,16 @@
         "player_name": "Alfredo Zarraga",
         "team": "",
         "position": "RP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Michael Helman",
+        "team": "",
+        "position": "CF",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
