@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-13T23:08:21.067828+00:00",
+  "timestamp": "2026-06-14T01:56:07.220441+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -883,6 +883,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Nikola Topic",
+        "team": "",
+        "position": "G",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Thomas Sorber",
         "team": "",
         "position": "C",
@@ -1575,6 +1585,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Ryan Helsley",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Ryan Mountcastle",
         "team": "",
         "position": "1B",
@@ -1592,16 +1612,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Ryan Helsley",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2238,8 +2248,8 @@
         "player_name": "Jose Ramirez",
         "team": "",
         "position": "3B",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -2285,16 +2295,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Sean Sullivan",
-        "team": "",
-        "position": "SP",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Ezequiel Tovar",
         "team": "",
         "position": "SS",
@@ -2305,16 +2305,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Chase Dollander",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Jake McCarthy",
         "team": "",
         "position": "CF",
@@ -2322,6 +2312,26 @@
         "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Sean Sullivan",
+        "team": "",
+        "position": "SP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Chase Dollander",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2755,6 +2765,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Vinnie Pasquantino",
+        "team": "",
+        "position": "1B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Cole Ragans",
         "team": "",
         "position": "SP",
@@ -2995,6 +3015,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Tyler Glasnow",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Miguel Rojas",
         "team": "",
         "position": "SS",
@@ -3061,16 +3091,6 @@
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Tyler Glasnow",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
@@ -3705,9 +3725,9 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Giancarlo Stanton",
+        "player_name": "Trent Grisham",
         "team": "",
-        "position": "DH",
+        "position": "CF",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -3715,9 +3735,9 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Trent Grisham",
+        "player_name": "Giancarlo Stanton",
         "team": "",
-        "position": "CF",
+        "position": "DH",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -3975,6 +3995,46 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Nick Pivetta",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Luis Campusano",
+        "team": "",
+        "position": "C",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Xander Bogaerts",
+        "team": "",
+        "position": "SS",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Freddy Fermin",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Miguel Andujar",
         "team": "",
         "position": "DH",
@@ -4040,26 +4100,6 @@
         "position": "RP",
         "status": "15-day-il",
         "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Nick Pivetta",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Luis Campusano",
-        "team": "",
-        "position": "C",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -4498,8 +4538,8 @@
         "player_name": "Michael Helman",
         "team": "",
         "position": "CF",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
