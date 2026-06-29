@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T18:30:00.920401+00:00",
+  "timestamp": "2026-06-29T20:28:44.552876+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -28,6 +28,16 @@
         "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Nolan Traore",
+        "team": "",
+        "position": "G",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -66,16 +76,6 @@
         "player_name": "Noah Clowney",
         "team": "",
         "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Nolan Traore",
-        "team": "",
-        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -513,6 +513,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Bradley Beal",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Narcisse Ngoy",
         "team": "",
         "position": "F",
@@ -526,16 +536,6 @@
         "player_name": "Yanic Konan Niederhauser",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Bradley Beal",
-        "team": "",
-        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1485,6 +1485,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Spencer Schwellenbach",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "AJ Smith-Shawver",
         "team": "",
         "position": "SP",
@@ -1555,16 +1565,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Spencer Schwellenbach",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Joe Jimenez",
         "team": "",
         "position": "RP",
@@ -1595,21 +1595,21 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Chris Bassitt",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Dean Kremer",
         "team": "",
         "position": "SP",
         "status": "60-day-il",
         "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Chris Bassitt",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "baseball_mlb"
@@ -2975,9 +2975,9 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Teoscar Hernandez",
+        "player_name": "Will Smith",
         "team": "",
-        "position": "LF",
+        "position": "C",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -3021,16 +3021,6 @@
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Will Smith",
-        "team": "",
-        "position": "C",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -3581,6 +3571,16 @@
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "David Bednar",
+        "team": "",
+        "position": "RP",
+        "status": "paternity",
+        "injury_type": "Paternity",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -4655,6 +4655,26 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Richard Lovelady",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Mitchell Parker",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Travis Sykora",
         "team": "",
         "position": "SP",
@@ -4662,16 +4682,6 @@
         "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Mitchell Parker",
-        "team": "",
-        "position": "RP",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
