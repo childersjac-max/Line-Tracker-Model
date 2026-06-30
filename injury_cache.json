@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T11:46:32.795535+00:00",
+  "timestamp": "2026-06-30T14:23:21.984996+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -36,8 +36,8 @@
         "player_name": "Nolan Traore",
         "team": "",
         "position": "G",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2585,33 +2585,13 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Jeremy Pena",
-        "team": "",
-        "position": "SS",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Cristian Javier",
+        "player_name": "Ronel Blanco",
         "team": "",
         "position": "SP",
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "LaMonte Wade Jr.",
-        "team": "",
-        "position": "1B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2625,13 +2605,33 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Ronel Blanco",
+        "player_name": "Cristian Javier",
         "team": "",
         "position": "SP",
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Jeremy Pena",
+        "team": "",
+        "position": "SS",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "LaMonte Wade Jr.",
+        "team": "",
+        "position": "1B",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
