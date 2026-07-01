@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-01T21:07:37.755065+00:00",
+  "timestamp": "2026-07-01T22:48:23.257172+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -843,9 +843,9 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Jalen Williams",
+        "player_name": "Thomas Sorber",
         "team": "",
-        "position": "G",
+        "position": "C",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -853,9 +853,9 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Thomas Sorber",
+        "player_name": "Jalen Williams",
         "team": "",
-        "position": "C",
+        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1340,6 +1340,16 @@
         "position": "RP",
         "status": "day-to-day",
         "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Ryan Lasko",
+        "team": "",
+        "position": "CF",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -2535,6 +2545,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Cristian Javier",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Kai-Wei Teng",
         "team": "",
         "position": "RP",
@@ -2605,16 +2625,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Cristian Javier",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Braden Shewmake",
         "team": "",
         "position": "SS",
@@ -2655,6 +2665,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Stephen Kolek",
+        "team": "",
+        "position": "SP",
+        "status": "bereavement",
+        "injury_type": "Bereavement",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Connor Seabold",
         "team": "",
         "position": "RP",
@@ -2692,16 +2712,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Stephen Kolek",
-        "team": "",
-        "position": "SP",
-        "status": "bereavement",
-        "injury_type": "Bereavement",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3951,6 +3961,16 @@
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Christian Koss",
+        "team": "",
+        "position": "2B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -5257,9 +5277,9 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Filip Gustavsson",
+        "player_name": "Zach Bogosian",
         "team": "",
-        "position": "G",
+        "position": "D",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -5267,9 +5287,9 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Zach Bogosian",
+        "player_name": "Filip Gustavsson",
         "team": "",
-        "position": "D",
+        "position": "G",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -5358,16 +5378,6 @@
       },
       {
         "player_name": "Stefan Noesen",
-        "team": "",
-        "position": "RW",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Zack MacEwen",
         "team": "",
         "position": "RW",
         "status": "injured reserve",
@@ -5593,6 +5603,16 @@
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Zack MacEwen",
+        "team": "",
+        "position": "RW",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -8819,26 +8839,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Ajani Carter",
-        "team": "",
-        "position": "CB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Xavier Thomas",
-        "team": "",
-        "position": "LB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "David Montgomery",
         "team": "",
         "position": "RB",
@@ -9066,6 +9066,26 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Ali Gaye",
+        "team": "",
+        "position": "DE",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Azeez Al-Shaair",
+        "team": "",
+        "position": "LB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
