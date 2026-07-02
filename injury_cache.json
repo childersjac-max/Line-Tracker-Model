@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-01T22:48:23.257172+00:00",
+  "timestamp": "2026-07-02T00:10:37.943606+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -246,6 +246,16 @@
         "player_name": "Dennis Schroder",
         "team": "",
         "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Santi Aldama",
+        "team": "",
+        "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -593,16 +603,6 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Santi Aldama",
-        "team": "",
-        "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
         "player_name": "Zach Edey",
         "team": "",
         "position": "C",
@@ -876,6 +876,16 @@
         "player_name": "Nikola Topic",
         "team": "",
         "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Jonathan Isaac",
+        "team": "",
+        "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1345,22 +1355,22 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Ryan Lasko",
-        "team": "",
-        "position": "CF",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Brent Rooker",
         "team": "",
         "position": "DH",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Ryan Lasko",
+        "team": "",
+        "position": "CF",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -2935,16 +2945,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Tyler Glasnow",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Will Smith",
         "team": "",
         "position": "C",
@@ -2952,6 +2952,16 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Tyler Glasnow",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3905,9 +3915,9 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Matt Chapman",
+        "player_name": "Willy Adames",
         "team": "",
-        "position": "3B",
+        "position": "SS",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -3915,12 +3925,12 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Willy Adames",
+        "player_name": "Matt Chapman",
         "team": "",
-        "position": "SS",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
+        "position": "3B",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -3961,16 +3971,6 @@
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Christian Koss",
-        "team": "",
-        "position": "2B",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -4947,16 +4947,6 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Cullen Potter",
-        "team": "",
-        "position": "LW",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
         "player_name": "Jake Bean",
         "team": "",
         "position": "D",
@@ -5609,7 +5599,7 @@
       {
         "player_name": "Zack MacEwen",
         "team": "",
-        "position": "RW",
+        "position": "C",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
