@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-05T19:51:52.596461+00:00",
+  "timestamp": "2026-07-05T21:03:33.908204+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -553,9 +553,9 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Walter Clayton Jr.",
+        "player_name": "Karim Lopez",
         "team": "",
-        "position": "G",
+        "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -563,11 +563,11 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Karim Lopez",
+        "player_name": "Walter Clayton Jr.",
         "team": "",
-        "position": "F",
-        "status": "out",
-        "injury_type": "out",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -706,6 +706,16 @@
         "player_name": "Bam Adebayo",
         "team": "",
         "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Brayden Burries",
+        "team": "",
+        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -934,6 +944,36 @@
       },
       {
         "player_name": "Damian Lillard",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Nique Clifford",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Dylan Cardwell",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Darius Acuff Jr.",
         "team": "",
         "position": "G",
         "status": "day-to-day",
@@ -2665,6 +2705,26 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Tommy Edman",
+        "team": "",
+        "position": "LF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Edwin Diaz",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Will Smith",
         "team": "",
         "position": "C",
@@ -2712,16 +2772,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Edwin Diaz",
-        "team": "",
-        "position": "RP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
