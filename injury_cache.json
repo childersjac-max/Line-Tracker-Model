@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-08T17:39:15.091070+00:00",
+  "timestamp": "2026-07-08T19:28:15.045823+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1375,16 +1375,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Tyler Soderstrom",
-        "team": "",
-        "position": "LF",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Brent Rooker",
         "team": "",
         "position": "DH",
@@ -2255,7 +2245,7 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Justin Verlander",
+        "player_name": "Jackson Jobe",
         "team": "",
         "position": "SP",
         "status": "60-day-il",
@@ -2265,7 +2255,7 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Jackson Jobe",
+        "player_name": "Justin Verlander",
         "team": "",
         "position": "SP",
         "status": "60-day-il",
@@ -3268,9 +3258,9 @@
         "player_name": "Endy Rodriguez",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -3455,6 +3445,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Matt Gage",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Matt Chapman",
         "team": "",
         "position": "3B",
@@ -3470,16 +3470,6 @@
         "position": "C",
         "status": "10-day-il",
         "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Matt Gage",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -3895,16 +3885,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Max Scherzer",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Braydon Fisher",
         "team": "",
         "position": "RP",
@@ -3912,6 +3892,16 @@
         "injury_type": "Bereavement",
         "is_major": 0.0,
         "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Max Scherzer",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -4298,6 +4288,16 @@
       },
       {
         "player_name": "Seth Jarvis",
+        "team": "",
+        "position": "C",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Connor Bedard",
         "team": "",
         "position": "C",
         "status": "out",
@@ -7139,6 +7139,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Marist Liufau",
+        "team": "",
+        "position": "LB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Ryan Flournoy",
         "team": "",
         "position": "WR",
@@ -7376,16 +7386,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Curtis Robinson",
-        "team": "",
-        "position": "LB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -11389,6 +11389,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Tank Bigsby",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Saquon Barkley",
         "team": "",
         "position": "RB",
@@ -11622,16 +11632,6 @@
         "player_name": "Jalen Carter",
         "team": "",
         "position": "DT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Keyshawn James-Newby",
-        "team": "",
-        "position": "LB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
