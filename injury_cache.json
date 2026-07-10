@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-10T19:02:10.632979+00:00",
+  "timestamp": "2026-07-10T20:50:43.369623+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -14,6 +14,16 @@
       },
       {
         "player_name": "Jayson Tatum",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Joshua Jefferson",
         "team": "",
         "position": "F",
         "status": "day-to-day",
@@ -576,26 +586,6 @@
         "player_name": "Bam Adebayo",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Pete Nance",
-        "team": "",
-        "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Nate Ament",
-        "team": "",
-        "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1198,9 +1188,9 @@
         "player_name": "Zack Gelof",
         "team": "",
         "position": "3B",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -1582,16 +1572,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Seiya Suzuki",
-        "team": "",
-        "position": "RF",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2075,6 +2055,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Will Vest",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jackson Jobe",
         "team": "",
         "position": "SP",
@@ -2110,16 +2100,6 @@
         "position": "2B",
         "status": "10-day-il",
         "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Will Vest",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -2235,16 +2215,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Jeremy Pena",
-        "team": "",
-        "position": "SS",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Kai-Wei Teng",
         "team": "",
         "position": "RP",
@@ -2271,6 +2241,16 @@
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Vinnie Pasquantino",
+        "team": "",
+        "position": "1B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -2905,12 +2885,22 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Clay Holmes",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Mark Vientos",
         "team": "",
         "position": "1B",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -2932,16 +2922,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Clay Holmes",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3405,6 +3385,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Julio Rodriguez",
+        "team": "",
+        "position": "CF",
+        "status": "7-day il",
+        "injury_type": "7-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Brendan Donovan",
         "team": "",
         "position": "3B",
@@ -3420,16 +3410,6 @@
         "position": "RP",
         "status": "60-day-il",
         "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Julio Rodriguez",
-        "team": "",
-        "position": "CF",
-        "status": "7-day il",
-        "injury_type": "7-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -12729,6 +12709,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Chig Okonkwo",
+        "team": "",
+        "position": "TE",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Rasul Douglas",
         "team": "",
         "position": "CB",
@@ -12966,16 +12956,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Chris Paul",
-        "team": "",
-        "position": "G",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       }
     ],
