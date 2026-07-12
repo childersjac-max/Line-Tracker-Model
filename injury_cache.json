@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-12T18:05:32.749589+00:00",
+  "timestamp": "2026-07-12T19:39:58.469775+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -683,6 +683,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Micah Peavy",
+        "team": "",
+        "position": "G",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Karlo Matkovic",
         "team": "",
         "position": "F",
@@ -843,6 +853,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Yang Hansen",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Ja Morant",
         "team": "",
         "position": "G",
@@ -856,16 +876,6 @@
         "player_name": "Damian Lillard",
         "team": "",
         "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Maxime Raynaud",
-        "team": "",
-        "position": "C",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1135,22 +1145,12 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Ryan Waldschmidt",
-        "team": "",
-        "position": "CF",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Zac Gallen",
         "team": "",
         "position": "SP",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
@@ -2225,6 +2225,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Brice Matthews",
+        "team": "",
+        "position": "CF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Ronel Blanco",
         "team": "",
         "position": "SP",
@@ -3195,6 +3205,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Luis Campusano",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "David Morgan",
         "team": "",
         "position": "RP",
@@ -3412,6 +3432,16 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Emerson Hancock",
+        "team": "",
+        "position": "SP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
