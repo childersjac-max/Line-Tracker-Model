@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-12T15:34:26.250125+00:00",
+  "timestamp": "2026-07-12T17:00:48.370722+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -2615,6 +2615,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "William Kempner",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Owen Caissie",
         "team": "",
         "position": "RF",
@@ -2695,22 +2705,22 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Brandon Woodruff",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Jacob Misiorowski",
         "team": "",
         "position": "SP",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Brandon Woodruff",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
