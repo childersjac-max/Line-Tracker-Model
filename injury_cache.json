@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T23:59:53.666521+00:00",
+  "timestamp": "2026-07-15T03:22:07.859055+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -434,6 +434,16 @@
       },
       {
         "player_name": "Johnny Furphy",
+        "team": "",
+        "position": "G",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Cam Christie",
         "team": "",
         "position": "G",
         "status": "out",
@@ -1193,6 +1203,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Jamir Watkins",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Will Riley",
         "team": "",
         "position": "G",
@@ -1216,16 +1236,6 @@
         "player_name": "AJ Dybantsa",
         "team": "",
         "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Jamir Watkins",
-        "team": "",
-        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -3721,6 +3731,16 @@
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "",
+        "position": "3B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
