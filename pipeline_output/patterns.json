@@ -1,22 +1,8 @@
 {
-  "americanfootball_ncaaf|moneyline": {
-    "sport_key": "americanfootball_ncaaf",
-    "market": "moneyline",
-    "n_records": 110,
-    "n_labeled": 0,
-    "patterns": []
-  },
   "americanfootball_ncaaf|spread": {
     "sport_key": "americanfootball_ncaaf",
     "market": "spread",
     "n_records": 164,
-    "n_labeled": 0,
-    "patterns": []
-  },
-  "americanfootball_ncaaf|total": {
-    "sport_key": "americanfootball_ncaaf",
-    "market": "total",
-    "n_records": 120,
     "n_labeled": 0,
     "patterns": []
   },
@@ -41,27 +27,6 @@
     "n_labeled": 990,
     "patterns": []
   },
-  "basketball_nba|moneyline": {
-    "sport_key": "basketball_nba",
-    "market": "moneyline",
-    "n_records": 208,
-    "n_labeled": 122,
-    "patterns": []
-  },
-  "basketball_nba|spread": {
-    "sport_key": "basketball_nba",
-    "market": "spread",
-    "n_records": 208,
-    "n_labeled": 122,
-    "patterns": []
-  },
-  "basketball_nba|total": {
-    "sport_key": "basketball_nba",
-    "market": "total",
-    "n_records": 208,
-    "n_labeled": 122,
-    "patterns": []
-  },
   "americanfootball_nfl|moneyline": {
     "sport_key": "americanfootball_nfl",
     "market": "moneyline",
@@ -83,6 +48,13 @@
     "n_labeled": 0,
     "patterns": []
   },
+  "americanfootball_ncaaf|total": {
+    "sport_key": "americanfootball_ncaaf",
+    "market": "total",
+    "n_records": 120,
+    "n_labeled": 0,
+    "patterns": []
+  },
   "icehockey_nhl|spread": {
     "sport_key": "icehockey_nhl",
     "market": "spread",
@@ -95,6 +67,34 @@
     "market": "total",
     "n_records": 134,
     "n_labeled": 112,
+    "patterns": []
+  },
+  "basketball_nba|moneyline": {
+    "sport_key": "basketball_nba",
+    "market": "moneyline",
+    "n_records": 208,
+    "n_labeled": 122,
+    "patterns": []
+  },
+  "basketball_nba|spread": {
+    "sport_key": "basketball_nba",
+    "market": "spread",
+    "n_records": 208,
+    "n_labeled": 122,
+    "patterns": []
+  },
+  "basketball_nba|total": {
+    "sport_key": "basketball_nba",
+    "market": "total",
+    "n_records": 208,
+    "n_labeled": 122,
+    "patterns": []
+  },
+  "americanfootball_ncaaf|moneyline": {
+    "sport_key": "americanfootball_ncaaf",
+    "market": "moneyline",
+    "n_records": 110,
+    "n_labeled": 0,
     "patterns": []
   },
   "icehockey_nhl|moneyline": {
