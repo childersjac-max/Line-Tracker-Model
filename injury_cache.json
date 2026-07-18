@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T19:07:40.533243+00:00",
+  "timestamp": "2026-07-18T20:13:15.255476+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -36,6 +36,36 @@
         "player_name": "Jock Landale",
         "team": "",
         "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Dillon Mitchell",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Hugo Gonzalez",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Chris Cenac Jr.",
+        "team": "",
+        "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1374,6 +1404,16 @@
       }
     ],
     "baseball_mlb": [
+      {
+        "player_name": "Lourdes Gurriel Jr.",
+        "team": "",
+        "position": "LF",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
       {
         "player_name": "A.J. Puk",
         "team": "",
@@ -2925,6 +2965,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Brice Turang",
+        "team": "",
+        "position": "2B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Brandon Lockridge",
         "team": "",
         "position": "LF",
@@ -3135,6 +3185,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Luis Robert Jr.",
+        "team": "",
+        "position": "CF",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Clay Holmes",
         "team": "",
         "position": "SP",
@@ -3148,16 +3208,6 @@
         "player_name": "Justin Hagenman",
         "team": "",
         "position": "RP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Luis Robert Jr.",
-        "team": "",
-        "position": "CF",
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
@@ -3610,16 +3660,6 @@
         "position": "3B",
         "status": "10-day-il",
         "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Julio Rodriguez",
-        "team": "",
-        "position": "CF",
-        "status": "7-day il",
-        "injury_type": "7-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
