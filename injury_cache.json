@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T15:03:00.995272+00:00",
+  "timestamp": "2026-07-18T16:27:38.469056+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1116,8 +1116,8 @@
         "player_name": "Jayden Quaintance",
         "team": "",
         "position": "F",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2855,16 +2855,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Michael Petersen",
-        "team": "",
-        "position": "RP",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "William Kempner",
         "team": "",
         "position": "RP",
@@ -3061,6 +3051,16 @@
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Royce Lewis",
+        "team": "",
+        "position": "3B",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -3345,6 +3345,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Oneil Cruz",
+        "team": "",
+        "position": "CF",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Konnor Griffin",
         "team": "",
         "position": "SS",
@@ -3370,26 +3380,6 @@
         "position": "1B",
         "status": "10-day-il",
         "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Oneil Cruz",
-        "team": "",
-        "position": "CF",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Wilber Dotel",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
