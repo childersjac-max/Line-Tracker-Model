@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T23:25:20.819358+00:00",
+  "timestamp": "2026-07-18T00:56:28.961313+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -564,6 +564,16 @@
       },
       {
         "player_name": "Ty Jerome",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Jahmir Young",
         "team": "",
         "position": "G",
         "status": "day-to-day",
@@ -1345,6 +1355,16 @@
     ],
     "baseball_mlb": [
       {
+        "player_name": "Michael Soroka",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Tommy Troy",
         "team": "",
         "position": "LF",
@@ -1362,16 +1382,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Michael Soroka",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -1975,26 +1985,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Prelander Berroa",
-        "team": "",
-        "position": "RP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Ky Bush",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Drew Thorpe",
         "team": "",
         "position": "SP",
@@ -2015,21 +2005,41 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Tyler Gilbert",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Austin Hays",
         "team": "",
         "position": "LF",
         "status": "60-day-il",
         "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Prelander Berroa",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Ky Bush",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Tyler Gilbert",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -2285,6 +2295,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Bailey Horn",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Burch Smith",
         "team": "",
         "position": "RP",
@@ -2395,16 +2415,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Bailey Horn",
-        "team": "",
-        "position": "RP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Reese Olson",
         "team": "",
         "position": "SP",
@@ -2485,6 +2495,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Stephen Kolek",
+        "team": "",
+        "position": "SP",
+        "status": "bereavement",
+        "injury_type": "Bereavement",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Nick Mears",
         "team": "",
         "position": "RP",
@@ -2512,16 +2532,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Stephen Kolek",
-        "team": "",
-        "position": "SP",
-        "status": "bereavement",
-        "injury_type": "Bereavement",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
