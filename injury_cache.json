@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T18:03:40.724088+00:00",
+  "timestamp": "2026-07-19T19:42:01.112390+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -106,6 +106,16 @@
         "player_name": "Jayson Tatum",
         "team": "",
         "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Mikel Brown Jr.",
+        "team": "",
+        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1815,6 +1825,26 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Samuel Basallo",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Ryan Helsley",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Chris Bassitt",
         "team": "",
         "position": "SP",
@@ -1840,16 +1870,6 @@
         "position": "RP",
         "status": "60-day-il",
         "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Ryan Helsley",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -2455,6 +2475,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Will Vest",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Jackson Jobe",
         "team": "",
         "position": "SP",
@@ -2500,16 +2530,6 @@
         "position": "2B",
         "status": "10-day-il",
         "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Will Vest",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -4035,6 +4055,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Max Scherzer",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Lenyn Sosa",
         "team": "",
         "position": "2B",
@@ -4062,16 +4092,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Max Scherzer",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -4498,6 +4518,16 @@
       },
       {
         "player_name": "Jaden Schwartz",
+        "team": "",
+        "position": "C",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Isac Lundestrom",
         "team": "",
         "position": "C",
         "status": "out",
