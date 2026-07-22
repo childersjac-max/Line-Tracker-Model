@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T17:36:02.515348+00:00",
+  "timestamp": "2026-07-22T19:23:36.869225+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1223,6 +1223,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "David Jones Garcia",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Jayden Quaintance",
         "team": "",
         "position": "F",
@@ -1236,16 +1246,6 @@
         "player_name": "Tarris Reed Jr.",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "David Jones Garcia",
-        "team": "",
-        "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1858,9 +1858,9 @@
         "player_name": "Samuel Basallo",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -2415,16 +2415,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Jose Ramirez",
-        "team": "",
-        "position": "3B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Tim Herrin",
         "team": "",
         "position": "RP",
@@ -2735,6 +2725,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Kyle Isbel",
+        "team": "",
+        "position": "CF",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Stephen Kolek",
         "team": "",
         "position": "SP",
@@ -2758,16 +2758,6 @@
         "player_name": "Bobby Witt Jr.",
         "team": "",
         "position": "SS",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Kyle Isbel",
-        "team": "",
-        "position": "CF",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -5429,6 +5419,16 @@
     ],
     "americanfootball_nfl": [
       {
+        "player_name": "Carson Beck",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Jacoby Brissett",
         "team": "",
         "position": "QB",
@@ -5466,16 +5466,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Kaleb Proctor",
-        "team": "",
-        "position": "DT",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -5659,16 +5649,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Carson Beck",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Chase Bisontis",
         "team": "",
         "position": "G",
@@ -5676,6 +5656,16 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Tyler Allgeier",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
