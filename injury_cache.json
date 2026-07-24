@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T12:59:05.812768+00:00",
+  "timestamp": "2026-07-24T15:02:36.026136+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -3055,16 +3055,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "John King",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Josh Ekness",
         "team": "",
         "position": "RP",
@@ -3145,6 +3135,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Brandon Lockridge",
+        "team": "",
+        "position": "LF",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Joel Kuhnel",
         "team": "",
         "position": "RP",
@@ -3190,16 +3190,6 @@
         "position": "RP",
         "status": "15-day-il",
         "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Brandon Lockridge",
-        "team": "",
-        "position": "LF",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -3935,6 +3925,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Manuel Rodriguez",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Taylor Walls",
         "team": "",
         "position": "SS",
@@ -3986,16 +3986,6 @@
       },
       {
         "player_name": "Edwin Uceta",
-        "team": "",
-        "position": "RP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Manuel Rodriguez",
         "team": "",
         "position": "RP",
         "status": "60-day-il",
@@ -5179,6 +5169,36 @@
     ],
     "americanfootball_nfl": [
       {
+        "player_name": "James Conner",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Trey Benson",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Jacoby Brissett",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Paris Johnson Jr.",
         "team": "",
         "position": "OT",
@@ -5196,16 +5216,6 @@
         "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jacoby Brissett",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -5349,16 +5359,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "James Conner",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Marvin Harrison Jr.",
         "team": "",
         "position": "WR",
@@ -5395,16 +5395,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Trey Benson",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
@@ -6192,9 +6182,9 @@
         "player_name": "Nic Scourton",
         "team": "",
         "position": "LB",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
