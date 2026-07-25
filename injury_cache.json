@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-25T20:54:56.107380+00:00",
+  "timestamp": "2026-07-25T21:58:16.407156+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1825,7 +1825,7 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Samuel Basallo",
+        "player_name": "Adley Rutschman",
         "team": "",
         "position": "C",
         "status": "10-day-il",
@@ -1835,7 +1835,7 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Adley Rutschman",
+        "player_name": "Samuel Basallo",
         "team": "",
         "position": "C",
         "status": "10-day-il",
@@ -3175,6 +3175,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Joe Ryan",
+        "team": "",
+        "position": "SP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Connor Prielipp",
         "team": "",
         "position": "SP",
@@ -3202,16 +3212,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Marco Raya",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
       {
@@ -12119,16 +12119,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Khalil Dinkins",
-        "team": "",
-        "position": "TE",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Brandon Aiyuk",
         "team": "",
         "position": "WR",
@@ -12322,6 +12312,16 @@
         "player_name": "Jaden Dugger",
         "team": "",
         "position": "LB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Ephesians Prysock",
+        "team": "",
+        "position": "CB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -13079,26 +13079,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Tim Settle",
-        "team": "",
-        "position": "DT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Trey Amos",
-        "team": "",
-        "position": "CB",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Fred Davis II",
         "team": "",
         "position": "CB",
@@ -13122,6 +13102,26 @@
         "player_name": "Dorance Armstrong",
         "team": "",
         "position": "DE",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Tim Settle",
+        "team": "",
+        "position": "DT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Trey Amos",
+        "team": "",
+        "position": "CB",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
