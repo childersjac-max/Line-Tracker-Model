@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-26T21:30:54.092221+00:00",
+  "timestamp": "2026-07-26T22:34:50.750615+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -2495,6 +2495,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Brant Hurter",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Javier Baez",
         "team": "",
         "position": "SS",
@@ -2588,16 +2598,6 @@
         "player_name": "Trey Sweeney",
         "team": "",
         "position": "SS",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Brant Hurter",
-        "team": "",
-        "position": "RP",
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
@@ -5859,6 +5859,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Nnamdi Madubuike",
+        "team": "",
+        "position": "DT",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Corey Bullock",
         "team": "",
         "position": "C",
@@ -5900,16 +5910,6 @@
       },
       {
         "player_name": "Travis Jones",
-        "team": "",
-        "position": "DT",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Nnamdi Madubuike",
         "team": "",
         "position": "DT",
         "status": "out",
@@ -7859,16 +7859,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Kerby Joseph",
-        "team": "",
-        "position": "S",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Tyler Conklin",
         "team": "",
         "position": "TE",
@@ -7876,6 +7866,16 @@
         "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Kerby Joseph",
+        "team": "",
+        "position": "S",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -10609,13 +10609,13 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Gabe Jacas",
+        "player_name": "Jimmy Kibble",
         "team": "",
-        "position": "LB",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
+        "position": "WR",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -10629,13 +10629,13 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Jimmy Kibble",
+        "player_name": "Gabe Jacas",
         "team": "",
-        "position": "WR",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
+        "position": "LB",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
