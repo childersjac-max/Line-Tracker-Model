@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T23:03:40.655242+00:00",
+  "timestamp": "2026-07-28T00:56:02.896017+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1615,6 +1615,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Jeffrey Springs",
+        "team": "",
+        "position": "SP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Mark Leiter Jr.",
         "team": "",
         "position": "RP",
@@ -1632,16 +1642,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Jeffrey Springs",
-        "team": "",
-        "position": "SP",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2025,6 +2025,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Edward Cabrera",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Daniel Palencia",
         "team": "",
         "position": "RP",
@@ -2092,16 +2102,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Edward Cabrera",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -2585,21 +2585,21 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Hayden Wesneski",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Spencer Arrighetti",
         "team": "",
         "position": "SP",
         "status": "15-day-il",
         "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Hayden Wesneski",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "baseball_mlb"
@@ -3421,6 +3421,16 @@
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "",
+        "position": "RF",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -7809,6 +7819,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Troy Reeder",
+        "team": "",
+        "position": "LB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Tyler Conklin",
         "team": "",
         "position": "TE",
@@ -8049,9 +8069,39 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Jimmy Rolder",
+        "player_name": "Javon Hargrave",
         "team": "",
-        "position": "LB",
+        "position": "DT",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Zach Tom",
+        "team": "",
+        "position": "OT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Luke Musgrave",
+        "team": "",
+        "position": "TE",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Devonte Wyatt",
+        "team": "",
+        "position": "DT",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -8079,39 +8129,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Devonte Wyatt",
-        "team": "",
-        "position": "DT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Zach Tom",
-        "team": "",
-        "position": "OT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Kamal Hadden",
         "team": "",
         "position": "CB",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Javon Hargrave",
-        "team": "",
-        "position": "DT",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -8126,16 +8146,6 @@
         "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Luke Musgrave",
-        "team": "",
-        "position": "TE",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -10059,6 +10069,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Clelin Ferrell",
+        "team": "",
+        "position": "DE",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Storm Duck",
         "team": "",
         "position": "CB",
@@ -10296,16 +10316,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Max Llewellyn",
-        "team": "",
-        "position": "DE",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -12059,6 +12069,36 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Gracen Halton",
+        "team": "",
+        "position": "DT",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Andrew Farmer II",
+        "team": "",
+        "position": "DE",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Vederian Lowe",
+        "team": "",
+        "position": "OT",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Nate Hobbs",
         "team": "",
         "position": "CB",
@@ -12089,26 +12129,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Gracen Halton",
-        "team": "",
-        "position": "DT",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Andrew Farmer II",
-        "team": "",
-        "position": "DE",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Jake Tonges",
         "team": "",
         "position": "TE",
@@ -12126,16 +12146,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Vederian Lowe",
-        "team": "",
-        "position": "OT",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
