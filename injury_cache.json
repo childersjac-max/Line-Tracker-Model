@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-28T12:21:56.451176+00:00",
+  "timestamp": "2026-07-28T15:00:26.579274+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -2275,6 +2275,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Nick Lodolo",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Matt McLain",
         "team": "",
         "position": "2B",
@@ -2312,16 +2322,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Nick Lodolo",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3815,22 +3815,22 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Riley O'Brien",
-        "team": "",
-        "position": "RP",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Ramon Urias",
         "team": "",
         "position": "3B",
         "status": "60-day-il",
         "injury_type": "60-day IL",
         "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Riley O'Brien",
+        "team": "",
+        "position": "RP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -6079,6 +6079,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Jaycee Horn",
+        "team": "",
+        "position": "CB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Dan Chisena",
         "team": "",
         "position": "WR",
@@ -6202,16 +6212,6 @@
         "player_name": "Bobby Brown III",
         "team": "",
         "position": "DT",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jaycee Horn",
-        "team": "",
-        "position": "CB",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -8329,6 +8329,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "DeForest Buckner",
+        "team": "",
+        "position": "DT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "CJ Allen",
         "team": "",
         "position": "LB",
@@ -8560,16 +8570,6 @@
       },
       {
         "player_name": "Caden Curry",
-        "team": "",
-        "position": "LB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "George Gumbs Jr.",
         "team": "",
         "position": "LB",
         "status": "active",
@@ -11579,6 +11579,36 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Donte Kent",
+        "team": "",
+        "position": "CB",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Broderick Jones",
+        "team": "",
+        "position": "OT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Jalen Ramsey",
+        "team": "",
+        "position": "CB",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Drew Allar",
         "team": "",
         "position": "QB",
@@ -11759,26 +11789,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Broderick Jones",
-        "team": "",
-        "position": "OT",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Donte Kent",
-        "team": "",
-        "position": "CB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Aaron Rodgers",
         "team": "",
         "position": "QB",
@@ -11814,16 +11824,6 @@
         "position": "PK",
         "status": "active",
         "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Daequan Hardy",
-        "team": "",
-        "position": "CB",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
@@ -12079,6 +12079,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Jaxon Smith-Njigba",
+        "team": "",
+        "position": "WR",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "George Holani",
         "team": "",
         "position": "RB",
@@ -12316,16 +12326,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Lance Mason",
-        "team": "",
-        "position": "TE",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
