@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-31T11:07:00.634823+00:00",
+  "timestamp": "2026-07-31T15:38:24.638837+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1113,6 +1113,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Keegan Murray",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Nique Clifford",
         "team": "",
         "position": "G",
@@ -1184,16 +1194,6 @@
       },
       {
         "player_name": "Domantas Sabonis",
-        "team": "",
-        "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Keegan Murray",
         "team": "",
         "position": "F",
         "status": "day-to-day",
@@ -1665,16 +1665,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Jeffrey Springs",
-        "team": "",
-        "position": "SP",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Joshua Kuroda-Grauer",
         "team": "",
         "position": "3B",
@@ -2020,6 +2010,16 @@
         "position": "1B",
         "status": "60-day-il",
         "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Gavin Hollowell",
+        "team": "",
+        "position": "RP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -3895,6 +3895,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Cody Bradford",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Josh Jung",
         "team": "",
         "position": "3B",
@@ -3952,16 +3962,6 @@
         "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Cody Bradford",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -6539,6 +6539,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Kyle Monangai",
+        "team": "",
+        "position": "RB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Rome Odunze",
         "team": "",
         "position": "WR",
@@ -6692,16 +6702,6 @@
         "player_name": "Caleb Williams",
         "team": "",
         "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Kyle Monangai",
-        "team": "",
-        "position": "RB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -7039,6 +7039,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Mason Graham",
+        "team": "",
+        "position": "DT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Mike Hall Jr.",
         "team": "",
         "position": "DT",
@@ -7235,16 +7245,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Mason Graham",
-        "team": "",
-        "position": "DT",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -7789,6 +7789,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Jimmy Rolder",
+        "team": "",
+        "position": "LB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Christian Mahogany",
+        "team": "",
+        "position": "G",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Colby Sorsdal",
         "team": "",
         "position": "OT",
@@ -7822,9 +7842,9 @@
         "player_name": "Alim McNeill",
         "team": "",
         "position": "DT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -7842,16 +7862,6 @@
         "player_name": "Giovanni Manu",
         "team": "",
         "position": "OT",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Christian Mahogany",
-        "team": "",
-        "position": "G",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -8029,13 +8039,13 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Jack Campbell",
+        "player_name": "Tucker Kraft",
         "team": "",
-        "position": "LB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
+        "position": "TE",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -8160,16 +8170,6 @@
       },
       {
         "player_name": "Luke Musgrave",
-        "team": "",
-        "position": "TE",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Tucker Kraft",
         "team": "",
         "position": "TE",
         "status": "out",
@@ -8539,6 +8539,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "CJ Allen",
+        "team": "",
+        "position": "LB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Riley Leonard",
         "team": "",
         "position": "QB",
@@ -8615,16 +8625,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "CJ Allen",
-        "team": "",
-        "position": "LB",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -11789,6 +11789,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Rico Dowdle",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Jaylen Warren",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Mason Rudolph",
         "team": "",
         "position": "QB",
@@ -11929,16 +11949,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Rico Dowdle",
-        "team": "",
-        "position": "RB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Jacoby Windmon",
         "team": "",
         "position": "LB",
@@ -12006,16 +12016,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jaylen Warren",
-        "team": "",
-        "position": "RB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -12289,6 +12289,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Jadarian Price",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Deven Eastern",
         "team": "",
         "position": "DT",
@@ -12340,16 +12350,6 @@
       },
       {
         "player_name": "George Holani",
-        "team": "",
-        "position": "RB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jadarian Price",
         "team": "",
         "position": "RB",
         "status": "active",
