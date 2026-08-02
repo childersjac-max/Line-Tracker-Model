@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T19:47:08.603762+00:00",
+  "timestamp": "2026-08-02T20:57:32.517072+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -333,6 +333,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Naji Marshall",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Kyrie Irving",
         "team": "",
         "position": "G",
@@ -366,16 +376,6 @@
         "player_name": "Dereck Lively II",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Naji Marshall",
-        "team": "",
-        "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -1615,6 +1615,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Zack Gelof",
+        "team": "",
+        "position": "3B",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "J.T. Ginn",
         "team": "",
         "position": "SP",
@@ -1641,16 +1651,6 @@
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Zack Gelof",
-        "team": "",
-        "position": "3B",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
-        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -2305,6 +2305,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Nick Lodolo",
+        "team": "",
+        "position": "SP",
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Brandon Williamson",
         "team": "",
         "position": "SP",
@@ -2322,16 +2332,6 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Nick Lodolo",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -5759,6 +5759,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Hakeem Adeniji",
+        "team": "",
+        "position": "OT",
+        "status": "reserve-ret",
+        "injury_type": "Reserve-Ret",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Bilhal Kone",
         "team": "",
         "position": "CB",
@@ -5815,16 +5825,6 @@
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Hakeem Adeniji",
-        "team": "",
-        "position": "OT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -9759,6 +9759,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Myles Garrett",
+        "team": "",
+        "position": "DE",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Alaric Jackson",
         "team": "",
         "position": "OT",
@@ -9904,16 +9914,6 @@
         "position": "LB",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Myles Garrett",
-        "team": "",
-        "position": "DE",
-        "status": "active",
-        "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
@@ -12029,16 +12029,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Mikail Kamara",
-        "team": "",
-        "position": "DE",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Keion White",
         "team": "",
         "position": "DE",
@@ -12256,6 +12246,16 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Isaac Guerendo",
+        "team": "",
+        "position": "RB",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
