@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T12:04:10.608663+00:00",
+  "timestamp": "2026-08-02T14:09:06.688153+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1728,9 +1728,9 @@
         "player_name": "Reynaldo Lopez",
         "team": "",
         "position": "RP",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
+        "status": "15-day-il",
+        "injury_type": "15-day IL",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
       },
@@ -2285,6 +2285,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Brandon Williamson",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Tony Santillan",
         "team": "",
         "position": "RP",
@@ -2312,16 +2322,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Brandon Williamson",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -7742,9 +7742,9 @@
         "player_name": "Alim McNeill",
         "team": "",
         "position": "DT",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -12489,6 +12489,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Benjamin Morrison",
+        "team": "",
+        "position": "CB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Haggai Ndubuisi",
         "team": "",
         "position": "DT",
@@ -12545,16 +12555,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Benjamin Morrison",
-        "team": "",
-        "position": "CB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
