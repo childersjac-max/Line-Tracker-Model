@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T20:57:32.517072+00:00",
+  "timestamp": "2026-08-02T21:59:50.837647+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1745,16 +1745,6 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Spencer Strider",
-        "team": "",
-        "position": "SP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "baseball_mlb"
-      },
-      {
         "player_name": "Reynaldo Lopez",
         "team": "",
         "position": "RP",
@@ -1762,6 +1752,16 @@
         "injury_type": "15-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Spencer Strider",
+        "team": "",
+        "position": "SP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -3565,11 +3565,21 @@
         "sport_key": "baseball_mlb"
       },
       {
-        "player_name": "Jesus Rodriguez",
+        "player_name": "Joel Peguero",
         "team": "",
-        "position": "C",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Matt Gage",
+        "team": "",
+        "position": "RP",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -3578,6 +3588,16 @@
         "player_name": "Matt Chapman",
         "team": "",
         "position": "3B",
+        "status": "10-day-il",
+        "injury_type": "10-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
+        "player_name": "Jesus Rodriguez",
+        "team": "",
+        "position": "C",
         "status": "10-day-il",
         "injury_type": "10-day IL",
         "is_major": 0.0,
@@ -3630,26 +3650,6 @@
         "position": "RF",
         "status": "10-day-il",
         "injury_type": "10-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Matt Gage",
-        "team": "",
-        "position": "RP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Joel Peguero",
-        "team": "",
-        "position": "RP",
-        "status": "60-day-il",
-        "injury_type": "60-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -3805,6 +3805,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Jake Fraley",
+        "team": "",
+        "position": "RF",
+        "status": "60-day-il",
+        "injury_type": "60-day IL",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Shane McClanahan",
         "team": "",
         "position": "SP",
@@ -3840,16 +3850,6 @@
         "position": "LF",
         "status": "60-day-il",
         "injury_type": "60-day IL",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Jake Fraley",
-        "team": "",
-        "position": "RF",
-        "status": "10-day-il",
-        "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "baseball_mlb"
@@ -5259,6 +5259,16 @@
     ],
     "americanfootball_nfl": [
       {
+        "player_name": "Joey Blount",
+        "team": "",
+        "position": "S",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "PJ Mustipher",
         "team": "",
         "position": "DT",
@@ -5284,16 +5294,6 @@
         "position": "CB",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Joey Blount",
-        "team": "",
-        "position": "S",
-        "status": "active",
-        "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
@@ -5759,16 +5759,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Hakeem Adeniji",
-        "team": "",
-        "position": "OT",
-        "status": "reserve-ret",
-        "injury_type": "Reserve-Ret",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Bilhal Kone",
         "team": "",
         "position": "CB",
@@ -6002,6 +5992,16 @@
         "player_name": "Skylar Thompson",
         "team": "",
         "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Elijah Tau-Tolliver",
+        "team": "",
+        "position": "RB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -7419,16 +7419,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Charles Snowden",
-        "team": "",
-        "position": "LB",
-        "status": "suspension",
-        "injury_type": "Suspension",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Jake Ferguson",
         "team": "",
         "position": "TE",
@@ -7509,11 +7499,11 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Blake Cotton",
+        "player_name": "DeMarvion Overshown",
         "team": "",
-        "position": "CB",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
+        "position": "LB",
+        "status": "active",
+        "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
@@ -7756,6 +7746,16 @@
         "injury_type": "questionable",
         "is_major": 0.5,
         "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Pat Surtain II",
+        "team": "",
+        "position": "CB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -12009,6 +12009,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Khalil Herbert",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Deebo Samuel",
         "team": "",
         "position": "WR",
@@ -12246,16 +12256,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Isaac Guerendo",
-        "team": "",
-        "position": "RB",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -13312,16 +13312,6 @@
       },
       {
         "player_name": "Braylen Walker",
-        "team": "",
-        "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_ncaaf"
-      },
-      {
-        "player_name": "Ian Stewart",
         "team": "",
         "position": "WR",
         "status": "active",
