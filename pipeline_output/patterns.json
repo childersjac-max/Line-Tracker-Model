@@ -1,25 +1,4 @@
 {
-  "basketball_nba|moneyline": {
-    "sport_key": "basketball_nba",
-    "market": "moneyline",
-    "n_records": 208,
-    "n_labeled": 122,
-    "patterns": []
-  },
-  "basketball_nba|spread": {
-    "sport_key": "basketball_nba",
-    "market": "spread",
-    "n_records": 208,
-    "n_labeled": 122,
-    "patterns": []
-  },
-  "basketball_nba|total": {
-    "sport_key": "basketball_nba",
-    "market": "total",
-    "n_records": 208,
-    "n_labeled": 122,
-    "patterns": []
-  },
   "baseball_mlb|moneyline": {
     "sport_key": "baseball_mlb",
     "market": "moneyline",
@@ -41,39 +20,25 @@
     "n_labeled": 990,
     "patterns": []
   },
-  "americanfootball_ncaaf|moneyline": {
-    "sport_key": "americanfootball_ncaaf",
+  "basketball_nba|moneyline": {
+    "sport_key": "basketball_nba",
     "market": "moneyline",
-    "n_records": 110,
-    "n_labeled": 0,
+    "n_records": 208,
+    "n_labeled": 122,
     "patterns": []
   },
-  "americanfootball_ncaaf|spread": {
-    "sport_key": "americanfootball_ncaaf",
+  "basketball_nba|spread": {
+    "sport_key": "basketball_nba",
     "market": "spread",
-    "n_records": 164,
-    "n_labeled": 0,
+    "n_records": 208,
+    "n_labeled": 122,
     "patterns": []
   },
-  "americanfootball_ncaaf|total": {
-    "sport_key": "americanfootball_ncaaf",
+  "basketball_nba|total": {
+    "sport_key": "basketball_nba",
     "market": "total",
-    "n_records": 120,
-    "n_labeled": 0,
-    "patterns": []
-  },
-  "icehockey_nhl|spread": {
-    "sport_key": "icehockey_nhl",
-    "market": "spread",
-    "n_records": 134,
-    "n_labeled": 112,
-    "patterns": []
-  },
-  "icehockey_nhl|total": {
-    "sport_key": "icehockey_nhl",
-    "market": "total",
-    "n_records": 134,
-    "n_labeled": 112,
+    "n_records": 208,
+    "n_labeled": 122,
     "patterns": []
   },
   "americanfootball_nfl|moneyline": {
@@ -94,6 +59,41 @@
     "sport_key": "americanfootball_nfl",
     "market": "total",
     "n_records": 166,
+    "n_labeled": 0,
+    "patterns": []
+  },
+  "icehockey_nhl|spread": {
+    "sport_key": "icehockey_nhl",
+    "market": "spread",
+    "n_records": 134,
+    "n_labeled": 112,
+    "patterns": []
+  },
+  "icehockey_nhl|total": {
+    "sport_key": "icehockey_nhl",
+    "market": "total",
+    "n_records": 134,
+    "n_labeled": 112,
+    "patterns": []
+  },
+  "americanfootball_ncaaf|moneyline": {
+    "sport_key": "americanfootball_ncaaf",
+    "market": "moneyline",
+    "n_records": 110,
+    "n_labeled": 0,
+    "patterns": []
+  },
+  "americanfootball_ncaaf|spread": {
+    "sport_key": "americanfootball_ncaaf",
+    "market": "spread",
+    "n_records": 164,
+    "n_labeled": 0,
+    "patterns": []
+  },
+  "americanfootball_ncaaf|total": {
+    "sport_key": "americanfootball_ncaaf",
+    "market": "total",
+    "n_records": 120,
     "n_labeled": 0,
     "patterns": []
   },
