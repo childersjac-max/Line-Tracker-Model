@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T09:15:48.859114+00:00",
+  "timestamp": "2026-10-06T16:09:31.858049+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -553,6 +553,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Jonathan Isaac",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Noah Penda",
         "team": "",
         "position": "F",
@@ -578,16 +588,6 @@
         "position": "F",
         "status": "out",
         "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Jonathan Isaac",
-        "team": "",
-        "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -754,16 +754,6 @@
       },
       {
         "player_name": "Jamison Battle",
-        "team": "",
-        "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Trayce Jackson-Davis",
         "team": "",
         "position": "F",
         "status": "day-to-day",
@@ -3737,11 +3727,11 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Charlie McAvoy",
+        "player_name": "Jason Zucker",
         "team": "",
-        "position": "D",
-        "status": "suspension",
-        "injury_type": "Suspension",
+        "position": "LW",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -3780,16 +3770,6 @@
         "player_name": "Jack Rathbone",
         "team": "",
         "position": "D",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Jason Zucker",
-        "team": "",
-        "position": "LW",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
@@ -3927,22 +3907,32 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Marco Kasper",
+        "player_name": "J.T. Compher",
         "team": "",
-        "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "position": "LW",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Dylan Larkin",
+        "player_name": "Marco Kasper",
         "team": "",
         "position": "C",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Mason Appleton",
+        "team": "",
+        "position": "C",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -4117,16 +4107,6 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Otto Salin",
-        "team": "",
-        "position": "D",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
         "player_name": "Jakub Dvorak",
         "team": "",
         "position": "D",
@@ -4187,6 +4167,16 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Ivan Demidov",
+        "team": "",
+        "position": "RW",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Kaiden Guhle",
         "team": "",
         "position": "D",
@@ -4240,9 +4230,9 @@
         "player_name": "Justus Annunen",
         "team": "",
         "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -4400,8 +4390,8 @@
         "player_name": "Rasmus Ristolainen",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4460,8 +4450,8 @@
         "player_name": "Macklin Celebrini",
         "team": "",
         "position": "C",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -5329,6 +5319,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Lamar Jackson",
+        "team": "",
+        "position": "QB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Devontez Walker",
         "team": "",
         "position": "WR",
@@ -5375,16 +5375,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Lamar Jackson",
-        "team": "",
-        "position": "QB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
@@ -6829,16 +6819,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Tyler Smith",
-        "team": "",
-        "position": "G",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "DeMarvion Overshown",
         "team": "",
         "position": "LB",
@@ -6865,6 +6845,16 @@
         "status": "questionable",
         "injury_type": "questionable",
         "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Tyler Smith",
+        "team": "",
+        "position": "G",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -7069,6 +7059,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Pat Bryant",
+        "team": "",
+        "position": "WR",
+        "status": "doubtful",
+        "injury_type": "doubtful",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Tyler Badie",
         "team": "",
         "position": "RB",
@@ -7146,16 +7146,6 @@
         "injury_type": "doubtful",
         "is_major": 1.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Pat Bryant",
-        "team": "",
-        "position": "WR",
-        "status": "doubtful",
-        "injury_type": "doubtful",
-        "is_major": 1.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -11109,16 +11099,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Saquon Barkley",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Jonathan Greenard",
         "team": "",
         "position": "LB",
@@ -11126,6 +11106,16 @@
         "injury_type": "questionable",
         "is_major": 0.5,
         "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Saquon Barkley",
+        "team": "",
+        "position": "RB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
