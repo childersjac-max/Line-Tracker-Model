@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T06:58:32.004878+00:00",
+  "timestamp": "2026-10-07T14:25:49.559899+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -213,6 +213,26 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Yaxel Lendeborg",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Stephen Curry",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Draymond Green",
         "team": "",
         "position": "F",
@@ -226,16 +246,6 @@
         "player_name": "Al Horford",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Stephen Curry",
-        "team": "",
-        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -2845,6 +2855,16 @@
         "sport_key": "baseball_mlb"
       },
       {
+        "player_name": "Adrian Morejon",
+        "team": "",
+        "position": "RP",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "baseball_mlb"
+      },
+      {
         "player_name": "Mason Miller",
         "team": "",
         "position": "RP",
@@ -3797,6 +3817,16 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Charlie McAvoy",
+        "team": "",
+        "position": "D",
+        "status": "suspension",
+        "injury_type": "Suspension",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Josh Doan",
         "team": "",
         "position": "RW",
@@ -3997,22 +4027,22 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "J.T. Compher",
+        "team": "",
+        "position": "LW",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Mason Appleton",
         "team": "",
         "position": "C",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "J.T. Compher",
-        "team": "",
-        "position": "LW",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -4157,9 +4187,9 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Brad Marchand",
+        "player_name": "Aaron Ekblad",
         "team": "",
-        "position": "LW",
+        "position": "D",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -4167,11 +4197,11 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Aaron Ekblad",
+        "player_name": "Brad Marchand",
         "team": "",
-        "position": "D",
-        "status": "out",
-        "injury_type": "out",
+        "position": "LW",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4267,22 +4297,22 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Oliver Kapanen",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Ivan Demidov",
         "team": "",
         "position": "RW",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Oliver Kapanen",
-        "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -4440,8 +4470,8 @@
         "player_name": "Linus Ullmark",
         "team": "",
         "position": "G",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4450,8 +4480,8 @@
         "player_name": "Jake Sanderson",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4837,9 +4867,9 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Victor Olofsson",
+        "player_name": "Raphael Lavoie",
         "team": "",
-        "position": "LW",
+        "position": "C",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -4847,11 +4877,11 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Raphael Lavoie",
+        "player_name": "Victor Olofsson",
         "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
+        "position": "LW",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -6192,9 +6222,9 @@
         "player_name": "Anthony Johnson Jr.",
         "team": "",
         "position": "S",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -10939,6 +10969,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Braiden McGregor",
+        "team": "",
+        "position": "DE",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Mason Taylor",
         "team": "",
         "position": "TE",
@@ -11006,16 +11046,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Braiden McGregor",
-        "team": "",
-        "position": "DE",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
