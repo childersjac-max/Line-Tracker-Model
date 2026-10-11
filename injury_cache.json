@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-11T04:36:58.034872+00:00",
+  "timestamp": "2026-10-11T11:17:32.874168+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -283,17 +283,7 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "P.J. Washington",
-        "team": "",
-        "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Caleb Martin",
+        "player_name": "Santi Aldama",
         "team": "",
         "position": "F",
         "status": "day-to-day",
@@ -313,7 +303,7 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Santi Aldama",
+        "player_name": "Morez Johnson Jr.",
         "team": "",
         "position": "F",
         "status": "day-to-day",
@@ -378,6 +368,36 @@
         "position": "G",
         "status": "out",
         "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Steven Adams",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Alperen Sengun",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Fred VanVleet",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -1123,16 +1143,6 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "De'Aaron Fox",
-        "team": "",
-        "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
         "player_name": "Malik Williams",
         "team": "",
         "position": "C",
@@ -1143,9 +1153,9 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Maliq Brown",
+        "player_name": "De'Aaron Fox",
         "team": "",
-        "position": "F",
+        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -4147,6 +4157,16 @@
     ],
     "icehockey_nhl": [
       {
+        "player_name": "Ryan Poehling",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Cutter Gauthier",
         "team": "",
         "position": "LW",
@@ -4182,6 +4202,16 @@
         "position": "D",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Charlie McAvoy",
+        "team": "",
+        "position": "D",
+        "status": "suspension",
+        "injury_type": "Suspension",
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -6622,9 +6652,9 @@
         "player_name": "Anthony Johnson Jr.",
         "team": "",
         "position": "S",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -11619,6 +11649,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Chance Campbell",
+        "team": "",
+        "position": "LB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Zach Ertz",
         "team": "",
         "position": "TE",
@@ -11850,16 +11890,6 @@
       },
       {
         "player_name": "Jalen Hurts",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Tanner McKee",
         "team": "",
         "position": "QB",
         "status": "active",
