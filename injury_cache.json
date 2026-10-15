@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T10:12:30.008991+00:00",
+  "timestamp": "2026-10-15T15:14:23.232722+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -1133,6 +1133,26 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Dylan Cardwell",
+        "team": "",
+        "position": "C",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Maxime Raynaud",
+        "team": "",
+        "position": "C",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Precious Achiuwa",
         "team": "",
         "position": "F",
@@ -1198,26 +1218,6 @@
         "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Dylan Cardwell",
-        "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Maxime Raynaud",
-        "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2312,16 +2312,6 @@
         "injury_type": "10-day IL",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "baseball_mlb"
-      },
-      {
-        "player_name": "Troy Melton",
-        "team": "",
-        "position": "SP",
-        "status": "15-day-il",
-        "injury_type": "15-day IL",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "baseball_mlb"
       },
       {
@@ -4347,12 +4337,12 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Logan O'Connor",
+        "player_name": "Nicolas Roy",
         "team": "",
-        "position": "RW",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -4360,19 +4350,19 @@
         "player_name": "Zachary L'Heureux",
         "team": "",
         "position": "LW",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Nicolas Roy",
+        "player_name": "Logan O'Connor",
         "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
+        "position": "RW",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -4387,7 +4377,7 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Oskar Back",
+        "player_name": "Wyatt Johnston",
         "team": "",
         "position": "C",
         "status": "day-to-day",
@@ -4397,11 +4387,11 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Wyatt Johnston",
+        "player_name": "Oskar Back",
         "team": "",
         "position": "C",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4580,8 +4570,8 @@
         "player_name": "Jacob Markstrom",
         "team": "",
         "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4590,8 +4580,8 @@
         "player_name": "Radko Gudas",
         "team": "",
         "position": "D",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4740,8 +4730,8 @@
         "player_name": "Florian Xhekaj",
         "team": "",
         "position": "LW",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4750,8 +4740,8 @@
         "player_name": "Mike Matheson",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -5370,8 +5360,8 @@
         "player_name": "Pierre-Luc Dubois",
         "team": "",
         "position": "LW",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -6712,9 +6702,9 @@
         "player_name": "Anthony Johnson Jr.",
         "team": "",
         "position": "S",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -11219,6 +11209,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "J.J. McCarthy",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Tyler Nubin",
         "team": "",
         "position": "S",
@@ -11432,16 +11432,6 @@
         "player_name": "Malik Nabers",
         "team": "",
         "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "J.J. McCarthy",
-        "team": "",
-        "position": "QB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
