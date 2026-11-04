@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-04T06:53:27.461367+00:00",
+  "timestamp": "2026-11-04T15:12:23.851769+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -3685,16 +3685,6 @@
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Garrett Brown",
-        "team": "",
-        "position": "C",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
       }
     ],
     "americanfootball_nfl": [
@@ -4199,6 +4189,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Tyler Huntley",
+        "team": "",
+        "position": "QB",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Malaki Starks",
         "team": "",
         "position": "S",
@@ -4266,16 +4266,6 @@
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Tyler Huntley",
-        "team": "",
-        "position": "QB",
-        "status": "doubtful",
-        "injury_type": "doubtful",
-        "is_major": 1.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -5449,6 +5439,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Deshaun Watson",
+        "team": "",
+        "position": "QB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Andre Szmyt",
         "team": "",
         "position": "PK",
@@ -5572,16 +5572,6 @@
         "player_name": "Denzel Boston",
         "team": "",
         "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Deshaun Watson",
-        "team": "",
-        "position": "QB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -8949,6 +8939,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Mack Hollins",
+        "team": "",
+        "position": "WR",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Efton Chism III",
         "team": "",
         "position": "WR",
@@ -9046,16 +9046,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Mack Hollins",
-        "team": "",
-        "position": "WR",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -10449,22 +10439,22 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "De'Zhaun Stribling",
-        "team": "",
-        "position": "WR",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Brandon Aiyuk",
         "team": "",
         "position": "WR",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "De'Zhaun Stribling",
+        "team": "",
+        "position": "WR",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
