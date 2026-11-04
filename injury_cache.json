@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-04T15:12:23.851769+00:00",
+  "timestamp": "2026-11-04T21:27:05.099281+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -43,19 +43,19 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Payton Pritchard",
+        "player_name": "Jayson Tatum",
         "team": "",
-        "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "position": "F",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Jayson Tatum",
+        "player_name": "Payton Pritchard",
         "team": "",
-        "position": "F",
+        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -93,9 +93,9 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Kon Knueppel",
+        "player_name": "Grant Williams",
         "team": "",
-        "position": "G",
+        "position": "F",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -108,16 +108,6 @@
         "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Grant Williams",
-        "team": "",
-        "position": "F",
-        "status": "out",
-        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -163,9 +153,9 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Max Christie",
+        "player_name": "Santi Aldama",
         "team": "",
-        "position": "G",
+        "position": "F",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -173,9 +163,9 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Santi Aldama",
+        "player_name": "Max Christie",
         "team": "",
-        "position": "F",
+        "position": "G",
         "status": "out",
         "injury_type": "out",
         "is_major": 1.0,
@@ -273,6 +263,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Kristaps Porzingis",
+        "team": "",
+        "position": "C",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Brandon Williams",
         "team": "",
         "position": "G",
@@ -303,16 +303,6 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Kristaps Porzingis",
-        "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
         "player_name": "Moses Moody",
         "team": "",
         "position": "G",
@@ -336,8 +326,8 @@
         "player_name": "Clint Capela",
         "team": "",
         "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -423,6 +413,16 @@
         "sport_key": "basketball_nba"
       },
       {
+        "player_name": "Isaiah Jackson",
+        "team": "",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
         "player_name": "Yanic Konan Niederhauser",
         "team": "",
         "position": "C",
@@ -493,16 +493,6 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Myron Gardner",
-        "team": "",
-        "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
         "player_name": "Giannis Antetokounmpo",
         "team": "",
         "position": "F",
@@ -513,11 +503,21 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Terrence Shannon Jr.",
+        "player_name": "Kam Jones",
         "team": "",
         "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Terrence Shannon Jr.",
+        "team": "",
+        "position": "G",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -543,21 +543,21 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Jordan Poole",
-        "team": "",
-        "position": "G",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
         "player_name": "Trey Murphy III",
         "team": "",
         "position": "F",
         "status": "day-to-day",
         "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Jordan Poole",
+        "team": "",
+        "position": "G",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -576,8 +576,8 @@
         "player_name": "Josh Hart",
         "team": "",
         "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -638,16 +638,6 @@
         "position": "G",
         "status": "out",
         "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
-        "player_name": "Anthony Black",
-        "team": "",
-        "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -723,19 +713,19 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Jordan Goodwin",
+        "player_name": "Rasheer Fleming",
         "team": "",
-        "position": "G",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "position": "F",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Rasheer Fleming",
+        "player_name": "Jordan Goodwin",
         "team": "",
-        "position": "F",
+        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -773,11 +763,11 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Precious Achiuwa",
+        "player_name": "Daeqwon Plowden",
         "team": "",
-        "position": "F",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
+        "position": "G",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -863,21 +853,21 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Jusuf Nurkic",
-        "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "basketball_nba"
-      },
-      {
         "player_name": "Mo Bamba",
         "team": "",
         "position": "C",
         "status": "day-to-day",
         "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Jusuf Nurkic",
+        "team": "",
+        "position": "C",
+        "status": "out",
+        "injury_type": "out",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -898,6 +888,16 @@
         "position": "G",
         "status": "out",
         "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "basketball_nba"
+      },
+      {
+        "player_name": "Bilal Coulibaly",
+        "team": "",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2467,16 +2467,6 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Jiri Kulich",
-        "team": "",
-        "position": "C",
-        "status": "day-to-day",
-        "injury_type": "day-to-day",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
         "player_name": "Konsta Helenius",
         "team": "",
         "position": "C",
@@ -2517,16 +2507,6 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Conor Timmins",
-        "team": "",
-        "position": "D",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
         "player_name": "Jack Rathbone",
         "team": "",
         "position": "D",
@@ -2540,8 +2520,8 @@
         "player_name": "Brennan Othmann",
         "team": "",
         "position": "LW",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -2590,8 +2570,8 @@
         "player_name": "Taylor Hall",
         "team": "",
         "position": "LW",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -2707,9 +2687,9 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "John Gibson",
+        "player_name": "Albert Johansson",
         "team": "",
-        "position": "G",
+        "position": "D",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -2717,11 +2697,11 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Albert Johansson",
+        "player_name": "John Gibson",
         "team": "",
-        "position": "D",
-        "status": "out",
-        "injury_type": "out",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -2987,11 +2967,31 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Ivan Demidov",
+        "team": "",
+        "position": "RW",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Nick Suzuki",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Kirby Dach",
         "team": "",
         "position": "C",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -3010,26 +3010,6 @@
         "player_name": "Sam Montembeault",
         "team": "",
         "position": "G",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Nick Suzuki",
-        "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Ivan Demidov",
-        "team": "",
-        "position": "RW",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
@@ -3057,9 +3037,29 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Jonathan Marchessault",
+        "team": "",
+        "position": "RW",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Seamus Casey",
         "team": "",
         "position": "D",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Mathew Barzal",
+        "team": "",
+        "position": "C",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
@@ -3107,22 +3107,22 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Mathew Barzal",
+        "player_name": "Sean Durzi",
         "team": "",
-        "position": "C",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
+        "position": "D",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Sean Durzi",
+        "player_name": "Joonas Korpisalo",
         "team": "",
-        "position": "D",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
+        "position": "G",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -3147,16 +3147,6 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Joonas Korpisalo",
-        "team": "",
-        "position": "G",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
         "player_name": "Aidan Thompson",
         "team": "",
         "position": "C",
@@ -3173,6 +3163,16 @@
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Tyler Kleven",
+        "team": "",
+        "position": "D",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -3240,8 +3240,8 @@
         "player_name": "Evgeni Malkin",
         "team": "",
         "position": "C",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -3380,8 +3380,8 @@
         "player_name": "Colton Parayko",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -3427,16 +3427,6 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Zemgus Girgensons",
-        "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
         "player_name": "Yanni Gourde",
         "team": "",
         "position": "C",
@@ -3447,12 +3437,22 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Zemgus Girgensons",
+        "team": "",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "John Tavares",
         "team": "",
         "position": "C",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -3540,8 +3540,8 @@
         "player_name": "Kailer Yamamoto",
         "team": "",
         "position": "RW",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -3570,8 +3570,8 @@
         "player_name": "Tom Willander",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -3657,6 +3657,16 @@
         "sport_key": "icehockey_nhl"
       },
       {
+        "player_name": "Josh Morrissey",
+        "team": "",
+        "position": "D",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
         "player_name": "Vladislav Namestnikov",
         "team": "",
         "position": "C",
@@ -3675,19 +3685,19 @@
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Josh Morrissey",
-        "team": "",
-        "position": "D",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
       }
     ],
     "americanfootball_nfl": [
+      {
+        "player_name": "Jacoby Brissett",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
       {
         "player_name": "Elijah Higgins",
         "team": "",
@@ -3819,16 +3829,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Jacoby Brissett",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Bam Knight",
         "team": "",
         "position": "RB",
@@ -3939,6 +3939,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Billy Bowman Jr.",
+        "team": "",
+        "position": "CB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Brian Robinson Jr.",
+        "team": "",
+        "position": "RB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Yasir Abdullah",
         "team": "",
         "position": "LB",
@@ -3959,29 +3979,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Brian Robinson Jr.",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Divine Deablo",
         "team": "",
         "position": "LB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Billy Bowman Jr.",
-        "team": "",
-        "position": "CB",
         "status": "questionable",
         "injury_type": "questionable",
         "is_major": 0.5,
@@ -4189,6 +4189,56 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "John Simpson",
+        "team": "",
+        "position": "G",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Roger Rosengarten",
+        "team": "",
+        "position": "OT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "John Jenkins",
+        "team": "",
+        "position": "DT",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Nate Wiggins",
+        "team": "",
+        "position": "CB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Jaylinn Hawkins",
+        "team": "",
+        "position": "S",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Tyler Huntley",
         "team": "",
         "position": "QB",
@@ -4306,56 +4356,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jaylinn Hawkins",
-        "team": "",
-        "position": "S",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Nate Wiggins",
-        "team": "",
-        "position": "CB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Roger Rosengarten",
-        "team": "",
-        "position": "OT",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "John Simpson",
-        "team": "",
-        "position": "G",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "John Jenkins",
-        "team": "",
-        "position": "DT",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -5189,6 +5189,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Jordan Battle",
+        "team": "",
+        "position": "S",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Cashius Howell",
         "team": "",
         "position": "DE",
@@ -5359,16 +5369,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Jordan Battle",
-        "team": "",
-        "position": "S",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Andrei Iosivas",
         "team": "",
         "position": "WR",
@@ -5439,12 +5439,42 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Quincy Williams",
+        "team": "",
+        "position": "LB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Carsen Ryan",
+        "team": "",
+        "position": "TE",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Deshaun Watson",
         "team": "",
         "position": "QB",
         "status": "questionable",
         "injury_type": "questionable",
         "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Shedeur Sanders",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
@@ -5659,33 +5689,13 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Jared Verse",
+        "player_name": "Jake Ferguson",
         "team": "",
-        "position": "DE",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Carson Schwesinger",
-        "team": "",
-        "position": "LB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Mason Graham",
-        "team": "",
-        "position": "DT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
+        "position": "TE",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -5776,16 +5786,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jake Ferguson",
-        "team": "",
-        "position": "TE",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -6189,6 +6189,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Amon-Ra St. Brown",
+        "team": "",
+        "position": "WR",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Amen Ogbongbemiga",
+        "team": "",
+        "position": "LB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Jimmy Rolder",
         "team": "",
         "position": "LB",
@@ -6339,16 +6359,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Amon-Ra St. Brown",
-        "team": "",
-        "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Jahmyr Gibbs",
         "team": "",
         "position": "RB",
@@ -6429,12 +6439,22 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Rock Ya-Sin",
+        "player_name": "Zaire Franklin",
         "team": "",
-        "position": "CB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
+        "position": "LB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Micah Parsons",
+        "team": "",
+        "position": "DE",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -6472,16 +6492,6 @@
         "player_name": "Sean Rhyan",
         "team": "",
         "position": "G",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Zaire Franklin",
-        "team": "",
-        "position": "LB",
         "status": "questionable",
         "injury_type": "questionable",
         "is_major": 0.5,
@@ -6546,16 +6556,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Micah Parsons",
-        "team": "",
-        "position": "DE",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -6689,6 +6689,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "David Montgomery",
+        "team": "",
+        "position": "RB",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Reed Blankenship",
         "team": "",
         "position": "S",
@@ -6706,16 +6716,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "David Montgomery",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -6939,6 +6939,46 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Bryce Boettcher",
+        "team": "",
+        "position": "LB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Drew Ogletree",
+        "team": "",
+        "position": "TE",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Akeem Davis-Gaither",
+        "team": "",
+        "position": "LB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Alec Pierce",
+        "team": "",
+        "position": "WR",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Laquon Treadwell",
         "team": "",
         "position": "WR",
@@ -6976,16 +7016,6 @@
         "injury_type": "questionable",
         "is_major": 0.5,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Bryce Boettcher",
-        "team": "",
-        "position": "LB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -7119,16 +7149,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Drew Ogletree",
-        "team": "",
-        "position": "TE",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Sauce Gardner",
         "team": "",
         "position": "CB",
@@ -7169,7 +7189,57 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Akeem Davis-Gaither",
+        "player_name": "Chris Rodriguez Jr.",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Jakobi Meyers",
+        "team": "",
+        "position": "WR",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Bhayshul Tuten",
+        "team": "",
+        "position": "RB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Antonio Johnson",
+        "team": "",
+        "position": "S",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Jarrian Jones",
+        "team": "",
+        "position": "CB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Branson Combs",
         "team": "",
         "position": "LB",
         "status": "active",
@@ -7179,9 +7249,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "A.J. Haulcy",
+        "player_name": "Ezra Cleveland",
         "team": "",
-        "position": "S",
+        "position": "G",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -7259,46 +7329,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Jakobi Meyers",
-        "team": "",
-        "position": "WR",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Chris Rodriguez Jr.",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Bhayshul Tuten",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Antonio Johnson",
-        "team": "",
-        "position": "S",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Travis Hunter",
         "team": "",
         "position": "WR",
@@ -7315,26 +7345,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Branson Combs",
-        "team": "",
-        "position": "LB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jarrian Jones",
-        "team": "",
-        "position": "CB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -7429,12 +7439,12 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Ezra Cleveland",
+        "player_name": "Harrison Butker",
         "team": "",
-        "position": "G",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
+        "position": "PK",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
         "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
@@ -7456,16 +7466,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Harrison Butker",
-        "team": "",
-        "position": "PK",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -7939,6 +7939,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Brenen Thompson",
+        "team": "",
+        "position": "WR",
+        "status": "doubtful",
+        "injury_type": "doubtful",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "David Njoku",
+        "team": "",
+        "position": "TE",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "KeAndre Lambert-Smith",
         "team": "",
         "position": "WR",
@@ -8019,16 +8039,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Brenen Thompson",
-        "team": "",
-        "position": "WR",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Cameron Dicker",
         "team": "",
         "position": "PK",
@@ -8044,16 +8054,6 @@
         "position": "RB",
         "status": "active",
         "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "David Njoku",
-        "team": "",
-        "position": "TE",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
@@ -8939,6 +8939,36 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Hunter Henry",
+        "team": "",
+        "position": "TE",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "TreVeyon Henderson",
+        "team": "",
+        "position": "RB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "A.J. Brown",
+        "team": "",
+        "position": "WR",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Mack Hollins",
         "team": "",
         "position": "WR",
@@ -8979,26 +9009,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Hunter Henry",
-        "team": "",
-        "position": "TE",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "TreVeyon Henderson",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Andy Borregales",
         "team": "",
         "position": "PK",
@@ -9036,26 +9046,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Elliott Davison",
-        "team": "",
-        "position": "S",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "A.J. Brown",
-        "team": "",
-        "position": "WR",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -9189,6 +9179,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Marcus Jones",
+        "team": "",
+        "position": "CB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Jordyn Tyson",
+        "team": "",
+        "position": "WR",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Charlie Smyth",
         "team": "",
         "position": "PK",
@@ -9199,29 +9209,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Audric Estime",
-        "team": "",
-        "position": "RB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Travis Etienne Jr.",
         "team": "",
         "position": "RB",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jordyn Tyson",
-        "team": "",
-        "position": "WR",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
@@ -9439,6 +9429,26 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Spencer Rattler",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Cam Skattebo",
+        "team": "",
+        "position": "RB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Greg Newsome II",
         "team": "",
         "position": "CB",
@@ -9452,16 +9462,6 @@
         "player_name": "Theo Johnson",
         "team": "",
         "position": "TE",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Cam Skattebo",
-        "team": "",
-        "position": "RB",
         "status": "questionable",
         "injury_type": "questionable",
         "is_major": 0.5,
@@ -9689,6 +9689,36 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "David Bailey",
+        "team": "",
+        "position": "LB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Breece Hall",
+        "team": "",
+        "position": "RB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Garrett Wilson",
+        "team": "",
+        "position": "WR",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Max Mitchell",
         "team": "",
         "position": "OT",
@@ -9702,16 +9732,6 @@
         "player_name": "Joseph Ossai",
         "team": "",
         "position": "DE",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "David Bailey",
-        "team": "",
-        "position": "LB",
         "status": "questionable",
         "injury_type": "questionable",
         "is_major": 0.5,
@@ -9789,16 +9809,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Breece Hall",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Isaiah Williams",
         "team": "",
         "position": "WR",
@@ -9830,16 +9840,6 @@
       },
       {
         "player_name": "Adonai Mitchell",
-        "team": "",
-        "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Garrett Wilson",
         "team": "",
         "position": "WR",
         "status": "active",
@@ -9939,6 +9939,56 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Dontayvion Wicks",
+        "team": "",
+        "position": "WR",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "DeVonta Smith",
+        "team": "",
+        "position": "WR",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Saquon Barkley",
+        "team": "",
+        "position": "RB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Tanner McKee",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Joe Milton",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Elijah Moore",
         "team": "",
         "position": "WR",
@@ -9965,26 +10015,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Dontayvion Wicks",
-        "team": "",
-        "position": "WR",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "DeVonta Smith",
-        "team": "",
-        "position": "WR",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
@@ -10059,16 +10089,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Tanner McKee",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Jake Majors",
         "team": "",
         "position": "C",
@@ -10076,16 +10096,6 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Saquon Barkley",
-        "team": "",
-        "position": "RB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -10172,16 +10182,6 @@
         "player_name": "Jalen Carter",
         "team": "",
         "position": "DT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Smael Mondon Jr.",
-        "team": "",
-        "position": "LB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -10439,6 +10439,36 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Deebo Samuel Sr.",
+        "team": "",
+        "position": "WR",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Mike Evans",
+        "team": "",
+        "position": "WR",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Christian McCaffrey",
+        "team": "",
+        "position": "RB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Brandon Aiyuk",
         "team": "",
         "position": "WR",
@@ -10569,42 +10599,12 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Deebo Samuel Sr.",
-        "team": "",
-        "position": "WR",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Demarcus Robinson",
         "team": "",
         "position": "WR",
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Mike Evans",
-        "team": "",
-        "position": "WR",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Christian McCaffrey",
-        "team": "",
-        "position": "RB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
@@ -10686,6 +10686,26 @@
         "injury_type": "active",
         "is_major": 0.0,
         "is_key_pos": false,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Drew Lock",
+        "team": "",
+        "position": "QB",
+        "status": "questionable",
+        "injury_type": "questionable",
+        "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Sam Darnold",
+        "team": "",
+        "position": "QB",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -10779,16 +10799,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Sam Darnold",
-        "team": "",
-        "position": "QB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Zach Charbonnet",
         "team": "",
         "position": "RB",
@@ -10869,16 +10879,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Drew Lock",
-        "team": "",
-        "position": "QB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Anthony Bradford",
         "team": "",
         "position": "G",
@@ -10939,9 +10939,9 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Tez Johnson",
+        "player_name": "Bauer Sharp",
         "team": "",
-        "position": "WR",
+        "position": "TE",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -10955,6 +10955,16 @@
         "status": "questionable",
         "injury_type": "questionable",
         "is_major": 0.5,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Tez Johnson",
+        "team": "",
+        "position": "WR",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
@@ -11176,16 +11186,6 @@
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
         "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "David Sills V",
-        "team": "",
-        "position": "WR",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
       {
@@ -11449,6 +11449,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Jeremy McNichols",
+        "team": "",
+        "position": "RB",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Javon Kinlaw",
         "team": "",
         "position": "DT",
@@ -11464,16 +11474,6 @@
         "position": "RB",
         "status": "active",
         "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Jeremy McNichols",
-        "team": "",
-        "position": "RB",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
