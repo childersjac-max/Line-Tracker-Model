@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07T05:02:34.324731+00:00",
+  "timestamp": "2026-11-07T11:53:00.858758+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -2490,8 +2490,18 @@
         "player_name": "Kevin Bahl",
         "team": "",
         "position": "D",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "icehockey_nhl"
+      },
+      {
+        "player_name": "Brennan Othmann",
+        "team": "",
+        "position": "LW",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -2503,16 +2513,6 @@
         "status": "injured reserve",
         "injury_type": "Injured Reserve",
         "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "icehockey_nhl"
-      },
-      {
-        "player_name": "Brennan Othmann",
-        "team": "",
-        "position": "LW",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
       },
@@ -2597,9 +2597,9 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Dmitri Voronkov",
+        "player_name": "Sean Monahan",
         "team": "",
-        "position": "LW",
+        "position": "C",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -2607,11 +2607,11 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Sean Monahan",
+        "player_name": "Dmitri Voronkov",
         "team": "",
-        "position": "C",
-        "status": "out",
-        "injury_type": "out",
+        "position": "LW",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -4149,6 +4149,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Matt Hibner",
+        "team": "",
+        "position": "TE",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Ja'Kobi Lane",
         "team": "",
         "position": "WR",
@@ -4382,16 +4392,6 @@
         "player_name": "Roger Rosengarten",
         "team": "",
         "position": "OT",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": false,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "John Jenkins",
-        "team": "",
-        "position": "DT",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -11409,16 +11409,6 @@
         "sport_key": "americanfootball_nfl"
       },
       {
-        "player_name": "Dyami Brown",
-        "team": "",
-        "position": "WR",
-        "status": "out",
-        "injury_type": "out",
-        "is_major": 1.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
         "player_name": "Sam Cosmi",
         "team": "",
         "position": "G",
@@ -11450,6 +11440,16 @@
       },
       {
         "player_name": "Treylon Burks",
+        "team": "",
+        "position": "WR",
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
+        "player_name": "Dyami Brown",
         "team": "",
         "position": "WR",
         "status": "out",
