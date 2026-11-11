@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11T06:59:26.308018+00:00",
+  "timestamp": "2026-11-11T15:03:22.677111+00:00",
   "injuries": {
     "basketball_nba": [
       {
@@ -366,8 +366,8 @@
         "player_name": "Cam Christie",
         "team": "",
         "position": "G",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -716,8 +716,8 @@
         "player_name": "Precious Achiuwa",
         "team": "",
         "position": "F",
-        "status": "out",
-        "injury_type": "out",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -833,21 +833,21 @@
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Lauri Markkanen",
+        "player_name": "Keyonte George",
         "team": "",
-        "position": "F",
-        "status": "out",
-        "injury_type": "out",
+        "position": "G",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
       },
       {
-        "player_name": "Keyonte George",
+        "player_name": "Lauri Markkanen",
         "team": "",
-        "position": "G",
-        "status": "out",
-        "injury_type": "out",
+        "position": "F",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "basketball_nba"
@@ -2987,9 +2987,9 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Nick Cousins",
+        "player_name": "Linus Ullmark",
         "team": "",
-        "position": "C",
+        "position": "G",
         "status": "day-to-day",
         "injury_type": "day-to-day",
         "is_major": 1.0,
@@ -2997,11 +2997,11 @@
         "sport_key": "icehockey_nhl"
       },
       {
-        "player_name": "Linus Ullmark",
+        "player_name": "Nick Cousins",
         "team": "",
-        "position": "G",
-        "status": "out",
-        "injury_type": "out",
+        "position": "C",
+        "status": "day-to-day",
+        "injury_type": "day-to-day",
         "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "icehockey_nhl"
@@ -5259,12 +5259,22 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Shedeur Sanders",
+        "team": "",
+        "position": "QB",
+        "status": "active",
+        "injury_type": "active",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Deshaun Watson",
         "team": "",
         "position": "QB",
-        "status": "questionable",
-        "injury_type": "questionable",
-        "is_major": 0.5,
+        "status": "out",
+        "injury_type": "out",
+        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
@@ -5382,16 +5392,6 @@
         "player_name": "Quinshon Judkins",
         "team": "",
         "position": "RB",
-        "status": "active",
-        "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Shedeur Sanders",
-        "team": "",
-        "position": "QB",
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
@@ -8009,6 +8009,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Puka Nacua",
+        "team": "",
+        "position": "WR",
+        "status": "doubtful",
+        "injury_type": "doubtful",
+        "is_major": 1.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Tyler Higbee",
         "team": "",
         "position": "TE",
@@ -8055,16 +8065,6 @@
         "status": "active",
         "injury_type": "active",
         "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Puka Nacua",
-        "team": "",
-        "position": "WR",
-        "status": "doubtful",
-        "injury_type": "doubtful",
-        "is_major": 1.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
       },
@@ -8259,6 +8259,16 @@
         "sport_key": "americanfootball_nfl"
       },
       {
+        "player_name": "Malik Willis",
+        "team": "",
+        "position": "QB",
+        "status": "injured reserve",
+        "injury_type": "Injured Reserve",
+        "is_major": 0.0,
+        "is_key_pos": true,
+        "sport_key": "americanfootball_nfl"
+      },
+      {
         "player_name": "Kevin Coleman Jr.",
         "team": "",
         "position": "WR",
@@ -8274,16 +8284,6 @@
         "position": "WR",
         "status": "active",
         "injury_type": "active",
-        "is_major": 0.0,
-        "is_key_pos": true,
-        "sport_key": "americanfootball_nfl"
-      },
-      {
-        "player_name": "Malik Willis",
-        "team": "",
-        "position": "QB",
-        "status": "injured reserve",
-        "injury_type": "Injured Reserve",
         "is_major": 0.0,
         "is_key_pos": true,
         "sport_key": "americanfootball_nfl"
